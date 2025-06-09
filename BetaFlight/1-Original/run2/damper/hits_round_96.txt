@@ -1,0 +1,8 @@
+DMA Accesses:
+Instance:
+    address: 0x200134cc
+    buffer_size: 2304
+    dma_type: 3
+    parent_address: 0x4002604c
+    parent_offset: 0x0
+    hit_bytes: 0x0

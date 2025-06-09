@@ -1,0 +1,4 @@
+{
+  "firmware_config": "/home/fin/topics/firmware/betaflight_matekf405/config.yml",
+  "fuzzer_path": "/home/fin/topics/DMA_MultiFuzz/target/release/hail-fuzz"
+}

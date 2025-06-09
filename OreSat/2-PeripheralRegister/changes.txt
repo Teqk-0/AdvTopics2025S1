@@ -1,0 +1,6 @@
+Added below section to memory_map. Allows a peripheral register to be fuzzed.
+
+mmio_err1:
+    base_addr: 0x1fff7a10
+    permissions: rw-
+    size: 0x1000

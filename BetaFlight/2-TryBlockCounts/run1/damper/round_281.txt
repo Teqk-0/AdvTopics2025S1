@@ -1,0 +1,965 @@
+  registers:
+    1073743912:
+      address: 0x40000828
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887244:
+      address: 0x4002380c
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073763328:
+      address: 0x40005400
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873944:
+      address: 0x40020418
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073874976:
+      address: 0x40020820
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897536:
+      address: 0x40026040
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808384:
+      address: 0x40010400
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808404:
+      address: 0x40010414
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898556:
+      address: 0x4002643c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179352:
+      address: 0x50000818
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179600:
+      address: 0x50000910
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342179624:
+      address: 0x50000928
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873940:
+      address: 0x40020414
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898552:
+      address: 0x40026438
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073743876:
+      address: 0x40000804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180208:
+      address: 0x50000b70
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342179356:
+      address: 0x5000081c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752148:
+      address: 0x40002854
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898532:
+      address: 0x40026424
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177544:
+      address: 0x50000108
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179632:
+      address: 0x50000930
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342177284:
+      address: 0x50000004
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763348:
+      address: 0x40005414
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179584:
+      address: 0x50000900
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872896:
+      address: 0x40020000
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815612:
+      address: 0x4001203c
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342180176:
+      address: 0x50000b50
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073888268:
+      address: 0x40023c0c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073757184:
+      address: 0x40003c00
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898520:
+      address: 0x40026418
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073897540:
+      address: 0x40026044
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872920:
+      address: 0x40020018
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179656:
+      address: 0x50000948
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073888256:
+      address: 0x40023c00
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872900:
+      address: 0x40020004
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179688:
+      address: 0x50000968
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180128:
+      address: 0x50000b20
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073819652:
+      address: 0x40013004
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872932:
+      address: 0x40020024
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180200:
+      address: 0x50000b68
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073756188:
+      address: 0x4000381c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808416:
+      address: 0x40010420
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763332:
+      address: 0x40005404
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179664:
+      address: 0x50000950
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073874944:
+      address: 0x40020800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897544:
+      address: 0x40026048
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073815604:
+      address: 0x40012034
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887240:
+      address: 0x40023808
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180864:
+      address: 0x50000e00
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073816324:
+      address: 0x40012304
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815596:
+      address: 0x4001202c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815552:
+      address: 0x40012000
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073819648:
+      address: 0x40013000
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897608:
+      address: 0x40026088
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073819664:
+      address: 0x40013010
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887296:
+      address: 0x40023840
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887364:
+      address: 0x40023884
+      dma_type: 4
+      valid_list_offsets: 0x0
+
+    1073873932:
+      address: 0x4002040c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887232:
+      address: 0x40023800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815556:
+      address: 0x40012004
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873936:
+      address: 0x40020410
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342179348:
+      address: 0x50000814
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179336:
+      address: 0x50000808
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342177336:
+      address: 0x50000038
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073743872:
+      address: 0x40000800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742848:
+      address: 0x40000400
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742868:
+      address: 0x40000414
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897552:
+      address: 0x40026050
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073897556:
+      address: 0x40026054
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073819660:
+      address: 0x4001300c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177288:
+      address: 0x50000008
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180144:
+      address: 0x50000b30
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898524:
+      address: 0x4002641c
+      dma_type: 1
+      valid_list_offsets: 0xffff
+
+    1073898516:
+      address: 0x40026414
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180168:
+      address: 0x50000b48
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073743904:
+      address: 0x40000820
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808440:
+      address: 0x40010438
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073815564:
+      address: 0x4001200c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073888272:
+      address: 0x40023c10
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808452:
+      address: 0x40010444
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887264:
+      address: 0x40023820
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763352:
+      address: 0x40005418
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887288:
+      address: 0x40023838
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742872:
+      address: 0x40000418
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808388:
+      address: 0x40010404
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873956:
+      address: 0x40020424
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180160:
+      address: 0x50000b40
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073872908:
+      address: 0x4002000c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887280:
+      address: 0x40023830
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887348:
+      address: 0x40023874
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742880:
+      address: 0x40000420
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808424:
+      address: 0x40010428
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898536:
+      address: 0x40026428
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179696:
+      address: 0x50000970
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073873924:
+      address: 0x40020404
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808444:
+      address: 0x4001043c
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342180192:
+      address: 0x50000b60
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342181376:
+      address: 0x50001000
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073757188:
+      address: 0x40003c04
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752160:
+      address: 0x40002860
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898504:
+      address: 0x40026408
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808396:
+      address: 0x4001040c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752100:
+      address: 0x40002824
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180136:
+      address: 0x50000b28
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887284:
+      address: 0x40023834
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073743916:
+      address: 0x4000082c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073874980:
+      address: 0x40020824
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180096:
+      address: 0x50000b00
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179616:
+      address: 0x50000920
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073742860:
+      address: 0x4000040c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742852:
+      address: 0x40000404
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872928:
+      address: 0x40020020
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1111949416:
+      address: 0x42470068
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873946:
+      address: 0x4002041a
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752144:
+      address: 0x40002850
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073752164:
+      address: 0x40002864
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073752156:
+      address: 0x4000285c
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342177312:
+      address: 0x50000020
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073808432:
+      address: 0x40010430
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073757212:
+      address: 0x40003c1c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1108213792:
+      address: 0x420e0020
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898496:
+      address: 0x40026400
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342179380:
+      address: 0x50000834
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872916:
+      address: 0x40020014
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073742916:
+      address: 0x40000444
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887300:
+      address: 0x40023844
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873920:
+      address: 0x40020400
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815608:
+      address: 0x40012038
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073822740:
+      address: 0x40013c14
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808428:
+      address: 0x4001042c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742900:
+      address: 0x40000434
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887268:
+      address: 0x40023824
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073874952:
+      address: 0x40020808
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897472:
+      address: 0x40026000
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073874948:
+      address: 0x40020804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898540:
+      address: 0x4002642c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763336:
+      address: 0x40005408
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897480:
+      address: 0x40026008
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872922:
+      address: 0x4002001a
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873928:
+      address: 0x40020408
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073872904:
+      address: 0x40020008
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897548:
+      address: 0x4002604c
+      dma_type: 1
+      valid_list_offsets: 0xffff
+
+    1073808412:
+      address: 0x4001041c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073770496:
+      address: 0x40007000
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073874956:
+      address: 0x4002080c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073757192:
+      address: 0x40003c08
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073757196:
+      address: 0x40003c0c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073897488:
+      address: 0x40026010
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898548:
+      address: 0x40026434
+      dma_type: 1
+      valid_list_offsets: 0xffff
+
+    1073756176:
+      address: 0x40003810
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815560:
+      address: 0x40012008
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898512:
+      address: 0x40026410
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073819676:
+      address: 0x4001301c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177540:
+      address: 0x50000104
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177548:
+      address: 0x5000010c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763356:
+      address: 0x4000541c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179592:
+      address: 0x50000908
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179332:
+      address: 0x50000804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179672:
+      address: 0x50000958
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073898528:
+      address: 0x40026420
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073874970:
+      address: 0x4002081a
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177320:
+      address: 0x50000028
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073819656:
+      address: 0x40013008
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073874968:
+      address: 0x40020818
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073808448:
+      address: 0x40010440
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073743892:
+      address: 0x40000814
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073757200:
+      address: 0x40003c10
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742892:
+      address: 0x4000042c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177316:
+      address: 0x50000024
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179680:
+      address: 0x50000960
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073808408:
+      address: 0x40010418
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177300:
+      address: 0x50000014
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177296:
+      address: 0x50000010
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887236:
+      address: 0x40023804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073742888:
+      address: 0x40000428
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180112:
+      address: 0x50000b10
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073815616:
+      address: 0x40012040
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073752168:
+      address: 0x40002868
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073897484:
+      address: 0x4002600c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342180104:
+      address: 0x50000b08
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073756164:
+      address: 0x40003804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763360:
+      address: 0x40005420
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073898544:
+      address: 0x40026430
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073756160:
+      address: 0x40003800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073873952:
+      address: 0x40020420
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179328:
+      address: 0x50000800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342179344:
+      address: 0x50000810
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752152:
+      address: 0x40002858
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342179648:
+      address: 0x50000940
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1342177304:
+      address: 0x50000018
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342177292:
+      address: 0x5000000c
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073763344:
+      address: 0x40005410
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1342178568:
+      address: 0x50000508
+      dma_type: 7
+      valid_list_offsets: 0xffff

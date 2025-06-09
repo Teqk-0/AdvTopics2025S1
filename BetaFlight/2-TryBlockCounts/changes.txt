@@ -1,0 +1,1 @@
+Changed to "COVERAGE_MODE=blockcounts" from standard "blocks" mode.

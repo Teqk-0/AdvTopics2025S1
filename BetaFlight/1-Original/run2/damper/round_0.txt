@@ -1,0 +1,10 @@
+  registers:
+    1073887280:
+      address: 0x40023830
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887364:
+      address: 0x40023884
+      dma_type: 4
+      valid_list_offsets: 0x0

@@ -1,0 +1,1 @@
+Reduced system tick frequency. Refer to section 4.1.5 of the paper for detailed code changes.

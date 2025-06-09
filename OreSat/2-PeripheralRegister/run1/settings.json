@@ -1,0 +1,4 @@
+{
+  "firmware_config": "/home/fin/topics/firmware/oreSatv1_2_f4_control/config.yml",
+  "fuzzer_path": "/home/fin/topics/MultiFuzz/target/release/hail-fuzz"
+}

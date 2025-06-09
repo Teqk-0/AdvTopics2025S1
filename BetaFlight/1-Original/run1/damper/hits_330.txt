@@ -1,0 +1,80 @@
+DMA Accesses:
+Instance:
+    address: 0x200134cc
+    buffer_size: 2304
+    dma_type: 7
+    parent_address: 0x4002604c
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200134cc
+    buffer_size: 2304
+    dma_type: 3
+    parent_address: 0x4002604c
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200135ec
+    buffer_size: 2016
+    dma_type: 7
+    parent_address: 0x40026434
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200135ec
+    buffer_size: 2016
+    dma_type: 3
+    parent_address: 0x40026434
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x2000e188
+    buffer_size: 8
+    dma_type: 1
+    parent_address: 0x4002641c
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x20002000
+    buffer_size: 484
+    dma_type: 7
+    parent_address: 0x40026010
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x20002000
+    buffer_size: 484
+    dma_type: 3
+    parent_address: 0x40026010
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200096f0
+    buffer_size: 4264
+    dma_type: 7
+    parent_address: 0x4002601c
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200096f0
+    buffer_size: 4264
+    dma_type: 3
+    parent_address: 0x4002601c
+    parent_offset: 0x0
+    hit_bytes: 0x0
+
+Instance:
+    address: 0x200096f0
+    buffer_size: 4264
+    dma_type: 1
+    parent_address: 0x4002601c
+    parent_offset: 0x0
+    hit_bytes: 0x0

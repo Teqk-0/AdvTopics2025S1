@@ -1,0 +1,6964 @@
+known_buffers:
+  "pgResetTemplate_vtxConfig_t1":
+    address: 0x807a004
+    size: 1
+  "pgResetTemplate_featureConfig_t1":
+    address: 0x807a044
+    size: 4
+  "pgResetTemplate_dashboardConfig_t1":
+    address: 0x807a048
+    size: 2
+  "pgResetTemplate_pidConfig_t1":
+    address: 0x807a04a
+    size: 6
+  "pgResetTemplate_beeperConfig_t1":
+    address: 0x807a050
+    size: 12
+  "pgResetTemplate_flight3DConfig_t1":
+    address: 0x807a05c
+    size: 14
+  "pgResetTemplate_systemConfig_t1":
+    address: 0x807a06a
+    size: 16
+  "pgResetTemplate_blackboxConfig_t1":
+    address: 0x807a07c
+    size: 8
+  "pgResetTemplate_usbDevConfig_t1":
+    address: 0x807a084
+    size: 4
+  "pgResetTemplate_throttleCorrectionConfig_t1":
+    address: 0x807a088
+    size: 1
+  "pgResetTemplate_beeperDevConfig_t1":
+    address: 0x807a08c
+    size: 6
+  "pgResetTemplate_failsafeConfig_t1":
+    address: 0x807a092
+    size: 12
+  "pgResetTemplate_batteryConfig_t1":
+    address: 0x807a09e
+    size: 28
+  "pgResetTemplate_gpsConfig_t1":
+    address: 0x807a0ba
+    size: 77
+  "pgResetTemplate_positionConfig_t1":
+    address: 0x807a108
+    size: 1
+  "pgResetTemplate_gpsRescueConfig_t1":
+    address: 0x807a10e
+    size: 40
+  "pgResetTemplate_imuConfig_t1":
+    address: 0x807a136
+    size: 8
+  "pgResetTemplate_armingConfig_t1":
+    address: 0x807a13e
+    size: 2
+  "pgResetTemplate_rcControlsConfig_t1":
+    address: 0x807a140
+    size: 5
+  "pgResetTemplate_rpmFilterConfig_t1":
+    address: 0x807a146
+    size: 12
+  "pgResetTemplate_timeConfig_t1":
+    address: 0x807a152
+    size: 2
+  "pgResetTemplate_pilotConfig_t1":
+    address: 0x807a154
+    size: 34
+  "pgResetTemplate_currentSensorADCConfig_t1":
+    address: 0x807a178
+    size: 1
+  "pgResetTemplate_modeActivationConfig_t1":
+    address: 0x807a17c
+    size: 64
+  "pgResetTemplate_rangefinderConfig_t1":
+    address: 0x807a1bc
+    size: 1
+  "pgResetTemplate_dynNotchConfig_t1":
+    address: 0x807a1be
+    size: 8
+  "pgResetTemplate_boardAlignment_t1":
+    address: 0x807a1c8
+    size: 12
+  "pgResetTemplate_statsConfig_t1":
+    address: 0x807a1d4
+    size: 1
+  "pgResetTemplate_escSensorConfig_t1":
+    address: 0x807a1e8
+    size: 4
+  "pgResetTemplate_schedulerConfig_t1":
+    address: 0x807a1ec
+    size: 6
+  "pgResetTemplate_sonarConfig_t1":
+    address: 0x807a1f2
+    size: 1
+  "pgResetTemplate_telemetryConfig_t1":
+    address: 0x807a1f4
+    size: 1
+  "pgResetTemplate_escSerialConfig_t1":
+    address: 0x807a218
+    size: 1
+  "pgResetTemplate_tricopterMixerConfig_t1":
+    address: 0x807a21a
+    size: 1
+  "activePidLoopDenom_t1":
+    address: 0x10000000
+    size: 1
+  "useDshotTelemetry_t1":
+    address: 0x10000004
+    size: 4
+  "usedMotorPorts_t1":
+    address: 0x10000008
+    size: 4
+  "bbPorts_t1":
+    address: 0x1000000c
+    size: 1024
+  "bbMotors_t1":
+    address: 0x1000040c
+    size: 256
+  "motorPwmDevice.lto_priv.0_t1":
+    address: 0x1000050c
+    size: 60
+  "motors_t1":
+    address: 0x10000548
+    size: 192
+  "dmaMotorTimerCount_t1":
+    address: 0x10000608
+    size: 1
+  "useBurstDshot_t1":
+    address: 0x1000060c
+    size: 1
+  "usedMotorPacers_t1":
+    address: 0x10000610
+    size: 4
+  "bbPacers_t1":
+    address: 0x10000614
+    size: 32
+  "dshotDMAHandlerCycleCounters_t1":
+    address: 0x10000634
+    size: 8
+  "inputStampUs_t1":
+    address: 0x1000063c
+    size: 4
+  "motorCount.lto_priv.0_t1":
+    address: 0x10000640
+    size: 4
+  "dshotTelemetryQuality_t1":
+    address: 0x10000644
+    size: 736
+  "dshotTelemetryState_t1":
+    address: 0x10000924
+    size: 264
+  "loadDmaBuffer_t1":
+    address: 0x10000a2c
+    size: 4
+  "uartDevmap_t1":
+    address: 0x10000a30
+    size: 24
+  "bbDevice.lto_priv.0_t1":
+    address: 0x10000a48
+    size: 60
+  "dshotPwmDevice_t1":
+    address: 0x10000a84
+    size: 60
+  "uartDevice_t1":
+    address: 0x10000ac0
+    size: 768
+  "mixerRuntime_t1":
+    address: 0x10000dc0
+    size: 392
+  "gyro_t1":
+    address: 0x10000f48
+    size: 1424
+  "accelerationRuntime_t1":
+    address: 0x100014d8
+    size: 48
+  "motorDevice.lto_priv.0_t1":
+    address: 0x10001508
+    size: 4
+  "ignoreCurrentTaskExecTime.lto_priv.0_t1":
+    address: 0x1000150c
+    size: 1
+  "acc_t1":
+    address: 0x10001510
+    size: 88
+  "averageSystemLoadPercent_t1":
+    address: 0x10001568
+    size: 2
+  "rcSmoothingData.lto_priv.0_t1":
+    address: 0x1000156c
+    size: 180
+  "dshotRpm.lto_priv.0_t1":
+    address: 0x10001620
+    size: 32
+  "currentTask.lto_priv.0_t1":
+    address: 0x10001640
+    size: 4
+  "erpmToHz.lto_priv.0_t1":
+    address: 0x10001644
+    size: 4
+  "motorFreqLpf.lto_priv.0_t1":
+    address: 0x10001648
+    size: 64
+  "ignoreCurrentTaskExecRate.lto_priv.0_t1":
+    address: 0x10001688
+    size: 1
+  "pidRuntime_t1":
+    address: 0x1000168c
+    size: 984
+  "motor_t1":
+    address: 0x10001a64
+    size: 4
+  "targetPidLooptime_t1":
+    address: 0x10001a84
+    size: 4
+  "taskQueueArray.lto_priv.0_t1":
+    address: 0x10001a88
+    size: 128
+  "taskQueuePos.lto_priv.0_t1":
+    address: 0x10001b08
+    size: 4
+  "taskQueueSize.lto_priv.0_t1":
+    address: 0x10001b0c
+    size: 4
+  "gyroEnabled.lto_priv.0_t1":
+    address: 0x10001b10
+    size: 1
+  "pidUpdateCounter_t1":
+    address: 0x10001b14
+    size: 1
+  "dshotRpmAverage.lto_priv.0_t1":
+    address: 0x10001b18
+    size: 4
+  "minMotorFrequencyHz_t1":
+    address: 0x10001b1c
+    size: 4
+  "motorFrequencyHz.lto_priv.0_t1":
+    address: 0x10001b20
+    size: 32
+  "dynNotch.lto_priv.0_t1":
+    address: 0x10001b40
+    size: 684
+  "sampleAccumulator_t1":
+    address: 0x10001dec
+    size: 12
+  "rpmFilter.lto_priv.0_t1":
+    address: 0x10001df8
+    size: 2916
+  "sampleIndex_t1":
+    address: 0x1000295c
+    size: 4
+  "sampleCount.lto_priv.0_t1":
+    address: 0x10002960
+    size: 4
+  "state_t1":
+    address: 0x10002964
+    size: 12
+  "sampleCountRcp.lto_priv.0_t1":
+    address: 0x10002970
+    size: 4
+  "sampleAvg_t1":
+    address: 0x10002974
+    size: 12
+  "rPowerN.lto_priv.0_t1":
+    address: 0x10002980
+    size: 4
+  "sdft.lto_priv.0_t1":
+    address: 0x10002984
+    size: 1788
+  "twiddle.lto_priv.0_t1":
+    address: 0x10003080
+    size: 288
+  "sdftNoiseThreshold_t1":
+    address: 0x100031a0
+    size: 4
+  "sdftEndBin.lto_priv.0_t1":
+    address: 0x100031a4
+    size: 4
+  "sdftStartBin.lto_priv.0_t1":
+    address: 0x100031a8
+    size: 4
+  "sdftData_t1":
+    address: 0x100031ac
+    size: 144
+  "peaks_t1":
+    address: 0x1000323c
+    size: 40
+  "sdftResolutionHz.lto_priv.0_t1":
+    address: 0x10003264
+    size: 4
+  "pt1LooptimeS.lto_priv.0_t1":
+    address: 0x10003268
+    size: 4
+  "overflowDetected.lto_priv.0_t1":
+    address: 0x1000326c
+    size: 1
+  "overflowTimeUs_t1":
+    address: 0x10003270
+    size: 4
+  "yawSpinRecoveryEnabled_t1":
+    address: 0x10003274
+    size: 1
+  "yawSpinDetected.lto_priv.0_t1":
+    address: 0x10003278
+    size: 1
+  "yawSpinRecoveryThreshold_t1":
+    address: 0x1000327c
+    size: 4
+  "yawSpinTimeUs_t1":
+    address: 0x10003280
+    size: 4
+  "gyroFilteredDownsampled.lto_priv.0_t1":
+    address: 0x10003284
+    size: 12
+  "mixerThrottle.lto_priv.0_t1":
+    address: 0x10003290
+    size: 4
+  "pidData_t1":
+    address: 0x10003294
+    size: 60
+  "axisError.lto_priv.0_t1":
+    address: 0x100032d0
+    size: 12
+  "initialized.16_t1":
+    address: 0x100032dc
+    size: 1
+  "calculateCutoffs.15_t1":
+    address: 0x100032e0
+    size: 1
+  "rxDataToSmooth.17_t1":
+    address: 0x100032e4
+    size: 16
+  "motorOutputMixSign.lto_priv.0_t1":
+    address: 0x100032f4
+    size: 1
+  "motorRangeMin.lto_priv.0_t1":
+    address: 0x100032f8
+    size: 4
+  "motorRangeMax.lto_priv.0_t1":
+    address: 0x100032fc
+    size: 4
+  "motorOutputRange.lto_priv.0_t1":
+    address: 0x10003300
+    size: 4
+  "motorOutputMin.lto_priv.0_t1":
+    address: 0x10003304
+    size: 4
+  "throttle.lto_priv.0_t1":
+    address: 0x10003308
+    size: 4
+  "throttleAngleCorrection.lto_priv.0_t1":
+    address: 0x1000330c
+    size: 4
+  "motorMixRange_t1":
+    address: 0x10003310
+    size: 4
+  "throttleBoost_t1":
+    address: 0x10003314
+    size: 4
+  "notchUpdatesPerIteration.lto_priv.0_t1":
+    address: 0x10003318
+    size: 4
+  "harmonicIndex_t1":
+    address: 0x1000331c
+    size: 4
+  "motorIndex_t1":
+    address: 0x10003320
+    size: 4
+  "gyroSensorTemperature.lto_priv.0_t1":
+    address: 0x10003324
+    size: 2
+  "isInitialized_t1":
+    address: 0x10003328
+    size: 1
+  "__fastram_bss_end___t1":
+    address: 0x1000332c
+    size: 1
+  "g_pfnVectors_t1":
+    address: 0x20000000
+    size: 1
+  "PTR_Reset_Handler+1_20000004_t1":
+    address: 0x20000004
+    size: 4
+  "PTR_NMI_Handler+1_20000008_t1":
+    address: 0x20000008
+    size: 4
+  "PTR_HardFault_Handler+1_2000000c_t1":
+    address: 0x2000000c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000010_t1":
+    address: 0x20000010
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000014_t1":
+    address: 0x20000014
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000018_t1":
+    address: 0x20000018
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000040_t1":
+    address: 0x20000040
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000044_t1":
+    address: 0x20000044
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000048_t1":
+    address: 0x20000048
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000004c_t1":
+    address: 0x2000004c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000050_t1":
+    address: 0x20000050
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000054_t1":
+    address: 0x20000054
+    size: 4
+  "PTR_EXTI0_IRQHandler+1_20000058_t1":
+    address: 0x20000058
+    size: 4
+  "PTR_EXTI1_IRQHandler+1_2000005c_t1":
+    address: 0x2000005c
+    size: 4
+  "PTR_EXTI2_IRQHandler+1_20000060_t1":
+    address: 0x20000060
+    size: 4
+  "PTR_EXTI3_IRQHandler+1_20000064_t1":
+    address: 0x20000064
+    size: 4
+  "PTR_EXTI4_IRQHandler+1_20000068_t1":
+    address: 0x20000068
+    size: 4
+  "PTR_DMA1_Stream0_IRQHandler+1_2000006c_t1":
+    address: 0x2000006c
+    size: 4
+  "PTR_DMA1_Stream1_IRQHandler+1_20000070_t1":
+    address: 0x20000070
+    size: 4
+  "PTR_DMA1_Stream2_IRQHandler+1_20000074_t1":
+    address: 0x20000074
+    size: 4
+  "PTR_DMA1_Stream3_IRQHandler+1_20000078_t1":
+    address: 0x20000078
+    size: 4
+  "PTR_DMA1_Stream4_IRQHandler+1_2000007c_t1":
+    address: 0x2000007c
+    size: 4
+  "PTR_DMA1_Stream5_IRQHandler+1_20000080_t1":
+    address: 0x20000080
+    size: 4
+  "PTR_DMA1_Stream6_IRQHandler+1_20000084_t1":
+    address: 0x20000084
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000088_t1":
+    address: 0x20000088
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000008c_t1":
+    address: 0x2000008c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000090_t1":
+    address: 0x20000090
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000094_t1":
+    address: 0x20000094
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000098_t1":
+    address: 0x20000098
+    size: 4
+  "PTR_EXTI9_5_IRQHandler+1_2000009c_t1":
+    address: 0x2000009c
+    size: 4
+  "PTR_TIM1_BRK_TIM9_IRQHandler+1_200000a0_t1":
+    address: 0x200000a0
+    size: 4
+  "PTR_TIM1_UP_TIM10_IRQHandler+1_200000a4_t1":
+    address: 0x200000a4
+    size: 4
+  "PTR_TIM1_TRG_COM_TIM11_IRQHandler+1_200000a8_t1":
+    address: 0x200000a8
+    size: 4
+  "PTR_TIM1_CC_IRQHandler+1_200000ac_t1":
+    address: 0x200000ac
+    size: 4
+  "PTR_TIM2_IRQHandler+1_200000b0_t1":
+    address: 0x200000b0
+    size: 4
+  "PTR_TIM3_IRQHandler+1_200000b4_t1":
+    address: 0x200000b4
+    size: 4
+  "PTR_TIM4_IRQHandler+1_200000b8_t1":
+    address: 0x200000b8
+    size: 4
+  "PTR_I2C1_EV_IRQHandler+1_200000bc_t1":
+    address: 0x200000bc
+    size: 4
+  "PTR_I2C1_ER_IRQHandler+1_200000c0_t1":
+    address: 0x200000c0
+    size: 4
+  "PTR_I2C2_EV_IRQHandler+1_200000c4_t1":
+    address: 0x200000c4
+    size: 4
+  "PTR_I2C2_ER_IRQHandler+1_200000c8_t1":
+    address: 0x200000c8
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_200000cc_t1":
+    address: 0x200000cc
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_200000d0_t1":
+    address: 0x200000d0
+    size: 4
+  "PTR_USART1_IRQHandler+1_200000d4_t1":
+    address: 0x200000d4
+    size: 4
+  "PTR_USART2_IRQHandler+1_200000d8_t1":
+    address: 0x200000d8
+    size: 4
+  "PTR_USART3_IRQHandler+1_200000dc_t1":
+    address: 0x200000dc
+    size: 4
+  "PTR_EXTI15_10_IRQHandler+1_200000e0_t1":
+    address: 0x200000e0
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_200000e4_t1":
+    address: 0x200000e4
+    size: 4
+  "PTR_OTG_FS_WKUP_IRQHandler+1_200000e8_t1":
+    address: 0x200000e8
+    size: 4
+  "PTR_TIM8_BRK_TIM12_IRQHandler+1_200000ec_t1":
+    address: 0x200000ec
+    size: 4
+  "PTR_TIM8_UP_TIM13_IRQHandler+1_200000f0_t1":
+    address: 0x200000f0
+    size: 4
+  "PTR_TIM8_TRG_COM_TIM14_IRQHandler+1_200000f4_t1":
+    address: 0x200000f4
+    size: 4
+  "PTR_TIM8_CC_IRQHandler+1_200000f8_t1":
+    address: 0x200000f8
+    size: 4
+  "PTR_DMA1_Stream7_IRQHandler+1_200000fc_t1":
+    address: 0x200000fc
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000100_t1":
+    address: 0x20000100
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000104_t1":
+    address: 0x20000104
+    size: 4
+  "PTR_TIM5_IRQHandler+1_20000108_t1":
+    address: 0x20000108
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000010c_t1":
+    address: 0x2000010c
+    size: 4
+  "PTR_UART4_IRQHandler+1_20000110_t1":
+    address: 0x20000110
+    size: 4
+  "PTR_UART5_IRQHandler+1_20000114_t1":
+    address: 0x20000114
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000118_t1":
+    address: 0x20000118
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000011c_t1":
+    address: 0x2000011c
+    size: 4
+  "PTR_DMA2_Stream0_IRQHandler+1_20000120_t1":
+    address: 0x20000120
+    size: 4
+  "PTR_DMA2_Stream1_IRQHandler+1_20000124_t1":
+    address: 0x20000124
+    size: 4
+  "PTR_DMA2_Stream2_IRQHandler+1_20000128_t1":
+    address: 0x20000128
+    size: 4
+  "PTR_DMA2_Stream3_IRQHandler+1_2000012c_t1":
+    address: 0x2000012c
+    size: 4
+  "PTR_DMA2_Stream4_IRQHandler+1_20000130_t1":
+    address: 0x20000130
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000134_t1":
+    address: 0x20000134
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000138_t1":
+    address: 0x20000138
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000013c_t1":
+    address: 0x2000013c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000140_t1":
+    address: 0x20000140
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000144_t1":
+    address: 0x20000144
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000148_t1":
+    address: 0x20000148
+    size: 4
+  "PTR_OTG_FS_IRQHandler+1_2000014c_t1":
+    address: 0x2000014c
+    size: 4
+  "PTR_DMA2_Stream5_IRQHandler+1_20000150_t1":
+    address: 0x20000150
+    size: 4
+  "PTR_DMA2_Stream6_IRQHandler+1_20000154_t1":
+    address: 0x20000154
+    size: 4
+  "PTR_DMA2_Stream7_IRQHandler+1_20000158_t1":
+    address: 0x20000158
+    size: 4
+  "PTR_USART6_IRQHandler+1_2000015c_t1":
+    address: 0x2000015c
+    size: 4
+  "PTR_I2C3_EV_IRQHandler+1_20000160_t1":
+    address: 0x20000160
+    size: 4
+  "PTR_I2C3_ER_IRQHandler+1_20000164_t1":
+    address: 0x20000164
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000168_t1":
+    address: 0x20000168
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000016c_t1":
+    address: 0x2000016c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000170_t1":
+    address: 0x20000170
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000174_t1":
+    address: 0x20000174
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000178_t1":
+    address: 0x20000178
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_2000017c_t1":
+    address: 0x2000017c
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000180_t1":
+    address: 0x20000180
+    size: 4
+  "PTR_CAN2_SCE_IRQHandler+1_20000184_t1":
+    address: 0x20000184
+    size: 4
+  "USBD_DeviceDesc_MSC_t1":
+    address: 0x20000188
+    size: 4
+  "USBD_LangIDDesc_MSC_t1":
+    address: 0x2000019c
+    size: 4
+  "USBD_StringSerial_MSC_t1":
+    address: 0x200001a0
+    size: 26
+  "sectorErase.6_t1":
+    address: 0x200001bc
+    size: 5
+  "readStatus.9_t1":
+    address: 0x200001c4
+    size: 2
+  "writeEnable.7_t1":
+    address: 0x200001c8
+    size: 1
+  "pageProgram.13_t1":
+    address: 0x200001cc
+    size: 5
+  "segments.14_t1":
+    address: 0x200001d4
+    size: 120
+  "dataWritten.lto_priv.0_t1":
+    address: 0x2000024c
+    size: 1
+  "readBytes.15_t1":
+    address: 0x20000250
+    size: 5
+  "readStatus.17_t1":
+    address: 0x20000258
+    size: 2
+  "minMargin_t1":
+    address: 0x2000025c
+    size: 4
+  "readStatus.5_t1":
+    address: 0x20000260
+    size: 2
+  "USBD_MSC_EMFAT_fops_t1":
+    address: 0x20000264
+    size: 32
+  "USBD_MSC_cb_t1":
+    address: 0x20000284
+    size: 44
+  "MSC_desc_t1":
+    address: 0x200002b0
+    size: 28
+  "dmaDescriptors_t1":
+    address: 0x200002cc
+    size: 576
+  "month_days_t1":
+    address: 0x2000050c
+    size: 48
+  "cmaTime_t1":
+    address: 0x2000053c
+    size: 4
+  "firstCheck.2_t1":
+    address: 0x20000540
+    size: 1
+  "mspVtxPortIdentifier.lto_priv.0_t1":
+    address: 0x20000541
+    size: 1
+  "vtxMsp_t1":
+    address: 0x20000544
+    size: 4
+  "vtxSmartAudio.lto_priv.0_t1":
+    address: 0x20000548
+    size: 4
+  "vtxTramp_t1":
+    address: 0x2000054c
+    size: 4
+  "vtxRTC6705_t1":
+    address: 0x20000550
+    size: 4
+  "cmsCurrentDevice.lto_priv.0_t1":
+    address: 0x20000554
+    size: 4
+  "rtc6705VTable_t1":
+    address: 0x20000558
+    size: 52
+  "writeEnable.12_t1":
+    address: 0x2000058c
+    size: 1
+  "readStatus.10_t1":
+    address: 0x20000590
+    size: 2
+  "bulkErase.3_t1":
+    address: 0x20000594
+    size: 1
+  "writeEnable.2_t1":
+    address: 0x20000598
+    size: 1
+  "readStatus.0_t1":
+    address: 0x2000059c
+    size: 2
+  "USR_cb_t1":
+    address: 0x200005a0
+    size: 28
+  "pidProfileIndexToUse.lto_priv.0_t1":
+    address: 0x200005bc
+    size: 1
+  "rateProfileIndexToUse.lto_priv.0_t1":
+    address: 0x200005bd
+    size: 1
+  "stepwiseAdjustmentCount.lto_priv.0_t1":
+    address: 0x200005c0
+    size: 4
+  "isUsingSticksToArm.lto_priv.0_t1":
+    address: 0x200005c4
+    size: 1
+  "detectedSensors_t1":
+    address: 0x200005c8
+    size: 5
+  "lastSoundIdx.0_t1":
+    address: 0x200005d0
+    size: 4
+  "dmaoptEntryTable_t1":
+    address: 0x200005d4
+    size: 128
+  "standardBoardAlignment.lto_priv.0_t1":
+    address: 0x20000654
+    size: 1
+  "adjustmentRangeValue.lto_priv.0_t1":
+    address: 0x20000658
+    size: 4
+  "lastIndex.0_t1":
+    address: 0x2000065c
+    size: 1
+  "offset_t1":
+    address: 0x20000660
+    size: 16
+  "q.lto_priv.0_t1":
+    address: 0x20000670
+    size: 16
+  "headfree_t1":
+    address: 0x20000680
+    size: 16
+  "returnAltitudeLow.19_t1":
+    address: 0x20000690
+    size: 1
+  "initialVelocityLow.18_t1":
+    address: 0x20000691
+    size: 1
+  "dshotCommandPidLoopTimeUs.lto_priv.0_t1":
+    address: 0x20000694
+    size: 4
+  "previousReading.3_t1":
+    address: 0x20000698
+    size: 4
+  "mspSharedDescriptor.lto_priv.0_t1":
+    address: 0x2000069c
+    size: 4
+  "writeReadEepromEntry_t1":
+    address: 0x200006a0
+    size: 16
+  "task_attributes_t1":
+    address: 0x200006b0
+    size: 744
+  "mspRebootEntry_t1":
+    address: 0x20000998
+    size: 16
+  "combinedDataNeedsUpdate.lto_priv.0_t1":
+    address: 0x200009a8
+    size: 1
+  "ppmCountDivisor.lto_priv.0_t1":
+    address: 0x200009ac
+    size: 1
+  "adcVrefintAverageState_t1":
+    address: 0x200009b0
+    size: 12
+  "adcTempsensorAverageState_t1":
+    address: 0x200009bc
+    size: 12
+  "writeStatsEntry_t1":
+    address: 0x200009c8
+    size: 16
+  "rcCommandDivider_t1":
+    address: 0x200009d8
+    size: 4
+  "rcCommandYawDivider_t1":
+    address: 0x200009dc
+    size: 4
+  "minGyroPeriod.4_t1":
+    address: 0x200009e0
+    size: 4
+  "maxGyroPeriod.3_t1":
+    address: 0x200009e4
+    size: 4
+  "rssiDbmRaw.lto_priv.0_t1":
+    address: 0x200009e8
+    size: 2
+  "rssiDbm.lto_priv.0_t1":
+    address: 0x200009ea
+    size: 2
+  "rsnrRaw.lto_priv.0_t1":
+    address: 0x200009ec
+    size: 2
+  "rsnr.lto_priv.0_t1":
+    address: 0x200009ee
+    size: 2
+  "cosFactor.4_t1":
+    address: 0x200009f0
+    size: 4
+  "qP_t1":
+    address: 0x200009f4
+    size: 4
+  "dynLpfPreviousQuantizedThrottle.1_t1":
+    address: 0x20000a1c
+    size: 4
+  "arState.4_t1":
+    address: 0x20000a20
+    size: 1
+  "busMasterDeviceId.lto_priv.0_t1":
+    address: 0x20000a21
+    size: 1
+  "channelScale_t1":
+    address: 0x20000a24
+    size: 4
+  "ghstIncomingFrame_t1":
+    address: 0x20000a28
+    size: 4
+  "ghstValidatedFrame_t1":
+    address: 0x20000a2c
+    size: 4
+  "readBufferPtr_t1":
+    address: 0x20000a30
+    size: 4
+  "processBufferPtr_t1":
+    address: 0x20000a34
+    size: 4
+  "spek_last_rssi.0_t1":
+    address: 0x20000a38
+    size: 1
+  "spektrumSatInternal_t1":
+    address: 0x20000a39
+    size: 1
+  "vtxControl_ipc.lto_priv.0_t1":
+    address: 0x20000a3c
+    size: 4
+  "cmsx_menuMain_t1":
+    address: 0x20000a40
+    size: 16
+  "cmsx_menuQuick_t1":
+    address: 0x20000a50
+    size: 16
+  "cmsx_menuSaveExitReboot.lto_priv.0_t1":
+    address: 0x20000a60
+    size: 16
+  "cmsx_menuSaveExit.lto_priv.0_t1":
+    address: 0x20000a70
+    size: 16
+  "osdProfileCursor.lto_priv.0_t1":
+    address: 0x20000a80
+    size: 4
+  "__compound_literal.1.lto_priv.8_t1":
+    address: 0x20000a84
+    size: 12
+  "__compound_literal.0.lto_priv.9_t1":
+    address: 0x20000a90
+    size: 12
+  "__compound_literal.3.lto_priv.8_t1":
+    address: 0x20000a9c
+    size: 8
+  "__compound_literal.2.lto_priv.8_t1":
+    address: 0x20000aa4
+    size: 8
+  "__compound_literal.1.lto_priv.9_t1":
+    address: 0x20000aac
+    size: 8
+  "__compound_literal.0.lto_priv.10_t1":
+    address: 0x20000ab4
+    size: 12
+  "cmsx_menuRpmLimit_t1":
+    address: 0x20000ac0
+    size: 16
+  "__compound_literal.8.lto_priv.0_t1":
+    address: 0x20000ad0
+    size: 8
+  "__compound_literal.7.lto_priv.0_t1":
+    address: 0x20000ad8
+    size: 8
+  "__compound_literal.6.lto_priv.0_t1":
+    address: 0x20000ae0
+    size: 8
+  "__compound_literal.5.lto_priv.0_t1":
+    address: 0x20000ae8
+    size: 8
+  "__compound_literal.4.lto_priv.0_t1":
+    address: 0x20000af0
+    size: 8
+  "__compound_literal.3.lto_priv.1_t1":
+    address: 0x20000af8
+    size: 8
+  "__compound_literal.2.lto_priv.1_t1":
+    address: 0x20000b00
+    size: 8
+  "__compound_literal.1.lto_priv.1_t1":
+    address: 0x20000b08
+    size: 8
+  "__compound_literal.0.lto_priv.2_t1":
+    address: 0x20000b10
+    size: 8
+  "cms_menuGpsRescuePid_t1":
+    address: 0x20000b18
+    size: 16
+  "__compound_literal.22.lto_priv.0_t1":
+    address: 0x20000b28
+    size: 8
+  "__compound_literal.21.lto_priv.0_t1":
+    address: 0x20000b30
+    size: 12
+  "__compound_literal.20.lto_priv.0_t1":
+    address: 0x20000b3c
+    size: 12
+  "__compound_literal.19.lto_priv.0_t1":
+    address: 0x20000b48
+    size: 12
+  "__compound_literal.18.lto_priv.0_t1":
+    address: 0x20000b54
+    size: 8
+  "__compound_literal.17.lto_priv.0_t1":
+    address: 0x20000b5c
+    size: 12
+  "__compound_literal.16.lto_priv.0_t1":
+    address: 0x20000b68
+    size: 12
+  "__compound_literal.15.lto_priv.0_t1":
+    address: 0x20000b74
+    size: 8
+  "__compound_literal.14.lto_priv.0_t1":
+    address: 0x20000b7c
+    size: 12
+  "__compound_literal.13.lto_priv.0_t1":
+    address: 0x20000b88
+    size: 12
+  "__compound_literal.12.lto_priv.0_t1":
+    address: 0x20000b94
+    size: 12
+  "__compound_literal.11.lto_priv.0_t1":
+    address: 0x20000ba0
+    size: 12
+  "__compound_literal.10.lto_priv.0_t1":
+    address: 0x20000bac
+    size: 12
+  "__compound_literal.9.lto_priv.0_t1":
+    address: 0x20000bb8
+    size: 12
+  "__compound_literal.41_t1":
+    address: 0x20000bc4
+    size: 8
+  "__compound_literal.40_t1":
+    address: 0x20000bcc
+    size: 8
+  "__compound_literal.39_t1":
+    address: 0x20000bd4
+    size: 8
+  "__compound_literal.38_t1":
+    address: 0x20000bdc
+    size: 12
+  "osdTimerPrecisionNames_t1":
+    address: 0x20000be8
+    size: 8
+  "__compound_literal.7.lto_priv.2_t1":
+    address: 0x20000bf0
+    size: 12
+  "__compound_literal.6.lto_priv.2_t1":
+    address: 0x20000bfc
+    size: 12
+  "__compound_literal.5.lto_priv.3_t1":
+    address: 0x20000c08
+    size: 12
+  "__compound_literal.4.lto_priv.3_t1":
+    address: 0x20000c14
+    size: 12
+  "__compound_literal.3.lto_priv.4_t1":
+    address: 0x20000c20
+    size: 12
+  "__compound_literal.2.lto_priv.4_t1":
+    address: 0x20000c2c
+    size: 12
+  "__compound_literal.1.lto_priv.4_t1":
+    address: 0x20000c38
+    size: 12
+  "__compound_literal.0.lto_priv.5_t1":
+    address: 0x20000c44
+    size: 12
+  "__compound_literal.8.lto_priv.3_t1":
+    address: 0x20000c50
+    size: 8
+  "__compound_literal.7.lto_priv.3_t1":
+    address: 0x20000c58
+    size: 8
+  "__compound_literal.6.lto_priv.3_t1":
+    address: 0x20000c60
+    size: 12
+  "__compound_literal.5.lto_priv.4_t1":
+    address: 0x20000c6c
+    size: 12
+  "__compound_literal.4.lto_priv.4_t1":
+    address: 0x20000c78
+    size: 12
+  "__compound_literal.3.lto_priv.5_t1":
+    address: 0x20000c84
+    size: 12
+  "__compound_literal.2.lto_priv.5_t1":
+    address: 0x20000c90
+    size: 12
+  "__compound_literal.1.lto_priv.5_t1":
+    address: 0x20000c9c
+    size: 12
+  "__compound_literal.0.lto_priv.6_t1":
+    address: 0x20000ca8
+    size: 8
+  "__compound_literal.14.lto_priv.2_t1":
+    address: 0x20000cb0
+    size: 8
+  "__compound_literal.13.lto_priv.2_t1":
+    address: 0x20000cb8
+    size: 12
+  "__compound_literal.12.lto_priv.2_t1":
+    address: 0x20000cc4
+    size: 12
+  "__compound_literal.11.lto_priv.2_t1":
+    address: 0x20000cd0
+    size: 8
+  "__compound_literal.10.lto_priv.3_t1":
+    address: 0x20000cd8
+    size: 12
+  "__compound_literal.9.lto_priv.3_t1":
+    address: 0x20000ce4
+    size: 12
+  "__compound_literal.3.lto_priv.7_t1":
+    address: 0x20000cf0
+    size: 8
+  "__compound_literal.2.lto_priv.7_t1":
+    address: 0x20000cf8
+    size: 16
+  "__compound_literal.1.lto_priv.7_t1":
+    address: 0x20000d08
+    size: 16
+  "__compound_literal.0.lto_priv.8_t1":
+    address: 0x20000d18
+    size: 16
+  "cmsx_menuGpsRescue_t1":
+    address: 0x20000d28
+    size: 16
+  "__compound_literal.3.lto_priv.0_t1":
+    address: 0x20000d38
+    size: 12
+  "__compound_literal.2.lto_priv.0_t1":
+    address: 0x20000d44
+    size: 12
+  "__compound_literal.1.lto_priv.0_t1":
+    address: 0x20000d50
+    size: 12
+  "__compound_literal.0.lto_priv.1_t1":
+    address: 0x20000d5c
+    size: 12
+  "__compound_literal.9.lto_priv.4_t1":
+    address: 0x20000d68
+    size: 12
+  "__compound_literal.8.lto_priv.4_t1":
+    address: 0x20000d74
+    size: 12
+  "__compound_literal.7.lto_priv.4_t1":
+    address: 0x20000d80
+    size: 12
+  "__compound_literal.6.lto_priv.4_t1":
+    address: 0x20000d8c
+    size: 12
+  "__compound_literal.5.lto_priv.5_t1":
+    address: 0x20000d98
+    size: 8
+  "__compound_literal.4.lto_priv.5_t1":
+    address: 0x20000da0
+    size: 12
+  "__compound_literal.3.lto_priv.6_t1":
+    address: 0x20000dac
+    size: 12
+  "__compound_literal.2.lto_priv.6_t1":
+    address: 0x20000db8
+    size: 12
+  "__compound_literal.1.lto_priv.6_t1":
+    address: 0x20000dc4
+    size: 12
+  "__compound_literal.0.lto_priv.7_t1":
+    address: 0x20000dd0
+    size: 12
+  "__compound_literal.5.lto_priv.2_t1":
+    address: 0x20000ddc
+    size: 12
+  "__compound_literal.4.lto_priv.2_t1":
+    address: 0x20000de8
+    size: 8
+  "__compound_literal.3.lto_priv.3_t1":
+    address: 0x20000df0
+    size: 12
+  "__compound_literal.2.lto_priv.3_t1":
+    address: 0x20000dfc
+    size: 12
+  "__compound_literal.1.lto_priv.3_t1":
+    address: 0x20000e08
+    size: 12
+  "__compound_literal.0.lto_priv.4_t1":
+    address: 0x20000e14
+    size: 12
+  "cmsx_menuEraseFlashCheck_t1":
+    address: 0x20000e20
+    size: 16
+  "__compound_literal.0.lto_priv.0_t1":
+    address: 0x20000e30
+    size: 12
+  "cmsx_BlackboxDeviceTable_t1":
+    address: 0x20000e3c
+    size: 12
+  "cmsx_BlackboxRateTable_t1":
+    address: 0x20000e48
+    size: 12
+  "cmsx_ControlRateProfileTable_t1":
+    address: 0x20000e54
+    size: 12
+  "cmsx_PidProfileTable_t1":
+    address: 0x20000e60
+    size: 12
+  "__compound_literal.88_t1":
+    address: 0x20000e6c
+    size: 8
+  "__compound_literal.87_t1":
+    address: 0x20000e74
+    size: 12
+  "__compound_literal.86_t1":
+    address: 0x20000e80
+    size: 12
+  "__compound_literal.85_t1":
+    address: 0x20000e8c
+    size: 8
+  "__compound_literal.84_t1":
+    address: 0x20000e94
+    size: 12
+  "__compound_literal.83_t1":
+    address: 0x20000ea0
+    size: 12
+  "__compound_literal.82_t1":
+    address: 0x20000eac
+    size: 12
+  "__compound_literal.81_t1":
+    address: 0x20000eb8
+    size: 12
+  "__compound_literal.80_t1":
+    address: 0x20000ec4
+    size: 12
+  "__compound_literal.79_t1":
+    address: 0x20000ed0
+    size: 8
+  "__compound_literal.78_t1":
+    address: 0x20000ed8
+    size: 12
+  "__compound_literal.77_t1":
+    address: 0x20000ee4
+    size: 12
+  "__compound_literal.76_t1":
+    address: 0x20000ef0
+    size: 12
+  "__compound_literal.75_t1":
+    address: 0x20000efc
+    size: 12
+  "__compound_literal.74_t1":
+    address: 0x20000f08
+    size: 12
+  "__compound_literal.73_t1":
+    address: 0x20000f14
+    size: 12
+  "__compound_literal.72_t1":
+    address: 0x20000f20
+    size: 12
+  "__compound_literal.37_t1":
+    address: 0x20000f2c
+    size: 8
+  "__compound_literal.36_t1":
+    address: 0x20000f34
+    size: 12
+  "__compound_literal.35_t1":
+    address: 0x20000f40
+    size: 8
+  "__compound_literal.34_t1":
+    address: 0x20000f48
+    size: 8
+  "__compound_literal.33_t1":
+    address: 0x20000f50
+    size: 12
+  "__compound_literal.32_t1":
+    address: 0x20000f5c
+    size: 12
+  "__compound_literal.31_t1":
+    address: 0x20000f68
+    size: 12
+  "__compound_literal.30_t1":
+    address: 0x20000f74
+    size: 12
+  "__compound_literal.29_t1":
+    address: 0x20000f80
+    size: 12
+  "__compound_literal.28_t1":
+    address: 0x20000f8c
+    size: 12
+  "__compound_literal.27_t1":
+    address: 0x20000f98
+    size: 12
+  "__compound_literal.26_t1":
+    address: 0x20000fa4
+    size: 12
+  "__compound_literal.25_t1":
+    address: 0x20000fb0
+    size: 12
+  "__compound_literal.93_t1":
+    address: 0x20000fbc
+    size: 12
+  "__compound_literal.92_t1":
+    address: 0x20000fc8
+    size: 12
+  "__compound_literal.91_t1":
+    address: 0x20000fd4
+    size: 12
+  "__compound_literal.90_t1":
+    address: 0x20000fe0
+    size: 12
+  "__compound_literal.89_t1":
+    address: 0x20000fec
+    size: 12
+  "__compound_literal.71_t1":
+    address: 0x20000ff8
+    size: 12
+  "__compound_literal.70_t1":
+    address: 0x20001004
+    size: 8
+  "__compound_literal.69_t1":
+    address: 0x2000100c
+    size: 12
+  "__compound_literal.68_t1":
+    address: 0x20001018
+    size: 12
+  "__compound_literal.67_t1":
+    address: 0x20001024
+    size: 8
+  "__compound_literal.66_t1":
+    address: 0x2000102c
+    size: 8
+  "__compound_literal.65_t1":
+    address: 0x20001034
+    size: 8
+  "__compound_literal.64_t1":
+    address: 0x2000103c
+    size: 8
+  "__compound_literal.63_t1":
+    address: 0x20001044
+    size: 8
+  "__compound_literal.62_t1":
+    address: 0x2000104c
+    size: 8
+  "__compound_literal.61_t1":
+    address: 0x20001054
+    size: 8
+  "__compound_literal.60_t1":
+    address: 0x2000105c
+    size: 8
+  "cmsx_menuLaunchControl_t1":
+    address: 0x20001064
+    size: 16
+  "__compound_literal.59_t1":
+    address: 0x20001074
+    size: 8
+  "__compound_literal.58_t1":
+    address: 0x2000107c
+    size: 12
+  "__compound_literal.57_t1":
+    address: 0x20001088
+    size: 12
+  "__compound_literal.56_t1":
+    address: 0x20001094
+    size: 8
+  "__compound_literal.55_t1":
+    address: 0x2000109c
+    size: 8
+  "__compound_literal.54_t1":
+    address: 0x200010a4
+    size: 12
+  "__compound_literal.53_t1":
+    address: 0x200010b0
+    size: 8
+  "__compound_literal.52_t1":
+    address: 0x200010b8
+    size: 8
+  "__compound_literal.51_t1":
+    address: 0x200010c0
+    size: 8
+  "__compound_literal.50_t1":
+    address: 0x200010c8
+    size: 8
+  "__compound_literal.49_t1":
+    address: 0x200010d0
+    size: 8
+  "__compound_literal.48_t1":
+    address: 0x200010d8
+    size: 8
+  "__compound_literal.47_t1":
+    address: 0x200010e0
+    size: 8
+  "__compound_literal.46_t1":
+    address: 0x200010e8
+    size: 8
+  "__compound_literal.45_t1":
+    address: 0x200010f0
+    size: 8
+  "__compound_literal.44_t1":
+    address: 0x200010f8
+    size: 8
+  "__compound_literal.43_t1":
+    address: 0x20001100
+    size: 12
+  "__compound_literal.42_t1":
+    address: 0x2000110c
+    size: 12
+  "__compound_literal.24_t1":
+    address: 0x20001118
+    size: 12
+  "__compound_literal.23_t1":
+    address: 0x20001124
+    size: 12
+  "__compound_literal.22.lto_priv.1_t1":
+    address: 0x20001130
+    size: 12
+  "__compound_literal.21.lto_priv.1_t1":
+    address: 0x2000113c
+    size: 12
+  "__compound_literal.20.lto_priv.1_t1":
+    address: 0x20001148
+    size: 12
+  "__compound_literal.19.lto_priv.1_t1":
+    address: 0x20001154
+    size: 12
+  "__compound_literal.18.lto_priv.1_t1":
+    address: 0x20001160
+    size: 12
+  "__compound_literal.17.lto_priv.1_t1":
+    address: 0x2000116c
+    size: 12
+  "__compound_literal.16.lto_priv.1_t1":
+    address: 0x20001178
+    size: 12
+  "__compound_literal.15.lto_priv.1_t1":
+    address: 0x20001184
+    size: 12
+  "__compound_literal.14.lto_priv.1_t1":
+    address: 0x20001190
+    size: 12
+  "__compound_literal.13.lto_priv.1_t1":
+    address: 0x2000119c
+    size: 12
+  "__compound_literal.12.lto_priv.1_t1":
+    address: 0x200011a8
+    size: 12
+  "__compound_literal.11.lto_priv.1_t1":
+    address: 0x200011b4
+    size: 12
+  "__compound_literal.10.lto_priv.1_t1":
+    address: 0x200011c0
+    size: 8
+  "__compound_literal.9.lto_priv.1_t1":
+    address: 0x200011c8
+    size: 8
+  "__compound_literal.8.lto_priv.1_t1":
+    address: 0x200011d0
+    size: 8
+  "__compound_literal.7.lto_priv.1_t1":
+    address: 0x200011d8
+    size: 12
+  "__compound_literal.6.lto_priv.1_t1":
+    address: 0x200011e4
+    size: 8
+  "__compound_literal.5.lto_priv.1_t1":
+    address: 0x200011ec
+    size: 8
+  "__compound_literal.4.lto_priv.1_t1":
+    address: 0x200011f4
+    size: 8
+  "__compound_literal.3.lto_priv.2_t1":
+    address: 0x200011fc
+    size: 12
+  "__compound_literal.2.lto_priv.2_t1":
+    address: 0x20001208
+    size: 8
+  "__compound_literal.1.lto_priv.2_t1":
+    address: 0x20001210
+    size: 8
+  "__compound_literal.0.lto_priv.3_t1":
+    address: 0x20001218
+    size: 8
+  "cmsx_menuPidEntries_t1":
+    address: 0x20001220
+    size: 210
+  "cmsx_menuRcPreview_t1":
+    address: 0x200012f4
+    size: 16
+  "__compound_literal.10.lto_priv.2_t1":
+    address: 0x20001304
+    size: 8
+  "__compound_literal.9.lto_priv.2_t1":
+    address: 0x2000130c
+    size: 8
+  "__compound_literal.8.lto_priv.2_t1":
+    address: 0x20001314
+    size: 12
+  "cmsx_menuCalibration_t1":
+    address: 0x20001320
+    size: 16
+  "__compound_literal.18.lto_priv.2_t1":
+    address: 0x20001330
+    size: 12
+  "__compound_literal.17.lto_priv.2_t1":
+    address: 0x2000133c
+    size: 8
+  "__compound_literal.16.lto_priv.2_t1":
+    address: 0x20001344
+    size: 8
+  "menuAlarms_t1":
+    address: 0x2000134c
+    size: 16
+  "menuTimers_t1":
+    address: 0x2000135c
+    size: 16
+  "menuOsdActiveElems_t1":
+    address: 0x2000136c
+    size: 16
+  "__compound_literal.15.lto_priv.2_t1":
+    address: 0x2000137c
+    size: 8
+  "cmsx_menuPersistentStats_t1":
+    address: 0x20001384
+    size: 16
+  "cmsx_menuFailsafe_t1":
+    address: 0x20001394
+    size: 16
+  "cmsx_menuPower_t1":
+    address: 0x200013a4
+    size: 16
+  "cmsx_menuLedstrip_t1":
+    address: 0x200013b4
+    size: 16
+  "cmsx_menuBlackbox_t1":
+    address: 0x200013c4
+    size: 16
+  "cmsx_menuCopyProfile_t1":
+    address: 0x200013d4
+    size: 16
+  "cmsx_menuDynFilt_t1":
+    address: 0x200013e4
+    size: 16
+  "cmsx_menuFilterGlobal_t1":
+    address: 0x200013f4
+    size: 16
+  "cmsx_menuRateProfile_t1":
+    address: 0x20001404
+    size: 16
+  "__compound_literal.95_t1":
+    address: 0x20001414
+    size: 12
+  "cmsx_menuFilterPerProfile_t1":
+    address: 0x20001420
+    size: 16
+  "cmsx_menuProfileOther_t1":
+    address: 0x20001430
+    size: 16
+  "cmsx_menuSimplifiedTuning_t1":
+    address: 0x20001440
+    size: 16
+  "cmsx_menuPid_t1":
+    address: 0x20001450
+    size: 16
+  "__compound_literal.94_t1":
+    address: 0x20001460
+    size: 12
+  "cmsx_menuMisc_t1":
+    address: 0x2000146c
+    size: 16
+  "cmsx_menuFirmware_t1":
+    address: 0x2000147c
+    size: 16
+  "cmsx_menuOsd_t1":
+    address: 0x2000148c
+    size: 16
+  "cmsx_menuFeatures_t1":
+    address: 0x2000149c
+    size: 16
+  "cmsx_menuImu_t1":
+    address: 0x200014ac
+    size: 16
+  "saDevice_t1":
+    address: 0x200014bc
+    size: 1
+  "cmsx_menuVtxSmartAudio_t1":
+    address: 0x200014c8
+    size: 16
+  "trampCmsPower_t1":
+    address: 0x200014d8
+    size: 1
+  "lastCalculatedDistance_t1":
+    address: 0x200014dc
+    size: 4
+  "maxScreenSize_t1":
+    address: 0x200014e0
+    size: 2
+  "cmsx_menuCalibrateAcc_t1":
+    address: 0x200014e4
+    size: 16
+  "rcDelayMs.6_t1":
+    address: 0x200014f4
+    size: 2
+  "holdCount.3_t1":
+    address: 0x200014f8
+    size: 4
+  "repeatCount.2_t1":
+    address: 0x200014fc
+    size: 4
+  "cmsx_menuSetupPopup_t1":
+    address: 0x20001500
+    size: 16
+  "tfCmdTFmini_t1":
+    address: 0x20001510
+    size: 8
+  "tfCmdTF02_t1":
+    address: 0x20001518
+    size: 8
+  "previousInvertRegister_t1":
+    address: 0x20001520
+    size: 1
+  "needsFullRefresh.lto_priv.0_t1":
+    address: 0x20001521
+    size: 1
+  "cmsx_menuVtxRTC6705_t1":
+    address: 0x20001524
+    size: 16
+  "cmsx_menuVtxTramp_t1":
+    address: 0x20001534
+    size: 16
+  "cmsx_menuVtxMsp_t1":
+    address: 0x20001544
+    size: 16
+  "cmsx_menuVtxError_t1":
+    address: 0x20001554
+    size: 16
+  "saCmsStatusString_t1":
+    address: 0x20001564
+    size: 14
+  "trampCmsBand_t1":
+    address: 0x20001583
+    size: 1
+  "trampCmsChan_t1":
+    address: 0x20001584
+    size: 1
+  "__compound_literal.8_t1":
+    address: 0x20001588
+    size: 12
+  "__compound_literal.7_t1":
+    address: 0x20001594
+    size: 12
+  "__compound_literal.10_t1":
+    address: 0x200015a0
+    size: 12
+  "__compound_literal.9_t1":
+    address: 0x200015ac
+    size: 12
+  "saCmsMenuPORFreq_t1":
+    address: 0x200015b8
+    size: 16
+  "saCmsEntPitFMode_t1":
+    address: 0x200015c8
+    size: 12
+  "saCmsEntFselMode_t1":
+    address: 0x200015d4
+    size: 12
+  "__compound_literal.11_t1":
+    address: 0x200015e0
+    size: 12
+  "saCmsMenuUserFreq_t1":
+    address: 0x200015ec
+    size: 16
+  "saCmsMenuConfig_t1":
+    address: 0x200015fc
+    size: 16
+  "saCmsMenuCommence_t1":
+    address: 0x2000160c
+    size: 16
+  "saCmsEntPit_t1":
+    address: 0x2000161c
+    size: 12
+  "saCmsEntFreqRef_t1":
+    address: 0x20001628
+    size: 12
+  "sa_smartbaud_t1":
+    address: 0x20001634
+    size: 2
+  "__compound_literal.6_t1":
+    address: 0x20001638
+    size: 12
+  "__compound_literal.5_t1":
+    address: 0x20001644
+    size: 12
+  "__compound_literal.4_t1":
+    address: 0x20001650
+    size: 12
+  "__compound_literal.3_t1":
+    address: 0x2000165c
+    size: 12
+  "__compound_literal.2_t1":
+    address: 0x20001668
+    size: 12
+  "__compound_literal.1_t1":
+    address: 0x20001674
+    size: 12
+  "__compound_literal.0_t1":
+    address: 0x20001680
+    size: 12
+  "saCmsEntOnline_t1":
+    address: 0x2000168c
+    size: 12
+  "mspCmsMenuCommence_t1":
+    address: 0x20001698
+    size: 16
+  "mspCmsEntFreqRef_t1":
+    address: 0x200016a8
+    size: 12
+  "mspCmsEntPitMode_t1":
+    address: 0x200016b4
+    size: 12
+  "mspCmsStatusString_t1":
+    address: 0x200016c0
+    size: 15
+  "trampCmsMenuCommence_t1":
+    address: 0x200016e0
+    size: 16
+  "trampCmsEntTemp_t1":
+    address: 0x200016f0
+    size: 12
+  "trampCmsEntFreqRef_t1":
+    address: 0x200016fc
+    size: 12
+  "trampCmsEntPitMode_t1":
+    address: 0x20001708
+    size: 12
+  "trampCmsStatusString_t1":
+    address: 0x20001714
+    size: 15
+  "saCmsMenuStats_t1":
+    address: 0x20001734
+    size: 16
+  "entryVtxPit_t1":
+    address: 0x20001744
+    size: 12
+  "larsonParameters.3_t1":
+    address: 0x20001750
+    size: 1
+  "osdProfile_t1":
+    address: 0x20001753
+    size: 1
+  "power.11_t1":
+    address: 0x20001754
+    size: 1
+  "vtxStatus.10_t1":
+    address: 0x20001758
+    size: 4
+  "x.10_t1":
+    address: 0x2000175c
+    size: 4
+  "i.8_t1":
+    address: 0x20001760
+    size: 1
+  "y.4_t1":
+    address: 0x20001761
+    size: 1
+  "GPS_scaleLonDown_t1":
+    address: 0x20001764
+    size: 4
+  "previousProfileColorIndex_t1":
+    address: 0x20001768
+    size: 1
+  "applyProfile.25_t1":
+    address: 0x20001769
+    size: 1
+  "blinkState_t1":
+    address: 0x2000176a
+    size: 1
+  "firstPass.5_t1":
+    address: 0x2000176b
+    size: 1
+  "buf.5_t1":
+    address: 0x2000176c
+    size: 1
+  "buf.6_t1":
+    address: 0x20001772
+    size: 6
+  "saSupportedNumPowerLevels_t1":
+    address: 0x20001778
+    size: 1
+  "frSkyDataIdTableInfo_t1":
+    address: 0x2000177c
+    size: 8
+  "frSkyEscDataIdTableInfo_t1":
+    address: 0x20001784
+    size: 8
+  "lookingForRequest.1_t1":
+    address: 0x2000178c
+    size: 1
+  "rxSchedule_t1":
+    address: 0x20001790
+    size: 4
+  "txDelayUs_t1":
+    address: 0x20001794
+    size: 4
+  "skipUntilStart.8_t1":
+    address: 0x20001798
+    size: 1
+  "jetiExBusTransceiveState_t1":
+    address: 0x20001799
+    size: 1
+  "requestLoop.2_t1":
+    address: 0x2000179a
+    size: 1
+  "sensorDescriptionCounter.1_t1":
+    address: 0x2000179b
+    size: 1
+  "allSensorsActive.0_t1":
+    address: 0x2000179c
+    size: 1
+  "buf.11_t1":
+    address: 0x2000179d
+    size: 7
+  "bufGetSettings.9_t1":
+    address: 0x200017a4
+    size: 5
+  "sa_adjdir_t1":
+    address: 0x200017ac
+    size: 4
+  "buf.8_t1":
+    address: 0x200017b0
+    size: 6
+  "buf.7_t1":
+    address: 0x200017b6
+    size: 6
+  "trampRetryCount_t1":
+    address: 0x200017bc
+    size: 1
+  "mspCmsPower_t1":
+    address: 0x200017bd
+    size: 1
+  "cdcCmd_t1":
+    address: 0x200017c0
+    size: 4
+  "usbd_cdc_CfgDesc_t1":
+    address: 0x200017c4
+    size: 67
+  "USBD_HID_CDC_CfgDesc_t1":
+    address: 0x20001808
+    size: 100
+  "USBD_MSC_CfgDesc_t1":
+    address: 0x2000186c
+    size: 32
+  "USBD_DeviceDesc_Composite_t1":
+    address: 0x2000188c
+    size: 18
+  "USBD_DeviceDesc_t1":
+    address: 0x200018a0
+    size: 18
+  "USBD_LangIDDesc_t1":
+    address: 0x200018b4
+    size: 4
+  "mspCmsBand_t1":
+    address: 0x200018b8
+    size: 1
+  "mspCmsChan_t1":
+    address: 0x200018b9
+    size: 1
+  "videoSignalReg.lto_priv.0_t1":
+    address: 0x200018ba
+    size: 1
+  "previousBlackWhiteRegister_t1":
+    address: 0x200018bb
+    size: 1
+  "HID_MOUSE_ReportDesc_t1":
+    address: 0x200018bc
+    size: 54
+  "USBD_HID_CfgDesc_t1":
+    address: 0x200018f4
+    size: 34
+  "lastStallCheckMs.5_t1":
+    address: 0x20001918
+    size: 4
+  "segments.0_t1":
+    address: 0x2000191c
+    size: 40
+  "USBD_DCD_INT_cb_t1":
+    address: 0x20001944
+    size: 44
+  "USBD_HID_CDC_cb_t1":
+    address: 0x20001970
+    size: 44
+  "USR_desc_t1":
+    address: 0x2000199c
+    size: 28
+  "USBD_CDC_cb_t1":
+    address: 0x200019b8
+    size: 44
+  "dummyTxByte.1_t1":
+    address: 0x200019e4
+    size: 1
+  "_impure_ptr_t1":
+    address: 0x200019e8
+    size: 4
+  "_impure_data_t1":
+    address: 0x200019ec
+    size: 1
+  "i2cDevice_t1":
+    address: 0x20001a38
+    size: 4
+  "index.2_t1":
+    address: 0x20001ab0
+    size: 1
+  "subaddress_sent.1_t1":
+    address: 0x20001ab1
+    size: 1
+  "final_stop.0_t1":
+    address: 0x20001ab2
+    size: 1
+  "dmaMotors_t1":
+    address: 0x20001ab4
+    size: 1120
+  "commandQueueHead.lto_priv.0_t1":
+    address: 0x20001f14
+    size: 1
+  "commandQueueTail.lto_priv.0_t1":
+    address: 0x20001f15
+    size: 1
+  "commandQueue.lto_priv.0_t1":
+    address: 0x20001f18
+    size: 96
+  "ws2811LedDataTransferInProgress_t1":
+    address: 0x20001f78
+    size: 1
+  "timerConfig_t1":
+    address: 0x20001f7c
+    size: 616
+  "transponderIrDataTransferInProgress_t1":
+    address: 0x200021e4
+    size: 1
+  "SystemCoreClock_t1":
+    address: 0x200021e8
+    size: 4
+  "readyStatus.8_t1":
+    address: 0x200021ec
+    size: 2
+  "tailAddress.lto_priv.0_t1":
+    address: 0x200021f0
+    size: 4
+  "bufferTail.lto_priv.0_t1":
+    address: 0x200021f4
+    size: 1
+  "flashfsSize.lto_priv.0_t1":
+    address: 0x200021f8
+    size: 4
+  "flashDevice.lto_priv.0_t1":
+    address: 0x200021fc
+    size: 52
+  "testBuffer.0_t1":
+    address: 0x20002230
+    size: 16
+  "sysTickUptime.lto_priv.0_t1":
+    address: 0x20002240
+    size: 4
+  "lastActiveTimeMs_t1":
+    address: 0x20002244
+    size: 4
+  "ledInversion.lto_priv.0_t1":
+    address: 0x20002248
+    size: 1
+  "leds.lto_priv.0_t1":
+    address: 0x2000224c
+    size: 12
+  "nextToggleMs.0_t1":
+    address: 0x20002258
+    size: 4
+  "emfat_t1":
+    address: 0x20002260
+    size: 56
+  "readyStatus.16_t1":
+    address: 0x20002298
+    size: 2
+  "maxReadClkSPIHz.lto_priv.0_t1":
+    address: 0x2000229c
+    size: 4
+  "maxClkSPIHz.lto_priv.0_t1":
+    address: 0x200022a0
+    size: 4
+  "extiChannelRecs_t1":
+    address: 0x200022a4
+    size: 64
+  "extiGroupPriority.lto_priv.0_t1":
+    address: 0x200022e4
+    size: 7
+  "dmaMotorTimers_t1":
+    address: 0x200022ec
+    size: 192
+  "debugMode_t1":
+    address: 0x200023ac
+    size: 1
+  "debug_t1":
+    address: 0x200023b0
+    size: 16
+  "preambleSkip_t1":
+    address: 0x200023c0
+    size: 1
+  "nextMarginCheckUs_t1":
+    address: 0x200023c4
+    size: 4
+  "USBD_StrDesc_MSC_t1":
+    address: 0x200023c8
+    size: 255
+  "readyStatus.4_t1":
+    address: 0x200024c8
+    size: 2
+  "ioRecs_t1":
+    address: 0x200024cc
+    size: 768
+  "blackboxConfig_System_t1":
+    address: 0x200027cc
+    size: 8
+  "USBD_STORAGE_fops_t1":
+    address: 0x200027d4
+    size: 4
+  "timerIOConfig_SystemArray_t1":
+    address: 0x200027d8
+    size: 63
+  "spiRegisteredDeviceCount.lto_priv.0_t1":
+    address: 0x20002817
+    size: 1
+  "i2cRegisteredDeviceCount.lto_priv.0_t1":
+    address: 0x20002818
+    size: 1
+  "pSerialPinConfig_t1":
+    address: 0x2000281c
+    size: 4
+  "spiDevice_t1":
+    address: 0x20002820
+    size: 48
+  "i2cErrorCount.lto_priv.0_t1":
+    address: 0x20002850
+    size: 2
+  "dmaRef.lto_priv.0_t1":
+    address: 0x20002854
+    size: 4
+  "timer.lto_priv.0_t1":
+    address: 0x20002858
+    size: 4
+  "mscButton_t1":
+    address: 0x2000285c
+    size: 4
+  "usbDevConfig_System_t1":
+    address: 0x20002860
+    size: 4
+  "pll_src_t1":
+    address: 0x20002864
+    size: 4
+  "pll_m_t1":
+    address: 0x20002868
+    size: 4
+  "pll_input_t1":
+    address: 0x2000286c
+    size: 4
+  "pll_n_t1":
+    address: 0x20002870
+    size: 4
+  "pll_p_t1":
+    address: 0x20002874
+    size: 4
+  "pll_q_t1":
+    address: 0x20002878
+    size: 4
+  "cachedRccCsrValue_t1":
+    address: 0x2000287c
+    size: 4
+  "motorConfig_System_t1":
+    address: 0x20002880
+    size: 40
+  "motorPwmProtocol.lto_priv.0_t1":
+    address: 0x200028a8
+    size: 1
+  "bbStatus_t1":
+    address: 0x200028a9
+    size: 1
+  "bbOutputBuffer_t1":
+    address: 0x200028ac
+    size: 816
+  "bbInputBuffer_t1":
+    address: 0x20002bdc
+    size: 1120
+  "ws2811IO_t1":
+    address: 0x2000303c
+    size: 4
+  "BIT_COMPARE_1_t1":
+    address: 0x20003040
+    size: 2
+  "BIT_COMPARE_0_t1":
+    address: 0x20003042
+    size: 2
+  "dmaRef.lto_priv.1_t1":
+    address: 0x20003044
+    size: 4
+  "transponder_t1":
+    address: 0x20003048
+    size: 2904
+  "timer.lto_priv.1_t1":
+    address: 0x20003ba0
+    size: 4
+  "flashGeometry.lto_priv.0_t1":
+    address: 0x20003ba4
+    size: 4
+  "flashPartitions.lto_priv.0_t1":
+    address: 0x20003ba8
+    size: 4
+  "flashPartition.lto_priv.0_t1":
+    address: 0x20003bac
+    size: 4
+  "eraseSectorCurrent.lto_priv.0_t1":
+    address: 0x20003bb0
+    size: 2
+  "flashfsState.lto_priv.0_t1":
+    address: 0x20003bb2
+    size: 1
+  "bufferHead.lto_priv.0_t1":
+    address: 0x20003bb3
+    size: 1
+  "flashWriteBuffer.lto_priv.0_t1":
+    address: 0x20003bb4
+    size: 128
+  "flashPartitionTable.lto_priv.0_t1":
+    address: 0x20003c34
+    size: 36
+  "buffer.1_t1":
+    address: 0x20003c58
+    size: 32
+  "logNames.0_t1":
+    address: 0x20003c78
+    size: 1200
+  "started.lto_priv.0_t1":
+    address: 0x20004128
+    size: 8
+  "systemConfig_System_t1":
+    address: 0x20004130
+    size: 16
+  "systemState_t1":
+    address: 0x20004140
+    size: 1
+  "runtimeFeatureMask.lto_priv.0_t1":
+    address: 0x20004144
+    size: 4
+  "rxConfig_System_t1":
+    address: 0x20004148
+    size: 56
+  "mcoConfig_SystemArray_t1":
+    address: 0x20004180
+    size: 6
+  "serialPinConfig_System_t1":
+    address: 0x20004186
+    size: 33
+  "serialPortCount.lto_priv.0_t1":
+    address: 0x200041a7
+    size: 1
+  "serialPortUsageList.lto_priv.0_t1":
+    address: 0x200041a8
+    size: 108
+  "softSerialPinConfig_System_t1":
+    address: 0x20004214
+    size: 4
+  "mixerConfig_System_t1":
+    address: 0x20004218
+    size: 14
+  "currentMixerMode_t1":
+    address: 0x20004226
+    size: 1
+  "customMotorMixer_SystemArray_t1":
+    address: 0x20004228
+    size: 128
+  "flight3DConfig_System_t1":
+    address: 0x200042a8
+    size: 14
+  "spiPinConfig_SystemArray_t1":
+    address: 0x200042b8
+    size: 15
+  "gyroDeviceConfig_SystemArray_t1":
+    address: 0x200042c8
+    size: 28
+  "flashConfig_System_t1":
+    address: 0x200042e4
+    size: 4
+  "max7456Config_System_t1":
+    address: 0x200042e8
+    size: 4
+  "spiPreinitArray.lto_priv.0_t1":
+    address: 0x200042ec
+    size: 48
+  "spiPreinitCount.lto_priv.0_t1":
+    address: 0x2000431c
+    size: 4
+  "mscMode.1_t1":
+    address: 0x20004320
+    size: 1
+  "i2cConfig_SystemArray_t1":
+    address: 0x20004324
+    size: 18
+  "vtxIOConfig_System_t1":
+    address: 0x20004338
+    size: 5
+  "vtxPowerPin.lto_priv.0_t1":
+    address: 0x20004340
+    size: 4
+  "devInstance.0_t1":
+    address: 0x20004344
+    size: 152
+  "rtc6705CsnPin.lto_priv.0_t1":
+    address: 0x200043dc
+    size: 4
+  "rtc6705DataPin.lto_priv.0_t1":
+    address: 0x200043e0
+    size: 4
+  "rtc6705ClkPin.lto_priv.0_t1":
+    address: 0x200043e4
+    size: 4
+  "armingDisableFlags.lto_priv.0_t1":
+    address: 0x200043e8
+    size: 4
+  "pidConfig_System_t1":
+    address: 0x200043ec
+    size: 6
+  "currentPidProfile_t1":
+    address: 0x200043f4
+    size: 4
+  "useServo.lto_priv.0_t1":
+    address: 0x200043f8
+    size: 4
+  "beeperConfig_System_t1":
+    address: 0x200043fc
+    size: 12
+  "failsafeState.lto_priv.0_t1":
+    address: 0x20004408
+    size: 40
+  "ledStripEnabled.lto_priv.0_t1":
+    address: 0x20004430
+    size: 1
+  "transponderConfig_System_t1":
+    address: 0x20004431
+    size: 12
+  "transponderInitialised.lto_priv.0_t1":
+    address: 0x2000443d
+    size: 1
+  "transponderRepeat.lto_priv.0_t1":
+    address: 0x2000443e
+    size: 1
+  "gyroConfig_System_t1":
+    address: 0x20004440
+    size: 36
+  "vtxDevice.lto_priv.0_t1":
+    address: 0x20004464
+    size: 4
+  "smartAudioSerialPort.lto_priv.0_t1":
+    address: 0x20004468
+    size: 4
+  "saSupportedPowerValues.lto_priv.0_t1":
+    address: 0x2000446c
+    size: 16
+  "vtxConfig_System_t1":
+    address: 0x2000447c
+    size: 61
+  "trampSerialPort.lto_priv.0_t1":
+    address: 0x200044bc
+    size: 4
+  "dispatchEnabled.lto_priv.0_t1":
+    address: 0x200044c0
+    size: 1
+  "mspPorts.lto_priv.0_t1":
+    address: 0x200044c4
+    size: 672
+  "cmsDeviceCount.lto_priv.0_t1":
+    address: 0x20004764
+    size: 4
+  "vcdProfile_System_t1":
+    address: 0x20004768
+    size: 3
+  "osdConfig_System_t1":
+    address: 0x2000476c
+    size: 120
+  "osdDisplayPortDeviceType.lto_priv.0_t1":
+    address: 0x200047e4
+    size: 1
+  "osdDisplayPort.lto_priv.0_t1":
+    address: 0x200047e8
+    size: 4
+  "osdElementConfig_System_t1":
+    address: 0x200047ec
+    size: 160
+  "featureConfig_System_t1":
+    address: 0x2000488c
+    size: 4
+  "dashBoardDev.1_t1":
+    address: 0x20004890
+    size: 152
+  "dashBoardBus.0_t1":
+    address: 0x20004928
+    size: 40
+  "dashboardConfig_System_t1":
+    address: 0x20004950
+    size: 2
+  "dev.lto_priv.0_t1":
+    address: 0x20004954
+    size: 4
+  "oledDisplayPort_t1":
+    address: 0x20004958
+    size: 20
+  "displayPort.lto_priv.0_t1":
+    address: 0x2000496c
+    size: 4
+  "dashboardPresent.lto_priv.0_t1":
+    address: 0x20004970
+    size: 1
+  "pageState.lto_priv.0_t1":
+    address: 0x20004974
+    size: 16
+  "pinioConfig_fnv_hash_t1":
+    address: 0x20004984
+    size: 4
+  "pinioConfig_Copy_t1":
+    address: 0x20004988
+    size: 8
+  "pinioConfig_System_t1":
+    address: 0x20004990
+    size: 8
+  "pinPulldownConfig_fnv_hash_t1":
+    address: 0x20004998
+    size: 4
+  "pinPulldownConfig_CopyArray_t1":
+    address: 0x2000499c
+    size: 4
+  "pinPulldownConfig_SystemArray_t1":
+    address: 0x200049a0
+    size: 4
+  "pinPullupConfig_fnv_hash_t1":
+    address: 0x200049a4
+    size: 4
+  "pinPullupConfig_CopyArray_t1":
+    address: 0x200049a8
+    size: 4
+  "pinPullupConfig_SystemArray_t1":
+    address: 0x200049ac
+    size: 4
+  "rcdeviceConfig_fnv_hash_t1":
+    address: 0x200049b0
+    size: 4
+  "rcdeviceConfig_Copy_t1":
+    address: 0x200049b4
+    size: 16
+  "rcdeviceConfig_System_t1":
+    address: 0x200049c4
+    size: 16
+  "mcoConfig_fnv_hash_t1":
+    address: 0x200049d4
+    size: 4
+  "mcoConfig_CopyArray_t1":
+    address: 0x200049d8
+    size: 6
+  "softSerialPinConfig_fnv_hash_t1":
+    address: 0x200049e0
+    size: 4
+  "softSerialPinConfig_Copy_t1":
+    address: 0x200049e4
+    size: 4
+  "customMotorMixer_fnv_hash_t1":
+    address: 0x200049e8
+    size: 4
+  "customMotorMixer_CopyArray_t1":
+    address: 0x200049ec
+    size: 128
+  "gyroDeviceConfig_fnv_hash_t1":
+    address: 0x20004a6c
+    size: 4
+  "gyroDeviceConfig_CopyArray_t1":
+    address: 0x20004a70
+    size: 28
+  "flashConfig_fnv_hash_t1":
+    address: 0x20004a8c
+    size: 4
+  "flashConfig_Copy_t1":
+    address: 0x20004a90
+    size: 4
+  "max7456Config_fnv_hash_t1":
+    address: 0x20004a94
+    size: 4
+  "max7456Config_Copy_t1":
+    address: 0x20004a98
+    size: 4
+  "spiPinConfig_fnv_hash_t1":
+    address: 0x20004a9c
+    size: 4
+  "spiPinConfig_CopyArray_t1":
+    address: 0x20004aa0
+    size: 15
+  "vtxIOConfig_fnv_hash_t1":
+    address: 0x20004ab0
+    size: 4
+  "vtxIOConfig_Copy_t1":
+    address: 0x20004ab4
+    size: 5
+  "transponderConfig_fnv_hash_t1":
+    address: 0x20004abc
+    size: 4
+  "transponderConfig_Copy_t1":
+    address: 0x20004ac0
+    size: 12
+  "gyroConfig_fnv_hash_t1":
+    address: 0x20004acc
+    size: 4
+  "gyroConfig_Copy_t1":
+    address: 0x20004ad0
+    size: 36
+  "vtxConfig_fnv_hash_t1":
+    address: 0x20004af4
+    size: 4
+  "vtxConfig_Copy_t1":
+    address: 0x20004af8
+    size: 61
+  "osdElementConfig_fnv_hash_t1":
+    address: 0x20004b38
+    size: 4
+  "osdElementConfig_Copy_t1":
+    address: 0x20004b3c
+    size: 160
+  "featureConfig_fnv_hash_t1":
+    address: 0x20004bdc
+    size: 4
+  "featureConfig_Copy_t1":
+    address: 0x20004be0
+    size: 4
+  "dashboardConfig_fnv_hash_t1":
+    address: 0x20004be4
+    size: 4
+  "dashboardConfig_Copy_t1":
+    address: 0x20004be8
+    size: 2
+  "pidConfig_fnv_hash_t1":
+    address: 0x20004bec
+    size: 4
+  "pidConfig_Copy_t1":
+    address: 0x20004bf0
+    size: 6
+  "i2cConfig_fnv_hash_t1":
+    address: 0x20004bf8
+    size: 4
+  "i2cConfig_CopyArray_t1":
+    address: 0x20004bfc
+    size: 18
+  "beeperConfig_fnv_hash_t1":
+    address: 0x20004c10
+    size: 4
+  "beeperConfig_Copy_t1":
+    address: 0x20004c14
+    size: 12
+  "serialPinConfig_fnv_hash_t1":
+    address: 0x20004c20
+    size: 4
+  "serialPinConfig_Copy_t1":
+    address: 0x20004c24
+    size: 33
+  "osdConfig_fnv_hash_t1":
+    address: 0x20004c48
+    size: 4
+  "osdConfig_Copy_t1":
+    address: 0x20004c4c
+    size: 120
+  "vcdProfile_fnv_hash_t1":
+    address: 0x20004cc4
+    size: 4
+  "vcdProfile_Copy_t1":
+    address: 0x20004cc8
+    size: 3
+  "flight3DConfig_fnv_hash_t1":
+    address: 0x20004ccc
+    size: 4
+  "flight3DConfig_Copy_t1":
+    address: 0x20004cd0
+    size: 14
+  "rxConfig_fnv_hash_t1":
+    address: 0x20004ce0
+    size: 4
+  "rxConfig_Copy_t1":
+    address: 0x20004ce4
+    size: 56
+  "mixerConfig_fnv_hash_t1":
+    address: 0x20004d1c
+    size: 4
+  "mixerConfig_Copy_t1":
+    address: 0x20004d20
+    size: 14
+  "systemConfig_fnv_hash_t1":
+    address: 0x20004d30
+    size: 4
+  "systemConfig_Copy_t1":
+    address: 0x20004d34
+    size: 16
+  "uart6RxBuffer_t1":
+    address: 0x20004d44
+    size: 256
+  "uart6TxBuffer_t1":
+    address: 0x20004e44
+    size: 1280
+  "uart5RxBuffer_t1":
+    address: 0x20005344
+    size: 256
+  "uart5TxBuffer_t1":
+    address: 0x20005444
+    size: 1280
+  "uart4RxBuffer_t1":
+    address: 0x20005944
+    size: 256
+  "uart4TxBuffer_t1":
+    address: 0x20005a44
+    size: 1280
+  "uart3RxBuffer_t1":
+    address: 0x20005f44
+    size: 256
+  "uart3TxBuffer_t1":
+    address: 0x20006044
+    size: 1280
+  "uart2RxBuffer_t1":
+    address: 0x20006544
+    size: 256
+  "uart2TxBuffer_t1":
+    address: 0x20006644
+    size: 1280
+  "uart1RxBuffer_t1":
+    address: 0x20006b44
+    size: 256
+  "uart1TxBuffer_t1":
+    address: 0x20006c44
+    size: 1280
+  "blackboxConfig_fnv_hash_t1":
+    address: 0x20007144
+    size: 4
+  "blackboxConfig_Copy_t1":
+    address: 0x20007148
+    size: 8
+  "usbDevConfig_fnv_hash_t1":
+    address: 0x20007150
+    size: 4
+  "usbDevConfig_Copy_t1":
+    address: 0x20007154
+    size: 4
+  "readyStatus.11_t1":
+    address: 0x20007158
+    size: 2
+  "readyStatus.1_t1":
+    address: 0x2000715c
+    size: 2
+  "motorConfig_fnv_hash_t1":
+    address: 0x20007160
+    size: 4
+  "motorConfig_Copy_t1":
+    address: 0x20007164
+    size: 40
+  "timerIOConfig_fnv_hash_t1":
+    address: 0x2000718c
+    size: 4
+  "timerIOConfig_CopyArray_t1":
+    address: 0x20007190
+    size: 63
+  "firstArmingCalibrationWasStarted.lto_priv.0_t1":
+    address: 0x200071cf
+    size: 1
+  "entries_t1":
+    address: 0x200071d0
+    size: 7980
+  "USB_OTG_dev_t1":
+    address: 0x200090fc
+    size: 1524
+  "ledStripDMABuffer_t1":
+    address: 0x200096f0
+    size: 4264
+  "printfSerialPort.lto_priv.0_t1":
+    address: 0x2000a798
+    size: 4
+  "configIsInCopy.lto_priv.0_t1":
+    address: 0x2000a79c
+    size: 1
+  "signatureSet.lto_priv.0_t1":
+    address: 0x2000a79d
+    size: 1
+  "signature.lto_priv.0_t1":
+    address: 0x2000a7a0
+    size: 32
+  "pinioRuntime.lto_priv.0_t1":
+    address: 0x2000a7c0
+    size: 32
+  "pwrbuf.1_t1":
+    address: 0x2000a7e0
+    size: 33
+  "cliPort.lto_priv.0_t1":
+    address: 0x2000a804
+    size: 4
+  "cliErrorWriter.lto_priv.0_t1":
+    address: 0x2000a808
+    size: 4
+  "commandBatchActive.lto_priv.0_t1":
+    address: 0x2000a80c
+    size: 1
+  "commandBatchError.lto_priv.0_t1":
+    address: 0x2000a80d
+    size: 1
+  "freqbuf.3_t1":
+    address: 0x2000a80e
+    size: 49
+  "pwrbuf.2_t1":
+    address: 0x2000a83f
+    size: 41
+  "eepromConfigSize_t1":
+    address: 0x2000a868
+    size: 2
+  "pidProfiles_SystemArray_t1":
+    address: 0x2000a86c
+    size: 656
+  "controlRateProfiles_SystemArray_t1":
+    address: 0x2000aafc
+    size: 120
+  "currentControlRateProfile_t1":
+    address: 0x2000ab74
+    size: 4
+  "serialConfig_System_t1":
+    address: 0x2000ab78
+    size: 112
+  "findSerialPortConfigState.lto_priv.0_t1":
+    address: 0x2000abe8
+    size: 1
+  "gpsConfig_System_t1":
+    address: 0x2000abec
+    size: 77
+  "batteryConfig_System_t1":
+    address: 0x2000ac3c
+    size: 28
+  "accelerometerConfig_System_t1":
+    address: 0x2000ac58
+    size: 16
+  "failsafeConfig_System_t1":
+    address: 0x2000ac68
+    size: 12
+  "modeActivationConditions_SystemArray_t1":
+    address: 0x2000ac74
+    size: 120
+  "adcConfig_System_t1":
+    address: 0x2000acec
+    size: 20
+  "beeperDevConfig_System_t1":
+    address: 0x2000ad00
+    size: 6
+  "vtxSettingsConfig_System_t1":
+    address: 0x2000ad08
+    size: 10
+  "vtxTableConfig_System_t1":
+    address: 0x2000ad14
+    size: 284
+  "displayPortSerial.lto_priv.0_t1":
+    address: 0x2000ae30
+    size: 1
+  "rxRuntimeState_t1":
+    address: 0x2000ae34
+    size: 32
+  "suspendRxSignalUntil.lto_priv.0_t1":
+    address: 0x2000ae54
+    size: 4
+  "skipRxSamples.lto_priv.0_t1":
+    address: 0x2000ae58
+    size: 1
+  "throttleCorrectionConfig_System_t1":
+    address: 0x2000ae5c
+    size: 4
+  "beep_multiBeeps.lto_priv.0_t1":
+    address: 0x2000ae60
+    size: 65
+  "rebootRequired.lto_priv.0_t1":
+    address: 0x2000aea1
+    size: 1
+  "eepromWriteInProgress.lto_priv.0_t1":
+    address: 0x2000aea2
+    size: 1
+  "configIsDirty.lto_priv.0_t1":
+    address: 0x2000aea3
+    size: 1
+  "cliWriter.lto_priv.0_t1":
+    address: 0x2000aea4
+    size: 4
+  "cliBuffer.lto_priv.0_t1":
+    address: 0x2000aea8
+    size: 256
+  "bufferIndex.lto_priv.0_t1":
+    address: 0x2000afa8
+    size: 4
+  "cliMode_t1":
+    address: 0x2000afac
+    size: 1
+  "vrefMv.lto_priv.0_t1":
+    address: 0x2000afae
+    size: 2
+  "coreTemperature.lto_priv.0_t1":
+    address: 0x2000afb0
+    size: 2
+  "enabledSensors.lto_priv.0_t1":
+    address: 0x2000afb4
+    size: 4
+  "tasks_t1":
+    address: 0x2000afb8
+    size: 1984
+  "currentRxIntervalUs.lto_priv.0_t1":
+    address: 0x2000b778
+    size: 2
+  "batteryState.lto_priv.0_t1":
+    address: 0x2000b77a
+    size: 1
+  "batteryCellCount.lto_priv.0_t1":
+    address: 0x2000b77b
+    size: 1
+  "voltageMeter.lto_priv.0_t1":
+    address: 0x2000b77c
+    size: 16
+  "gpsData_t1":
+    address: 0x2000b78c
+    size: 48
+  "checkFuncTotalExecutionTimeUs_t1":
+    address: 0x2000b7bc
+    size: 4
+  "checkFuncMovingSumExecutionTimeUs_t1":
+    address: 0x2000b7c0
+    size: 4
+  "checkFuncMaxExecutionTimeUs_t1":
+    address: 0x2000b7c4
+    size: 4
+  "taskGuardCycles_t1":
+    address: 0x2000b7c8
+    size: 4
+  "schedLoopStartCycles_t1":
+    address: 0x2000b7cc
+    size: 4
+  "usTicks.lto_priv.0_t1":
+    address: 0x2000b7d0
+    size: 4
+  "signatureUpdated_t1":
+    address: 0x2000b7d4
+    size: 1
+  "buffer.lto_priv.0_t1":
+    address: 0x2000b7d8
+    size: 4
+  "bufferPosition.lto_priv.0_t1":
+    address: 0x2000b7dc
+    size: 1
+  "bufferSize.lto_priv.0_t1":
+    address: 0x2000b7dd
+    size: 1
+  "boardConfig_System_t1":
+    address: 0x2000b7e0
+    size: 60
+  "rxFailsafeChannelConfigs_SystemArray_t1":
+    address: 0x2000b81c
+    size: 36
+  "motorProtocolDshot.lto_priv.0_t1":
+    address: 0x2000b840
+    size: 1
+  "motor_disarmed_t1":
+    address: 0x2000b844
+    size: 32
+  "adjustmentRanges_SystemArray_t1":
+    address: 0x2000b864
+    size: 300
+  "rxChannelRangeConfigs_SystemArray_t1":
+    address: 0x2000b990
+    size: 16
+  "ledStripStatusModeConfig_System_t1":
+    address: 0x2000b9a0
+    size: 240
+  "servoParams_SystemArray_t1":
+    address: 0x2000ba90
+    size: 96
+  "customServoMixers_SystemArray_t1":
+    address: 0x2000baf0
+    size: 112
+  "customServoMixers_fnv_hash_t1":
+    address: 0x2000bb60
+    size: 4
+  "customServoMixers_CopyArray_t1":
+    address: 0x2000bb64
+    size: 112
+  "servoParams_fnv_hash_t1":
+    address: 0x2000bbd4
+    size: 4
+  "servoParams_CopyArray_t1":
+    address: 0x2000bbd8
+    size: 96
+  "ledStripStatusModeConfig_fnv_hash_t1":
+    address: 0x2000bc38
+    size: 4
+  "ledStripStatusModeConfig_Copy_t1":
+    address: 0x2000bc3c
+    size: 240
+  "rxChannelRangeConfigs_fnv_hash_t1":
+    address: 0x2000bd2c
+    size: 4
+  "rxChannelRangeConfigs_CopyArray_t1":
+    address: 0x2000bd30
+    size: 16
+  "adjustmentRanges_fnv_hash_t1":
+    address: 0x2000bd40
+    size: 4
+  "adjustmentRanges_CopyArray_t1":
+    address: 0x2000bd44
+    size: 300
+  "rxFailsafeChannelConfigs_fnv_hash_t1":
+    address: 0x2000be70
+    size: 4
+  "rxFailsafeChannelConfigs_CopyArray_t1":
+    address: 0x2000be74
+    size: 36
+  "throttleCorrectionConfig_fnv_hash_t1":
+    address: 0x2000be98
+    size: 4
+  "throttleCorrectionConfig_Copy_t1":
+    address: 0x2000be9c
+    size: 4
+  "controlRateProfiles_fnv_hash_t1":
+    address: 0x2000bea0
+    size: 4
+  "controlRateProfiles_CopyArray_t1":
+    address: 0x2000bea4
+    size: 120
+  "vtxSettingsConfig_fnv_hash_t1":
+    address: 0x2000bf1c
+    size: 4
+  "vtxSettingsConfig_Copy_t1":
+    address: 0x2000bf20
+    size: 10
+  "beeperDevConfig_fnv_hash_t1":
+    address: 0x2000bf2c
+    size: 4
+  "beeperDevConfig_Copy_t1":
+    address: 0x2000bf30
+    size: 6
+  "modeActivationConditions_fnv_hash_t1":
+    address: 0x2000bf38
+    size: 4
+  "modeActivationConditions_CopyArray_t1":
+    address: 0x2000bf3c
+    size: 120
+  "failsafeConfig_fnv_hash_t1":
+    address: 0x2000bfb4
+    size: 4
+  "failsafeConfig_Copy_t1":
+    address: 0x2000bfb8
+    size: 12
+  "accelerometerConfig_fnv_hash_t1":
+    address: 0x2000bfc4
+    size: 4
+  "accelerometerConfig_Copy_t1":
+    address: 0x2000bfc8
+    size: 16
+  "batteryConfig_fnv_hash_t1":
+    address: 0x2000bfd8
+    size: 4
+  "batteryConfig_Copy_t1":
+    address: 0x2000bfdc
+    size: 28
+  "pidProfiles_fnv_hash_t1":
+    address: 0x2000bff8
+    size: 4
+  "pidProfiles_CopyArray_t1":
+    address: 0x2000bffc
+    size: 656
+  "gpsConfig_fnv_hash_t1":
+    address: 0x2000c28c
+    size: 4
+  "gpsConfig_Copy_t1":
+    address: 0x2000c290
+    size: 77
+  "serialConfig_fnv_hash_t1":
+    address: 0x2000c2e0
+    size: 4
+  "serialConfig_Copy_t1":
+    address: 0x2000c2e4
+    size: 112
+  "serialUartConfig_fnv_hash_t1":
+    address: 0x2000c354
+    size: 4
+  "serialUartConfig_CopyArray_t1":
+    address: 0x2000c358
+    size: 22
+  "serialUartConfig_SystemArray_t1":
+    address: 0x2000c370
+    size: 22
+  "pinioBoxConfig_fnv_hash_t1":
+    address: 0x2000c388
+    size: 4
+  "pinioBoxConfig_Copy_t1":
+    address: 0x2000c38c
+    size: 4
+  "pinioBoxConfig_System_t1":
+    address: 0x2000c390
+    size: 4
+  "boardConfig_fnv_hash_t1":
+    address: 0x2000c394
+    size: 4
+  "boardConfig_Copy_t1":
+    address: 0x2000c398
+    size: 60
+  "ppmConfig_fnv_hash_t1":
+    address: 0x2000c3d4
+    size: 4
+  "ppmConfig_Copy_t1":
+    address: 0x2000c3d8
+    size: 1
+  "ppmConfig_System_t1":
+    address: 0x2000c3dc
+    size: 1
+  "pwmConfig_fnv_hash_t1":
+    address: 0x2000c3e0
+    size: 4
+  "pwmConfig_Copy_t1":
+    address: 0x2000c3e4
+    size: 9
+  "pwmConfig_System_t1":
+    address: 0x2000c3f0
+    size: 9
+  "displayPortProfileMax7456_fnv_hash_t1":
+    address: 0x2000c3fc
+    size: 4
+  "displayPortProfileMax7456_Copy_t1":
+    address: 0x2000c400
+    size: 10
+  "displayPortProfileMax7456_System_t1":
+    address: 0x2000c40c
+    size: 10
+  "displayPortProfileMsp_fnv_hash_t1":
+    address: 0x2000c418
+    size: 4
+  "displayPortProfileMsp_Copy_t1":
+    address: 0x2000c41c
+    size: 10
+  "displayPortProfileMsp_System_t1":
+    address: 0x2000c428
+    size: 10
+  "adcConfig_fnv_hash_t1":
+    address: 0x2000c434
+    size: 4
+  "adcConfig_Copy_t1":
+    address: 0x2000c438
+    size: 20
+  "vtxTableConfig_fnv_hash_t1":
+    address: 0x2000c44c
+    size: 4
+  "vtxTableConfig_Copy_t1":
+    address: 0x2000c450
+    size: 284
+  "checkFuncMovingSumDeltaTimeUs_t1":
+    address: 0x2000c56c
+    size: 4
+  "dmaBufferOffset.lto_priv.0_t1":
+    address: 0x2000c570
+    size: 2
+  "dmaBufferOffset.lto_priv.1_t1":
+    address: 0x2000c572
+    size: 2
+  "dmaBufferOffset.lto_priv.2_t1":
+    address: 0x2000c574
+    size: 2
+  "head.lto_priv.0_t1":
+    address: 0x2000c578
+    size: 4
+  "stateFlags_t1":
+    address: 0x2000c57c
+    size: 1
+  "gpsAltCm.6_t1":
+    address: 0x2000c580
+    size: 4
+  "gpsSol_t1":
+    address: 0x2000c584
+    size: 48
+  "wasArmed.5_t1":
+    address: 0x2000c5b4
+    size: 1
+  "armingFlags_t1":
+    address: 0x2000c5b5
+    size: 1
+  "useZeroedGpsAltitude.4_t1":
+    address: 0x2000c5b6
+    size: 1
+  "newBaroAltOffsetCm.3_t1":
+    address: 0x2000c5b8
+    size: 4
+  "displayAltitudeCm.lto_priv.0_t1":
+    address: 0x2000c5bc
+    size: 4
+  "baroAltOffsetCm.2_t1":
+    address: 0x2000c5c0
+    size: 4
+  "gpsAltOffsetCm.1_t1":
+    address: 0x2000c5c4
+    size: 4
+  "positionConfig_System_t1":
+    address: 0x2000c5c8
+    size: 6
+  "zeroedAltitudeCm_t1":
+    address: 0x2000c5d0
+    size: 4
+  "altitudeLpf.lto_priv.0_t1":
+    address: 0x2000c5d4
+    size: 12
+  "previousZeroedAltitudeCm.0_t1":
+    address: 0x2000c5e0
+    size: 4
+  "altitudeDerivativeLpf.lto_priv.0_t1":
+    address: 0x2000c5e4
+    size: 12
+  "estimatedVario.lto_priv.0_t1":
+    address: 0x2000c5f0
+    size: 2
+  "boardRotation.lto_priv.0_t1":
+    address: 0x2000c5f4
+    size: 36
+  "a.3_t1":
+    address: 0x2000c618
+    size: 12
+  "InflightcalibratingA_t1":
+    address: 0x2000c624
+    size: 2
+  "accZero_saved.2_t1":
+    address: 0x2000c628
+    size: 6
+  "angleTrim_saved.1_t1":
+    address: 0x2000c630
+    size: 4
+  "b.0_t1":
+    address: 0x2000c634
+    size: 12
+  "AccInflightCalibrationActive_t1":
+    address: 0x2000c640
+    size: 1
+  "AccInflightCalibrationMeasurementDone_t1":
+    address: 0x2000c641
+    size: 1
+  "AccInflightCalibrationSavetoEEProm_t1":
+    address: 0x2000c642
+    size: 1
+  "pilotConfig_Copy_t1":
+    address: 0x2000c644
+    size: 34
+  "rpmFilterConfig_System_t1":
+    address: 0x2000c668
+    size: 12
+  "spiBusDevice_t1":
+    address: 0x2000c674
+    size: 120
+  "voltageState.lto_priv.0_t1":
+    address: 0x2000c6ec
+    size: 1
+  "consumptionState.lto_priv.0_t1":
+    address: 0x2000c6ed
+    size: 1
+  "batteryWarningVoltage.lto_priv.0_t1":
+    address: 0x2000c6ee
+    size: 2
+  "batteryCriticalVoltage.lto_priv.0_t1":
+    address: 0x2000c6f0
+    size: 2
+  "batteryWarningHysteresisVoltage.lto_priv.0_t1":
+    address: 0x2000c6f2
+    size: 2
+  "batteryCriticalHysteresisVoltage.lto_priv.0_t1":
+    address: 0x2000c6f4
+    size: 2
+  "lowVoltageCutoff.lto_priv.0_t1":
+    address: 0x2000c6f8
+    size: 8
+  "wattHoursDrawn.lto_priv.0_t1":
+    address: 0x2000c700
+    size: 4
+  "lastVoltageChangeMs.1_t1":
+    address: 0x2000c704
+    size: 4
+  "currentMeter.lto_priv.0_t1":
+    address: 0x2000c708
+    size: 16
+  "mAhDrawnPrev.2_t1":
+    address: 0x2000c718
+    size: 4
+  "beeperFrequency.lto_priv.0_t1":
+    address: 0x2000c71c
+    size: 2
+  "beeperIO.lto_priv.0_t1":
+    address: 0x2000c720
+    size: 4
+  "beeperInverted.lto_priv.0_t1":
+    address: 0x2000c724
+    size: 1
+  "beeperPwm.lto_priv.0_t1":
+    address: 0x2000c728
+    size: 24
+  "freqBeep.lto_priv.0_t1":
+    address: 0x2000c740
+    size: 2
+  "sysTickValStamp.lto_priv.0_t1":
+    address: 0x2000c744
+    size: 4
+  "sysTickPending.lto_priv.0_t1":
+    address: 0x2000c748
+    size: 4
+  "rxState.lto_priv.0_t1":
+    address: 0x2000c74c
+    size: 1
+  "isRxDataNew.lto_priv.0_t1":
+    address: 0x2000c74d
+    size: 1
+  "rcControlsConfig_System_t1":
+    address: 0x2000c750
+    size: 5
+  "rcData_t1":
+    address: 0x2000c758
+    size: 72
+  "rcCommand_t1":
+    address: 0x2000c7a0
+    size: 16
+  "armingConfig_System_t1":
+    address: 0x2000c7b0
+    size: 2
+  "airmodeEnabled.lto_priv.0_t1":
+    address: 0x2000c7b2
+    size: 1
+  "flightModeFlags_t1":
+    address: 0x2000c7b4
+    size: 2
+  "disarmAt.lto_priv.0_t1":
+    address: 0x2000c7b8
+    size: 4
+  "armedBeeperOn.3_t1":
+    address: 0x2000c7bc
+    size: 1
+  "rcModeActivationMask_t1":
+    address: 0x2000c7c0
+    size: 8
+  "cmsInMenu_t1":
+    address: 0x2000c7c8
+    size: 1
+  "rcSticks.4_t1":
+    address: 0x2000c7c9
+    size: 1
+  "rcDelayMs.3_t1":
+    address: 0x2000c7ca
+    size: 2
+  "doNotRepeat.2_t1":
+    address: 0x2000c7cc
+    size: 1
+  "rcDisarmTicks.1_t1":
+    address: 0x2000c7cd
+    size: 1
+  "tryingToArm.lto_priv.0_t1":
+    address: 0x2000c7d0
+    size: 4
+  "lastArmingDisabledReason.lto_priv.0_t1":
+    address: 0x2000c7d4
+    size: 4
+  "flipOverAfterCrashActive.lto_priv.0_t1":
+    address: 0x2000c7d8
+    size: 1
+  "bDeviceState_t1":
+    address: 0x2000c7dc
+    size: 4
+  "AccInflightCalibrationArmed_t1":
+    address: 0x2000c7e0
+    size: 1
+  "pendingApplyRollAndPitchTrimDeltaSave.0_t1":
+    address: 0x2000c7e1
+    size: 1
+  "activeMacCount.lto_priv.0_t1":
+    address: 0x2000c7e4
+    size: 4
+  "activeMacArray.lto_priv.0_t1":
+    address: 0x2000c7e8
+    size: 20
+  "stickyModesEverDisabled_t1":
+    address: 0x2000c7fc
+    size: 8
+  "activeLinkedMacCount.lto_priv.0_t1":
+    address: 0x2000c804
+    size: 4
+  "activeLinkedMacArray.lto_priv.0_t1":
+    address: 0x2000c808
+    size: 20
+  "rxSignalReceived.lto_priv.0_t1":
+    address: 0x2000c81c
+    size: 1
+  "continuosAdjustmentCount_t1":
+    address: 0x2000c820
+    size: 4
+  "stepwiseAdjustments_t1":
+    address: 0x2000c824
+    size: 240
+  "continuosAdjustments_t1":
+    address: 0x2000c914
+    size: 120
+  "lastValueChangeMs.0_t1":
+    address: 0x2000c98c
+    size: 4
+  "adjustmentRangeNameIndex.lto_priv.0_t1":
+    address: 0x2000c990
+    size: 4
+  "blackboxState.lto_priv.0_t1":
+    address: 0x2000c994
+    size: 1
+  "ledStripConfig_System_t1":
+    address: 0x2000c998
+    size: 16
+  "imuConfig_System_t1":
+    address: 0x2000c9a8
+    size: 8
+  "magHold_t1":
+    address: 0x2000c9b0
+    size: 2
+  "attitude_t1":
+    address: 0x2000c9b4
+    size: 6
+  "sharedPortTelemetryEnabled.2_t1":
+    address: 0x2000c9ba
+    size: 1
+  "locked.lto_priv.0_t1":
+    address: 0x2000c9bb
+    size: 1
+  "lookupThrottleRC.lto_priv.0_t1":
+    address: 0x2000c9bc
+    size: 24
+  "reverseMotors.lto_priv.0_t1":
+    address: 0x2000c9d4
+    size: 1
+  "rcCommandBuff.0_t1":
+    address: 0x2000c9d8
+    size: 12
+  "rxStateDurationFractionUs.0_t1":
+    address: 0x2000c9e4
+    size: 12
+  "taskNextStateTime.lto_priv.0_t1":
+    address: 0x2000c9f0
+    size: 4
+  "rescueState_t1":
+    address: 0x2000c9f4
+    size: 136
+  "previousAltitudeDataTimeUs.17_t1":
+    address: 0x2000ca7c
+    size: 4
+  "GPS_directionToHome_t1":
+    address: 0x2000ca80
+    size: 2
+  "newGPSData.lto_priv.0_t1":
+    address: 0x2000ca82
+    size: 1
+  "GPS_distanceToHomeCm_t1":
+    address: 0x2000ca84
+    size: 4
+  "gpsDataIntervalSeconds.lto_priv.0_t1":
+    address: 0x2000ca88
+    size: 4
+  "prevDistanceToHomeCm.16_t1":
+    address: 0x2000ca8c
+    size: 4
+  "gpsRescueConfig_System_t1":
+    address: 0x2000ca90
+    size: 40
+  "previousTimeUs.15_t1":
+    address: 0x2000cab8
+    size: 4
+  "noGPSfix.14_t1":
+    address: 0x2000cabc
+    size: 1
+  "lowsats.13_t1":
+    address: 0x2000cabd
+    size: 1
+  "secondsLowSats.12_t1":
+    address: 0x2000cabe
+    size: 1
+  "gpsRescueAngle_t1":
+    address: 0x2000cac0
+    size: 8
+  "timeConfig_System_t1":
+    address: 0x2000cac8
+    size: 2
+  "timerOwners_t1":
+    address: 0x2000cacc
+    size: 42
+  "transponderIO.lto_priv.0_t1":
+    address: 0x2000caf8
+    size: 4
+  "alternateFunction_t1":
+    address: 0x2000cafc
+    size: 1
+  "usbDetectPin.lto_priv.0_t1":
+    address: 0x2000cb00
+    size: 4
+  "cliWriterDesc_t1":
+    address: 0x2000cb04
+    size: 16
+  "cliWriteBuffer_t1":
+    address: 0x2000cb14
+    size: 64
+  "positionConfig_fnv_hash_t1":
+    address: 0x2000cb54
+    size: 4
+  "positionConfig_Copy_t1":
+    address: 0x2000cb58
+    size: 6
+  "gpsRescueConfig_fnv_hash_t1":
+    address: 0x2000cb60
+    size: 4
+  "gpsRescueConfig_Copy_t1":
+    address: 0x2000cb64
+    size: 40
+  "ledStripConfig_fnv_hash_t1":
+    address: 0x2000cb8c
+    size: 4
+  "ledStripConfig_Copy_t1":
+    address: 0x2000cb90
+    size: 16
+  "imuConfig_fnv_hash_t1":
+    address: 0x2000cba0
+    size: 4
+  "imuConfig_Copy_t1":
+    address: 0x2000cba4
+    size: 8
+  "armingConfig_fnv_hash_t1":
+    address: 0x2000cbac
+    size: 4
+  "armingConfig_Copy_t1":
+    address: 0x2000cbb0
+    size: 2
+  "rcControlsConfig_fnv_hash_t1":
+    address: 0x2000cbb4
+    size: 4
+  "rcControlsConfig_Copy_t1":
+    address: 0x2000cbb8
+    size: 5
+  "statusLedConfig_fnv_hash_t1":
+    address: 0x2000cbc0
+    size: 4
+  "statusLedConfig_Copy_t1":
+    address: 0x2000cbc4
+    size: 4
+  "statusLedConfig_System_t1":
+    address: 0x2000cbc8
+    size: 4
+  "rpmFilterConfig_fnv_hash_t1":
+    address: 0x2000cbcc
+    size: 4
+  "rpmFilterConfig_Copy_t1":
+    address: 0x2000cbd0
+    size: 12
+  "timeConfig_fnv_hash_t1":
+    address: 0x2000cbdc
+    size: 4
+  "timeConfig_Copy_t1":
+    address: 0x2000cbe0
+    size: 2
+  "pilotConfig_fnv_hash_t1":
+    address: 0x2000cbe4
+    size: 4
+  "pilotConfig_System_t1":
+    address: 0x2000cbe8
+    size: 34
+  "mspSerialOutBuf.0_t1":
+    address: 0x2000cc0c
+    size: 4112
+  "pinioBoxRuntimeConfig.lto_priv.0_t1":
+    address: 0x2000dc1c
+    size: 1
+  "rangefinder_t1":
+    address: 0x2000dc20
+    size: 52
+  "rMat_t1":
+    address: 0x2000dc54
+    size: 36
+  "filterSampleIndex.6_t1":
+    address: 0x2000dc78
+    size: 4
+  "filterSamples.5.lto_priv.0_t1":
+    address: 0x2000dc7c
+    size: 20
+  "medianFilterReady.4_t1":
+    address: 0x2000dc90
+    size: 1
+  "snrSampleIndex.2_t1":
+    address: 0x2000dc91
+    size: 1
+  "snrSamples.1_t1":
+    address: 0x2000dc94
+    size: 10
+  "snrReady.0_t1":
+    address: 0x2000dc9e
+    size: 1
+  "lastGyroTempTimeUs.1_t1":
+    address: 0x2000dca0
+    size: 4
+  "nextUpdateAtUs_t1":
+    address: 0x2000dca4
+    size: 4
+  "jitterIndex.0_t1":
+    address: 0x2000dca8
+    size: 4
+  "mspPassthroughMode_t1":
+    address: 0x2000dcac
+    size: 1
+  "mspPassthroughArgument_t1":
+    address: 0x2000dcad
+    size: 1
+  "rebootMode_t1":
+    address: 0x2000dcae
+    size: 1
+  "vtxTableNeedsInit_t1":
+    address: 0x2000dcaf
+    size: 1
+  "activeBoxIds.lto_priv.0_t1":
+    address: 0x2000dcb0
+    size: 8
+  "servo_t1":
+    address: 0x2000dcb8
+    size: 16
+  "escSensorData.lto_priv.0_t1":
+    address: 0x2000dcc8
+    size: 128
+  "boardAlignment_System_t1":
+    address: 0x2000dd48
+    size: 12
+  "GPS_distanceToHome_t1":
+    address: 0x2000dd54
+    size: 2
+  "GPS_update_t1":
+    address: 0x2000dd56
+    size: 1
+  "GPS_numCh_t1":
+    address: 0x2000dd57
+    size: 1
+  "GPS_svinfo_chn_t1":
+    address: 0x2000dd58
+    size: 32
+  "GPS_svinfo_svid_t1":
+    address: 0x2000dd78
+    size: 32
+  "GPS_svinfo_quality_t1":
+    address: 0x2000dd98
+    size: 32
+  "GPS_svinfo_cno_t1":
+    address: 0x2000ddb8
+    size: 32
+  "blackboxPInterval.lto_priv.0_t1":
+    address: 0x2000ddd8
+    size: 1
+  "blackboxIInterval.lto_priv.0_t1":
+    address: 0x2000ddda
+    size: 2
+  "gyroDetectionFlags.lto_priv.0_t1":
+    address: 0x2000dddc
+    size: 1
+  "dynNotchConfig_System_t1":
+    address: 0x2000dde0
+    size: 8
+  "rangefinderConfig_System_t1":
+    address: 0x2000dde8
+    size: 1
+  "rssiSource_t1":
+    address: 0x2000dde9
+    size: 1
+  "mspFrame.lto_priv.0_t1":
+    address: 0x2000ddec
+    size: 36
+  "rxMspFrameDone.lto_priv.0_t1":
+    address: 0x2000de10
+    size: 1
+  "rxMspOverrideFrameDone.lto_priv.0_t1":
+    address: 0x2000de11
+    size: 1
+  "vtxTableBandCount_t1":
+    address: 0x2000de14
+    size: 4
+  "vtxTableChannelCount_t1":
+    address: 0x2000de18
+    size: 4
+  "vtxTableFrequency_t1":
+    address: 0x2000de1c
+    size: 128
+  "mspArmingDisableFlags_t1":
+    address: 0x2000de9c
+    size: 4
+  "runawayTakeoffTemporarilyDisabled.lto_priv.0_t1":
+    address: 0x2000dea0
+    size: 1
+  "rssi.lto_priv.0_t1":
+    address: 0x2000dea2
+    size: 2
+  "lastMspRssiUpdateUs.lto_priv.0_t1":
+    address: 0x2000dea4
+    size: 4
+  "schedLoopStartMinCycles.lto_priv.0_t1":
+    address: 0x2000dea8
+    size: 4
+  "schedLoopStartMaxCycles.lto_priv.0_t1":
+    address: 0x2000deac
+    size: 4
+  "schedLoopStartDeltaDownCycles.lto_priv.0_t1":
+    address: 0x2000deb0
+    size: 4
+  "schedLoopStartDeltaUpCycles.lto_priv.0_t1":
+    address: 0x2000deb4
+    size: 4
+  "taskGuardMinCycles.lto_priv.0_t1":
+    address: 0x2000deb8
+    size: 4
+  "taskGuardMaxCycles.lto_priv.0_t1":
+    address: 0x2000debc
+    size: 4
+  "taskGuardDeltaDownCycles.lto_priv.0_t1":
+    address: 0x2000dec0
+    size: 4
+  "taskGuardDeltaUpCycles.lto_priv.0_t1":
+    address: 0x2000dec4
+    size: 4
+  "desiredPeriodCycles.lto_priv.0_t1":
+    address: 0x2000dec8
+    size: 4
+  "lastTargetCycles.lto_priv.0_t1":
+    address: 0x2000decc
+    size: 4
+  "nextTimingCycles.lto_priv.0_t1":
+    address: 0x2000ded0
+    size: 4
+  "sagCompensationConfigured.lto_priv.0_t1":
+    address: 0x2000ded4
+    size: 1
+  "runcamDevice.lto_priv.0_t1":
+    address: 0x2000ded8
+    size: 76
+  "voltageMeterADCStates_t1":
+    address: 0x2000df24
+    size: 24
+  "voltageMeterESCState.lto_priv.0_t1":
+    address: 0x2000df3c
+    size: 12
+  "currentMeterADCState_t1":
+    address: 0x2000df48
+    size: 16
+  "currentMeterVirtualState_t1":
+    address: 0x2000df58
+    size: 12
+  "currentMeterESCState_t1":
+    address: 0x2000df64
+    size: 8
+  "voltageSensorADCConfig_SystemArray_t1":
+    address: 0x2000df6c
+    size: 3
+  "currentSensorADCConfig_System_t1":
+    address: 0x2000df70
+    size: 4
+  "currentSensorVirtualConfig_System_t1":
+    address: 0x2000df74
+    size: 4
+  "escCount.lto_priv.0_t1":
+    address: 0x2000df78
+    size: 1
+  "escHardware_t1":
+    address: 0x2000df7c
+    size: 32
+  "modeActivationConfig_System_t1":
+    address: 0x2000df9c
+    size: 64
+  "warningLedState.lto_priv.0_t1":
+    address: 0x2000dfdc
+    size: 1
+  "warningLedTimer.lto_priv.0_t1":
+    address: 0x2000dfe0
+    size: 4
+  "beeperIsOn.lto_priv.0_t1":
+    address: 0x2000dfe4
+    size: 1
+  "currentBeeperEntry_t1":
+    address: 0x2000dfe8
+    size: 4
+  "beeperPos_t1":
+    address: 0x2000dfec
+    size: 2
+  "beeperNextToggleTime_t1":
+    address: 0x2000dff0
+    size: 4
+  "saveRequired.lto_priv.0_t1":
+    address: 0x2000dff4
+    size: 1
+  "lastDisarmTimeUs.lto_priv.0_t1":
+    address: 0x2000dff8
+    size: 4
+  "lastDshotBeaconCommandTimeUs.lto_priv.0_t1":
+    address: 0x2000dffc
+    size: 4
+  "armingBeepTimeMicros.lto_priv.0_t1":
+    address: 0x2000e000
+    size: 4
+  "visualWasOn.0_t1":
+    address: 0x2000e004
+    size: 1
+  "showVisualBeeper.lto_priv.0_t1":
+    address: 0x2000e005
+    size: 1
+  "currentSensorVirtualConfig_fnv_hash_t1":
+    address: 0x2000e008
+    size: 4
+  "currentSensorVirtualConfig_Copy_t1":
+    address: 0x2000e00c
+    size: 4
+  "currentSensorADCConfig_fnv_hash_t1":
+    address: 0x2000e010
+    size: 4
+  "currentSensorADCConfig_Copy_t1":
+    address: 0x2000e014
+    size: 4
+  "voltageSensorADCConfig_fnv_hash_t1":
+    address: 0x2000e018
+    size: 4
+  "voltageSensorADCConfig_CopyArray_t1":
+    address: 0x2000e01c
+    size: 3
+  "modeActivationConfig_fnv_hash_t1":
+    address: 0x2000e020
+    size: 4
+  "modeActivationConfig_Copy_t1":
+    address: 0x2000e024
+    size: 64
+  "rangefinderConfig_fnv_hash_t1":
+    address: 0x2000e064
+    size: 4
+  "rangefinderConfig_Copy_t1":
+    address: 0x2000e068
+    size: 1
+  "dynNotchConfig_fnv_hash_t1":
+    address: 0x2000e06c
+    size: 4
+  "dynNotchConfig_Copy_t1":
+    address: 0x2000e070
+    size: 8
+  "boardAlignment_fnv_hash_t1":
+    address: 0x2000e078
+    size: 4
+  "boardAlignment_Copy_t1":
+    address: 0x2000e07c
+    size: 12
+  "combinedEscSensorData.lto_priv.0_t1":
+    address: 0x2000e088
+    size: 16
+  "lastExecutedAtUs.13_t1":
+    address: 0x2000e098
+    size: 4
+  "taskTotalExecutionTime_t1":
+    address: 0x2000e09c
+    size: 4
+  "ppmEventIndex_t1":
+    address: 0x2000e0a0
+    size: 1
+  "ppmDev.lto_priv.0_t1":
+    address: 0x2000e0a4
+    size: 72
+  "captures.lto_priv.0_t1":
+    address: 0x2000e0ec
+    size: 24
+  "ppmFrameCount_t1":
+    address: 0x2000e104
+    size: 1
+  "rcDeflectionAbs.lto_priv.0_t1":
+    address: 0x2000e108
+    size: 12
+  "feedforwardDeltaAvg_t1":
+    address: 0x2000e114
+    size: 96
+  "adcOperatingConfig_t1":
+    address: 0x2000e174
+    size: 20
+  "adcValues_t1":
+    address: 0x2000e188
+    size: 8
+  "inputFilteringMode.lto_priv.0_t1":
+    address: 0x2000e190
+    size: 1
+  "mspConfig_System_t1":
+    address: 0x2000e194
+    size: 1
+  "mspDescriptor.lto_priv.0_t1":
+    address: 0x2000e198
+    size: 4
+  "adcVrefintValue_t1":
+    address: 0x2000e19c
+    size: 2
+  "adcTempsensorValue_t1":
+    address: 0x2000e19e
+    size: 2
+  "adcVREFINTCAL_t1":
+    address: 0x2000e1a0
+    size: 4
+  "adcTSCAL1_t1":
+    address: 0x2000e1a4
+    size: 4
+  "adcTSSlopeK_t1":
+    address: 0x2000e1a8
+    size: 4
+  "adcInternalConversionInProgress.lto_priv.0_t1":
+    address: 0x2000e1ac
+    size: 1
+  "adciBatFilter_t1":
+    address: 0x2000e1b0
+    size: 8
+  "statsConfig_System_t1":
+    address: 0x2000e1b8
+    size: 20
+  "softSerialPorts_t1":
+    address: 0x2000e1cc
+    size: 1240
+  "launchControlState.lto_priv.0_t1":
+    address: 0x2000e6a4
+    size: 1
+  "suppressStatsDisplay.lto_priv.0_t1":
+    address: 0x2000e6a5
+    size: 1
+  "xmitState.lto_priv.0_t1":
+    address: 0x2000e6a8
+    size: 8
+  "arm_millis_t1":
+    address: 0x2000e6b0
+    size: 4
+  "GPS_distanceFlownInCm_t1":
+    address: 0x2000e6b4
+    size: 4
+  "arm_distance_cm_t1":
+    address: 0x2000e6b8
+    size: 4
+  "applyRates_t1":
+    address: 0x2000e6bc
+    size: 4
+  "maxRcRate.lto_priv.0_t1":
+    address: 0x2000e6c0
+    size: 12
+  "feedforwardSmoothed.lto_priv.0_t1":
+    address: 0x2000e6cc
+    size: 12
+  "feedforwardRaw_t1":
+    address: 0x2000e6d8
+    size: 12
+  "lastPPMFrameCount_t1":
+    address: 0x2000e6e4
+    size: 1
+  "needRxSignalBefore_t1":
+    address: 0x2000e6e8
+    size: 4
+  "linkQualitySource_t1":
+    address: 0x2000e6ec
+    size: 1
+  "sampleIndex.8_t1":
+    address: 0x2000e6ed
+    size: 1
+  "sum.6_t1":
+    address: 0x2000e6ee
+    size: 2
+  "samples.7_t1":
+    address: 0x2000e6f0
+    size: 32
+  "linkQuality.lto_priv.0_t1":
+    address: 0x2000e710
+    size: 2
+  "resampleTimeUs.11_t1":
+    address: 0x2000e714
+    size: 4
+  "rssiSum.10_t1":
+    address: 0x2000e718
+    size: 2
+  "rssiCount.9_t1":
+    address: 0x2000e71a
+    size: 2
+  "frameErrFilter.lto_priv.0_t1":
+    address: 0x2000e71c
+    size: 8
+  "rssiRaw.lto_priv.0_t1":
+    address: 0x2000e724
+    size: 2
+  "auxiliaryProcessingRequired.lto_priv.0_t1":
+    address: 0x2000e726
+    size: 1
+  "rxDataProcessingRequired.lto_priv.0_t1":
+    address: 0x2000e727
+    size: 1
+  "lastFailsafeCheckMs_t1":
+    address: 0x2000e728
+    size: 4
+  "gyroCyclesNow_t1":
+    address: 0x2000e72c
+    size: 4
+  "gyroCyclesTotal.12_t1":
+    address: 0x2000e730
+    size: 8
+  "gyroCyclesCount.11_t1":
+    address: 0x2000e738
+    size: 4
+  "gyroCyclesMean.10_t1":
+    address: 0x2000e73c
+    size: 4
+  "devSquared.9_t1":
+    address: 0x2000e740
+    size: 4
+  "lateTaskCount_t1":
+    address: 0x2000e744
+    size: 2
+  "lateTaskTotal_t1":
+    address: 0x2000e748
+    size: 4
+  "taskCount_t1":
+    address: 0x2000e74c
+    size: 2
+  "terminalGyroRateCount.8_t1":
+    address: 0x2000e750
+    size: 4
+  "sampleRateStartCycles.7_t1":
+    address: 0x2000e754
+    size: 4
+  "accGyroSkew.6_t1":
+    address: 0x2000e758
+    size: 4
+  "lastGyroSyncEXTI.5_t1":
+    address: 0x2000e75c
+    size: 4
+  "terminalGyroLockCount.2_t1":
+    address: 0x2000e760
+    size: 4
+  "checkCycles.1_t1":
+    address: 0x2000e764
+    size: 4
+  "scheduleCount.0_t1":
+    address: 0x2000e768
+    size: 4
+  "skippedRxAttempts_t1":
+    address: 0x2000e76c
+    size: 1
+  "skippedOSDAttempts_t1":
+    address: 0x2000e76d
+    size: 1
+  "schedulerConfig_System_t1":
+    address: 0x2000e770
+    size: 6
+  "lateTaskPercentage_t1":
+    address: 0x2000e778
+    size: 4
+  "ibatLastServiced.0_t1":
+    address: 0x2000e77c
+    size: 4
+  "escSensorConfig_System_t1":
+    address: 0x2000e780
+    size: 4
+  "rxChannelCount.lto_priv.0_t1":
+    address: 0x2000e784
+    size: 1
+  "rcRaw.lto_priv.0_t1":
+    address: 0x2000e788
+    size: 72
+  "rxFlightChannelsValid.lto_priv.0_t1":
+    address: 0x2000e7d0
+    size: 1
+  "rcSampleIndex.lto_priv.0_t1":
+    address: 0x2000e7d1
+    size: 1
+  "validRxSignalTimeout_t1":
+    address: 0x2000e7d4
+    size: 72
+  "rcSamples.5_t1":
+    address: 0x2000e81c
+    size: 72
+  "rxSamplesCollected.4_t1":
+    address: 0x2000e864
+    size: 1
+  "rcDataMean.3_t1":
+    address: 0x2000e868
+    size: 24
+  "previousFrameTimeUs.1_t1":
+    address: 0x2000e880
+    size: 4
+  "frameTimeDeltaUs.0_t1":
+    address: 0x2000e884
+    size: 4
+  "lastRxTimeUs.14_t1":
+    address: 0x2000e888
+    size: 4
+  "isRxIntervalValid_t1":
+    address: 0x2000e88c
+    size: 1
+  "currentRxRateHz_t1":
+    address: 0x2000e890
+    size: 4
+  "rssiUpdateAt.2_t1":
+    address: 0x2000e894
+    size: 4
+  "lastRssiSmoothingUs_t1":
+    address: 0x2000e898
+    size: 4
+  "rssiFilter.lto_priv.0_t1":
+    address: 0x2000e89c
+    size: 8
+  "rssiDbmFilter.lto_priv.0_t1":
+    address: 0x2000e8a4
+    size: 8
+  "rsnrFilter.lto_priv.0_t1":
+    address: 0x2000e8ac
+    size: 8
+  "airmodeIsActivated.lto_priv.0_t1":
+    address: 0x2000e8b4
+    size: 1
+  "runawayTakeoffCheckDisabled_t1":
+    address: 0x2000e8b5
+    size: 1
+  "runawayTakeoffDeactivateUs_t1":
+    address: 0x2000e8b8
+    size: 4
+  "runawayTakeoffAccumulatedUs_t1":
+    address: 0x2000e8bc
+    size: 4
+  "servoConfig_System_t1":
+    address: 0x2000e8c0
+    size: 16
+  "setpointRate.lto_priv.0_t1":
+    address: 0x2000e8d0
+    size: 12
+  "maxRcDeflectionAbs.lto_priv.0_t1":
+    address: 0x2000e8dc
+    size: 4
+  "prevSetpointSpeed.7_t1":
+    address: 0x2000e8e0
+    size: 12
+  "prevAcceleration.6_t1":
+    address: 0x2000e8ec
+    size: 12
+  "prevRcCommandDeltaAbs.10_t1":
+    address: 0x2000e8f8
+    size: 12
+  "prevRcCommand.12_t1":
+    address: 0x2000e904
+    size: 12
+  "prevSetpoint.11_t1":
+    address: 0x2000e910
+    size: 12
+  "rescueYaw.lto_priv.0_t1":
+    address: 0x2000e91c
+    size: 4
+  "rcDeflection_t1":
+    address: 0x2000e920
+    size: 12
+  "rawSetpoint_t1":
+    address: 0x2000e92c
+    size: 12
+  "feedforwardAveraging.13_t1":
+    address: 0x2000e938
+    size: 2
+  "prevDuplicatePacket.9_t1":
+    address: 0x2000e93c
+    size: 3
+  "prevRxInterval.8_t1":
+    address: 0x2000e940
+    size: 4
+  "lastFpvCamAngleDegrees.5_t1":
+    address: 0x2000e944
+    size: 1
+  "sinFactor.3_t1":
+    address: 0x2000e948
+    size: 4
+  "previousRxIntervalUs.2_t1":
+    address: 0x2000e94c
+    size: 2
+  "prevRxRateHz.1_t1":
+    address: 0x2000e950
+    size: 4
+  "rcDeflectionSmoothed.lto_priv.0_t1":
+    address: 0x2000e954
+    size: 12
+  "runawayTakeoffTriggerUs_t1":
+    address: 0x2000e960
+    size: 4
+  "previousMotorUpdateTime.0_t1":
+    address: 0x2000e964
+    size: 4
+  "rcThrottlePrevious.5_t1":
+    address: 0x2000e968
+    size: 2
+  "reversalTimeUs.4_t1":
+    address: 0x2000e96c
+    size: 4
+  "motorRangeMinIncrease.3_t1":
+    address: 0x2000e970
+    size: 4
+  "gimbalConfig_System_t1":
+    address: 0x2000e974
+    size: 1
+  "servoWritten_t1":
+    address: 0x2000e978
+    size: 4
+  "servoFilter.lto_priv.0_t1":
+    address: 0x2000e97c
+    size: 320
+  "servos.lto_priv.0_t1":
+    address: 0x2000eabc
+    size: 192
+  "attitudeIsEstablished.lto_priv.0_t1":
+    address: 0x2000eb7c
+    size: 1
+  "smallAngleCosZ.lto_priv.0_t1":
+    address: 0x2000eb80
+    size: 4
+  "blackboxHeaderBudget_t1":
+    address: 0x2000eb84
+    size: 4
+  "cacheFlushNextState.2_t1":
+    address: 0x2000eb88
+    size: 1
+  "blackboxLoggedAnyFrames.lto_priv.0_t1":
+    address: 0x2000eb89
+    size: 1
+  "blackboxSlowFrameIterationTimer.lto_priv.0_t1":
+    address: 0x2000eb8c
+    size: 4
+  "blackboxSInterval.lto_priv.0_t1":
+    address: 0x2000eb90
+    size: 4
+  "blackboxLoopIndex.lto_priv.0_t1":
+    address: 0x2000eb94
+    size: 2
+  "blackboxIteration.lto_priv.0_t1":
+    address: 0x2000eb98
+    size: 4
+  "blackboxModeActivationConditionPresent.lto_priv.0_t1":
+    address: 0x2000eb9c
+    size: 1
+  "startedLoggingInTestMode.lto_priv.0_t1":
+    address: 0x2000eb9d
+    size: 1
+  "blackboxPort.lto_priv.0_t1":
+    address: 0x2000eba0
+    size: 4
+  "blackboxPortSharing.lto_priv.0_t1":
+    address: 0x2000eba4
+    size: 1
+  "resetTime.0_t1":
+    address: 0x2000eba8
+    size: 4
+  "hadRx.4_t1":
+    address: 0x2000ebac
+    size: 1
+  "motorProtocolEnabled.lto_priv.0_t1":
+    address: 0x2000ebad
+    size: 1
+  "throttleEverRaisedAfterArming_t1":
+    address: 0x2000ebae
+    size: 1
+  "gimbalConfig_fnv_hash_t1":
+    address: 0x2000ebb0
+    size: 4
+  "gimbalConfig_Copy_t1":
+    address: 0x2000ebb4
+    size: 1
+  "servoConfig_fnv_hash_t1":
+    address: 0x2000ebb8
+    size: 4
+  "servoConfig_Copy_t1":
+    address: 0x2000ebbc
+    size: 16
+  "statsConfig_fnv_hash_t1":
+    address: 0x2000ebcc
+    size: 4
+  "statsConfig_Copy_t1":
+    address: 0x2000ebd0
+    size: 20
+  "escSensorConfig_fnv_hash_t1":
+    address: 0x2000ebe4
+    size: 4
+  "escSensorConfig_Copy_t1":
+    address: 0x2000ebe8
+    size: 4
+  "adcTempsensorValues_t1":
+    address: 0x2000ebec
+    size: 16
+  "adcVrefintValues_t1":
+    address: 0x2000ebfc
+    size: 16
+  "schedulerConfig_fnv_hash_t1":
+    address: 0x2000ec0c
+    size: 4
+  "schedulerConfig_Copy_t1":
+    address: 0x2000ec10
+    size: 6
+  "mspConfig_fnv_hash_t1":
+    address: 0x2000ec18
+    size: 4
+  "mspConfig_Copy_t1":
+    address: 0x2000ec1c
+    size: 1
+  "ibusTimeLast.1_t1":
+    address: 0x2000ec20
+    size: 4
+  "ibusFramePosition.0_t1":
+    address: 0x2000ec24
+    size: 1
+  "rxBytesToIgnore_t1":
+    address: 0x2000ec25
+    size: 1
+  "ibusFrameSize_t1":
+    address: 0x2000ec26
+    size: 1
+  "ibus_t1":
+    address: 0x2000ec28
+    size: 32
+  "ibusSyncByte_t1":
+    address: 0x2000ec48
+    size: 1
+  "ibusModel_t1":
+    address: 0x2000ec49
+    size: 1
+  "ibusChannelOffset_t1":
+    address: 0x2000ec4a
+    size: 1
+  "ibusChecksum_t1":
+    address: 0x2000ec4c
+    size: 2
+  "lastFrameTimeUs_t1":
+    address: 0x2000ec50
+    size: 4
+  "ibusFrameDone_t1":
+    address: 0x2000ec54
+    size: 1
+  "ibusChannelData_t1":
+    address: 0x2000ec58
+    size: 72
+  "jetiExBusRequestFrame_t1":
+    address: 0x2000eca0
+    size: 9
+  "jetiExBusChannelFrame_t1":
+    address: 0x2000ecac
+    size: 40
+  "jetiExBusTimeLast.2_t1":
+    address: 0x2000ecd4
+    size: 4
+  "jetiExBusFramePosition_t1":
+    address: 0x2000ecd8
+    size: 1
+  "jetiExBusFrameLength_t1":
+    address: 0x2000ecd9
+    size: 1
+  "jetiExBusFrameState_t1":
+    address: 0x2000ecda
+    size: 1
+  "jetiExBusRequestState_t1":
+    address: 0x2000ecdb
+    size: 1
+  "jetiExBusFrameMaxSize.0_t1":
+    address: 0x2000ecdc
+    size: 1
+  "jetiExBusFrame.1_t1":
+    address: 0x2000ece0
+    size: 4
+  "jetiTimeStampRequest_t1":
+    address: 0x2000ece4
+    size: 4
+  "jetiExBusChannelData_t1":
+    address: 0x2000ece8
+    size: 32
+  "previousTimeUs_t1":
+    address: 0x2000ed08
+    size: 4
+  "counter_t1":
+    address: 0x2000ed0c
+    size: 4
+  "totalTrottleNumber_t1":
+    address: 0x2000ed10
+    size: 4
+  "fullThrottleTimeUs_t1":
+    address: 0x2000ed14
+    size: 4
+  "previousThrottlePercent_t1":
+    address: 0x2000ed18
+    size: 1
+  "fullThrottleCounter_t1":
+    address: 0x2000ed1c
+    size: 4
+  "port.lto_priv.0_t1":
+    address: 0x2000ed20
+    size: 4
+  "CRCout_t1":
+    address: 0x2000ed24
+    size: 2
+  "selected_esc_t1":
+    address: 0x2000ed26
+    size: 1
+  "LastBitTime_t1":
+    address: 0x2000ed28
+    size: 4
+  "HiLoTsh_t1":
+    address: 0x2000ed2c
+    size: 4
+  "ckSumIn_t1":
+    address: 0x2000ed30
+    size: 1
+  "CRC_16.lto_priv.0_t1":
+    address: 0x2000ed31
+    size: 2
+  "LastCRC_16_t1":
+    address: 0x2000ed33
+    size: 2
+  "DeviceInfo_t1":
+    address: 0x2000ed35
+    size: 4
+  "throttleDLpf_t1":
+    address: 0x2000ed3c
+    size: 12
+  "velocityDLpf_t1":
+    address: 0x2000ed48
+    size: 8
+  "velocityUpsampleLpf_t1":
+    address: 0x2000ed50
+    size: 16
+  "rescueThrottle_t1":
+    address: 0x2000ed60
+    size: 4
+  "previousVelocityError.5_t1":
+    address: 0x2000ed64
+    size: 4
+  "velocityI.4_t1":
+    address: 0x2000ed68
+    size: 4
+  "throttleI.3_t1":
+    address: 0x2000ed6c
+    size: 4
+  "previousAltitudeError.2_t1":
+    address: 0x2000ed70
+    size: 4
+  "pitchAdjustment.0_t1":
+    address: 0x2000ed74
+    size: 4
+  "previousTimeUs.11_t1":
+    address: 0x2000ed78
+    size: 4
+  "prevAltitudeCm.10_t1":
+    address: 0x2000ed7c
+    size: 4
+  "prevTargetAltitudeCm.9_t1":
+    address: 0x2000ed80
+    size: 4
+  "previousDistanceToHomeCm.8_t1":
+    address: 0x2000ed84
+    size: 4
+  "secondsLowSats.7_t1":
+    address: 0x2000ed88
+    size: 1
+  "secondsDoingNothing.6_t1":
+    address: 0x2000ed89
+    size: 1
+  "imuRuntimeConfig_t1":
+    address: 0x2000ed8c
+    size: 8
+  "throttleAngleScale_t1":
+    address: 0x2000ed94
+    size: 4
+  "throttleAngleValue_t1":
+    address: 0x2000ed98
+    size: 4
+  "previousThrottle.5_t1":
+    address: 0x2000ed9c
+    size: 4
+  "isTpaLowFaded.6_t1":
+    address: 0x2000eda0
+    size: 1
+  "lastDynLpfUpdateUs.2_t1":
+    address: 0x2000eda4
+    size: 4
+  "throttleLpf_t1":
+    address: 0x2000eda8
+    size: 8
+  "prevError.0_t1":
+    address: 0x2000edb0
+    size: 4
+  "previousIMUUpdateTime.7_t1":
+    address: 0x2000edb4
+    size: 4
+  "gpsHeadingInitialized.6_t1":
+    address: 0x2000edb8
+    size: 1
+  "stickSuppressionPrev.5_t1":
+    address: 0x2000edbc
+    size: 4
+  "stateTimeout.3_t1":
+    address: 0x2000edc0
+    size: 4
+  "integralFBx.2_t1":
+    address: 0x2000edc4
+    size: 4
+  "integralFBy.1_t1":
+    address: 0x2000edc8
+    size: 4
+  "integralFBz.0_t1":
+    address: 0x2000edcc
+    size: 4
+  "levelModeStartTimeUs.4_t1":
+    address: 0x2000edd0
+    size: 4
+  "gpsRescuePreviousState.3_t1":
+    address: 0x2000edd4
+    size: 1
+  "previousRawGyroRateDterm.2_t1":
+    address: 0x2000edd8
+    size: 12
+  "previousGyroRateDterm.1_t1":
+    address: 0x2000ede4
+    size: 12
+  "previousSetpoint.0_t1":
+    address: 0x2000edf0
+    size: 12
+  "servoRuleCount_t1":
+    address: 0x2000edfc
+    size: 1
+  "currentServoMixer_t1":
+    address: 0x2000ee00
+    size: 112
+  "currentOutput.0_t1":
+    address: 0x2000ee70
+    size: 32
+  "ckSumOut_t1":
+    address: 0x2000ee90
+    size: 1
+  "SeqNumber_t1":
+    address: 0x2000ee91
+    size: 1
+  "StkCmd.lto_priv.0_t1":
+    address: 0x2000ee92
+    size: 1
+  "StkInBuf.lto_priv.0_t1":
+    address: 0x2000ee93
+    size: 16
+  "CRC_in.lto_priv.0_t1":
+    address: 0x2000eea3
+    size: 2
+  "CurrentInterfaceMode_t1":
+    address: 0x2000eea5
+    size: 1
+  "channelData.0_t1":
+    address: 0x2000eea8
+    size: 64
+  "unitId.lto_priv.0_t1":
+    address: 0x2000eee8
+    size: 1
+  "baudRate.lto_priv.0_t1":
+    address: 0x2000eee9
+    size: 1
+  "serialPort.lto_priv.3_t1":
+    address: 0x2000eeec
+    size: 4
+  "state.lto_priv.0_t1":
+    address: 0x2000eef0
+    size: 1
+  "timeoutTimestamp.lto_priv.0_t1":
+    address: 0x2000eef4
+    size: 4
+  "rxRuntimeStatePtr.lto_priv.0_t1":
+    address: 0x2000eef8
+    size: 4
+  "srxlEnabled_t1":
+    address: 0x2000eefc
+    size: 1
+  "spek_chan_shift.lto_priv.0_t1":
+    address: 0x2000eefd
+    size: 1
+  "spek_chan_mask.lto_priv.0_t1":
+    address: 0x2000eefe
+    size: 1
+  "spekHiRes.lto_priv.0_t1":
+    address: 0x2000eeff
+    size: 1
+  "resolution_t1":
+    address: 0x2000ef00
+    size: 4
+  "serialPort.lto_priv.2_t1":
+    address: 0x2000ef04
+    size: 4
+  "telemetrySharedPort_t1":
+    address: 0x2000ef08
+    size: 4
+  "rssi_channel_t1":
+    address: 0x2000ef0c
+    size: 1
+  "sbusChannelData.2_t1":
+    address: 0x2000ef10
+    size: 36
+  "sbusFrameData.1_t1":
+    address: 0x2000ef34
+    size: 36
+  "sbusBaudRate.0_t1":
+    address: 0x2000ef58
+    size: 4
+  "xBusFrameReceived.lto_priv.0_t1":
+    address: 0x2000ef5c
+    size: 1
+  "xBusDataIncoming.lto_priv.0_t1":
+    address: 0x2000ef5d
+    size: 1
+  "xBusFramePosition.lto_priv.0_t1":
+    address: 0x2000ef5e
+    size: 1
+  "xBusFrameLength.lto_priv.0_t1":
+    address: 0x2000ef5f
+    size: 1
+  "xBusChannelCount.lto_priv.0_t1":
+    address: 0x2000ef60
+    size: 1
+  "xBusProvider.lto_priv.0_t1":
+    address: 0x2000ef61
+    size: 1
+  "ibusSerialPort.lto_priv.1_t1":
+    address: 0x2000ef64
+    size: 4
+  "ibusBaseAddress.lto_priv.0_t1":
+    address: 0x2000ef68
+    size: 1
+  "jetiExBusPort_t1":
+    address: 0x2000ef6c
+    size: 4
+  "crsfChannelData.lto_priv.0_t1":
+    address: 0x2000ef70
+    size: 64
+  "serialPort.lto_priv.0_t1":
+    address: 0x2000efb0
+    size: 4
+  "ghstChannelData.lto_priv.0_t1":
+    address: 0x2000efb4
+    size: 32
+  "serialPort.lto_priv.1_t1":
+    address: 0x2000efd4
+    size: 4
+  "sbusChannelData.10_t1":
+    address: 0x2000efd8
+    size: 36
+  "fportPort.lto_priv.0_t1":
+    address: 0x2000effc
+    size: 4
+  "telemetryState.lto_priv.1_t1":
+    address: 0x2000f000
+    size: 1
+  "smartPortWriteFrame.lto_priv.0_t1":
+    address: 0x2000f004
+    size: 4
+  "telemetryEnabled.lto_priv.0_t1":
+    address: 0x2000f008
+    size: 1
+  "writeBuffer.lto_priv.0_t1":
+    address: 0x2000f00c
+    size: 80
+  "writeBufferIdx.lto_priv.0_t1":
+    address: 0x2000f05c
+    size: 4
+  "ghstRxFrameStartAtUs_t1":
+    address: 0x2000f060
+    size: 4
+  "ghstFrameIdx.3_t1":
+    address: 0x2000f064
+    size: 1
+  "ghstFrameAvailable_t1":
+    address: 0x2000f065
+    size: 1
+  "ghstRxFrameEndAtUs_t1":
+    address: 0x2000f068
+    size: 4
+  "ghstTransmittingTelemetry_t1":
+    address: 0x2000f06c
+    size: 1
+  "spekTimeLast.2_t1":
+    address: 0x2000f070
+    size: 4
+  "spekFramePosition.1_t1":
+    address: 0x2000f074
+    size: 1
+  "spekFrame_t1":
+    address: 0x2000f078
+    size: 16
+  "rcFrameComplete_t1":
+    address: 0x2000f088
+    size: 1
+  "spekChannelData_t1":
+    address: 0x2000f08c
+    size: 48
+  "lastReceiveTimestamp_t1":
+    address: 0x2000f0bc
+    size: 4
+  "readBufferIdx_t1":
+    address: 0x2000f0c0
+    size: 4
+  "globalResult_t1":
+    address: 0x2000f0c4
+    size: 1
+  "readBuffer_t1":
+    address: 0x2000f0c8
+    size: 168
+  "transmittingTelemetry_t1":
+    address: 0x2000f170
+    size: 4
+  "lastIdleTimestamp_t1":
+    address: 0x2000f174
+    size: 4
+  "sumdTimeLast.1_t1":
+    address: 0x2000f178
+    size: 4
+  "sumdIndex.0_t1":
+    address: 0x2000f17c
+    size: 1
+  "sumdFrameDone_t1":
+    address: 0x2000f17d
+    size: 1
+  "crc_t1":
+    address: 0x2000f17e
+    size: 2
+  "sumd_t1":
+    address: 0x2000f180
+    size: 69
+  "sumdChannelCount_t1":
+    address: 0x2000f1c5
+    size: 1
+  "lastFrameTimeUs_t1":
+    address: 0x2000f1c8
+    size: 4
+  "sumdChannels_t1":
+    address: 0x2000f1cc
+    size: 36
+  "sumhFrameDone_t1":
+    address: 0x2000f1f0
+    size: 1
+  "sumhFrame_t1":
+    address: 0x2000f1f4
+    size: 21
+  "sumhChannels_t1":
+    address: 0x2000f20c
+    size: 32
+  "xBusFrame_t1":
+    address: 0x2000f22c
+    size: 35
+  "xBusChannelData_t1":
+    address: 0x2000f250
+    size: 24
+  "clearToSend_t1":
+    address: 0x2000f268
+    size: 1
+  "framePosition_t1":
+    address: 0x2000f269
+    size: 1
+  "frameStartAt.9_t1":
+    address: 0x2000f26c
+    size: 4
+  "frameErrors.5_t1":
+    address: 0x2000f270
+    size: 2
+  "rxBufferWriteIndex_t1":
+    address: 0x2000f272
+    size: 1
+  "rxBufferReadIndex_t1":
+    address: 0x2000f273
+    size: 1
+  "rxBuffer_t1":
+    address: 0x2000f274
+    size: 96
+  "telemetryFrame.8_t1":
+    address: 0x2000f2d4
+    size: 1
+  "lastTelemetryFrameReceivedUs_t1":
+    address: 0x2000f2d8
+    size: 4
+  "lastFrameReceivedUs.7_t1":
+    address: 0x2000f2dc
+    size: 4
+  "escapedCharacter.6_t1":
+    address: 0x2000f2e0
+    size: 1
+  "lastLinkStatisticsFrameUs_t1":
+    address: 0x2000f2e4
+    size: 4
+  "crsfFrameDone_t1":
+    address: 0x2000f2e8
+    size: 1
+  "crsfChannelDataFrame_t1":
+    address: 0x2000f2ec
+    size: 64
+  "ghstValidatedFrameAvailable_t1":
+    address: 0x2000f32c
+    size: 1
+  "crcErrorCount.0_t1":
+    address: 0x2000f32e
+    size: 2
+  "ghstTelemetryEnabled.lto_priv.0_t1":
+    address: 0x2000f330
+    size: 1
+  "telemetryBufLen.lto_priv.1_t1":
+    address: 0x2000f331
+    size: 1
+  "spek_fade_count.1_t1":
+    address: 0x2000f332
+    size: 1
+  "spek_fade_last_sec_t1":
+    address: 0x2000f334
+    size: 4
+  "spek_fade_last_sec_count_t1":
+    address: 0x2000f338
+    size: 2
+  "telemetryFrameRequestedUs.0_t1":
+    address: 0x2000f33c
+    size: 4
+  "telemetryBufLen.lto_priv.2_t1":
+    address: 0x2000f340
+    size: 1
+  "sumhTimeLast.2_t1":
+    address: 0x2000f344
+    size: 4
+  "sumhFramePosition.0_t1":
+    address: 0x2000f348
+    size: 1
+  "xBusTimeLast.1_t1":
+    address: 0x2000f34c
+    size: 4
+  "lastRcFrameReceivedMs_t1":
+    address: 0x2000f350
+    size: 4
+  "rxDrivenFrameRate.3_t1":
+    address: 0x2000f354
+    size: 1
+  "hasTelemetryRequest.2_t1":
+    address: 0x2000f355
+    size: 1
+  "mspPayload_t1":
+    address: 0x2000f358
+    size: 4
+  "consecutiveTelemetryFrameCount.1_t1":
+    address: 0x2000f35c
+    size: 1
+  "payloadBuffer.0_t1":
+    address: 0x2000f360
+    size: 7
+  "telemetryBuf.lto_priv.2_t1":
+    address: 0x2000f368
+    size: 21
+  "telemetryBuf.lto_priv.1_t1":
+    address: 0x2000f380
+    size: 14
+  "ghstRfProtocol_t1":
+    address: 0x2000f38e
+    size: 1
+  "unknownFrameCount.2_t1":
+    address: 0x2000f390
+    size: 2
+  "mspFrameCounter.1_t1":
+    address: 0x2000f392
+    size: 1
+  "mspReplyPending.lto_priv.1_t1":
+    address: 0x2000f393
+    size: 1
+  "lastValidPacketTimestamp_t1":
+    address: 0x2000f394
+    size: 4
+  "telemetryRequested.lto_priv.0_t1":
+    address: 0x2000f398
+    size: 1
+  "fullTimeoutTimestamp_t1":
+    address: 0x2000f39c
+    size: 4
+  "lastTelemetryFrameSentUs.4_t1":
+    address: 0x2000f3a0
+    size: 4
+  "blackboxHistory_t1":
+    address: 0x2000f3a4
+    size: 12
+  "blackboxHighResolutionScale_t1":
+    address: 0x2000f3b0
+    size: 4
+  "bus.0_t1":
+    address: 0x2000f3b4
+    size: 40
+  "gyroBuf2.1_t1":
+    address: 0x2000f3dc
+    size: 32
+  "gyroBuf1.0_t1":
+    address: 0x2000f3fc
+    size: 32
+  "pageCount.lto_priv.0_t1":
+    address: 0x2000f41c
+    size: 1
+  "currentCtx.lto_priv.0_t1":
+    address: 0x2000f420
+    size: 8
+  "maxMenuItems.lto_priv.0_t1":
+    address: 0x2000f428
+    size: 1
+  "pageTop.lto_priv.0_t1":
+    address: 0x2000f42c
+    size: 4
+  "pageMaxRow.lto_priv.0_t1":
+    address: 0x2000f430
+    size: 1
+  "runtimeEntryFlags_t1":
+    address: 0x2000f431
+    size: 31
+#  "menuStackIdx_t1":
+#    address: 0x2000f450
+#    size: 1
+#  "menuStack_t1":
+#    address: 0x2000f454
+#    size: 80
+  "pCurrentDisplay_t1":
+    address: 0x2000f4a4
+    size: 4
+  "crsfFrame_t1":
+    address: 0x2000f4a8
+    size: 64
+  "crsfFrameStartAtUs_t1":
+    address: 0x2000f4e8
+    size: 4
+  "crsfFramePosition.1_t1":
+    address: 0x2000f4ec
+    size: 1
+  "crsfFrameErrorCnt.0_t1":
+    address: 0x2000f4ed
+    size: 1
+  "mspRxBuffer.lto_priv.0_t1":
+    address: 0x2000f4f0
+    size: 100
+  "mspReplyPending.lto_priv.0_t1":
+    address: 0x2000f554
+    size: 1
+  "mspRequestOriginID.lto_priv.0_t1":
+    address: 0x2000f555
+    size: 1
+  "deviceInfoReplyPending.lto_priv.0_t1":
+    address: 0x2000f556
+    size: 1
+  "crsfLinkType.lto_priv.0_t1":
+    address: 0x2000f557
+    size: 1
+  "crsfDisplayPortChunkIntervalUs.lto_priv.0_t1":
+    address: 0x2000f558
+    size: 4
+  "crsfScreen.lto_priv.0_t1":
+    address: 0x2000f55c
+    size: 292
+  "crsfDisplayPort_t1":
+    address: 0x2000f680
+    size: 20
+  "delayTransportUntilMs.lto_priv.0_t1":
+    address: 0x2000f694
+    size: 4
+  "activeAntenna.lto_priv.0_t1":
+    address: 0x2000f698
+    size: 1
+  "rfMode.lto_priv.0_t1":
+    address: 0x2000f699
+    size: 1
+  "uplinkTxPwrMw.lto_priv.0_t1":
+    address: 0x2000f69a
+    size: 2
+  "crsfSpeed.lto_priv.0_t1":
+    address: 0x2000f69c
+    size: 8
+  "telemetryBufLen.lto_priv.0_t1":
+    address: 0x2000f6a4
+    size: 1
+  "telemetryBuf.lto_priv.0_t1":
+    address: 0x2000f6a8
+    size: 64
+  "telemetryFrame_t1":
+    address: 0x2000f6e8
+    size: 22
+  "sonarConfig_System_t1":
+    address: 0x2000f700
+    size: 2
+  "triggerIO.lto_priv.0_t1":
+    address: 0x2000f704
+    size: 4
+  "echoIO.lto_priv.0_t1":
+    address: 0x2000f708
+    size: 4
+  "hcsr04_extiCallbackRec_t1":
+    address: 0x2000f70c
+    size: 4
+  "blackboxMaxHeaderBytesPerIteration_t1":
+    address: 0x2000f710
+    size: 1
+  "gpsHistory_t1":
+    address: 0x2000f714
+    size: 20
+  "blackboxHistoryRing_t1":
+    address: 0x2000f728
+    size: 492
+  "vbatReference_t1":
+    address: 0x2000f914
+    size: 2
+  "blackboxConditionCache_t1":
+    address: 0x2000f918
+    size: 8
+  "blackboxIFrameIndex_t1":
+    address: 0x2000f920
+    size: 2
+  "blackboxPFrameIndex_t1":
+    address: 0x2000f922
+    size: 2
+  "blackboxLastArmingBeep_t1":
+    address: 0x2000f924
+    size: 4
+  "blackboxLastFlightModeFlags_t1":
+    address: 0x2000f928
+    size: 4
+  "bbBits_t1":
+    address: 0x2000f92c
+    size: 4
+  "bbDrops_t1":
+    address: 0x2000f930
+    size: 4
+  "bbLastclearMs_t1":
+    address: 0x2000f934
+    size: 4
+  "bbRateMax_t1":
+    address: 0x2000f938
+    size: 2
+  "needComma.1_t1":
+    address: 0x2000f93a
+    size: 1
+  "GPS_home_t1":
+    address: 0x2000f93c
+    size: 8
+  "cmsDisplayPorts.lto_priv.0_t1":
+    address: 0x2000f944
+    size: 16
+  "rightMenuColumn.lto_priv.0_t1":
+    address: 0x2000f954
+    size: 1
+  "saveMenuInhibited.lto_priv.0_t1":
+    address: 0x2000f955
+    size: 1
+  "menuChainBack_t1":
+    address: 0x2000f958
+    size: 4
+  "resumeRefreshAt_t1":
+    address: 0x2000f95c
+    size: 4
+  "smallScreen.lto_priv.0_t1":
+    address: 0x2000f960
+    size: 1
+  "linesPerMenuItem.lto_priv.0_t1":
+    address: 0x2000f961
+    size: 1
+  "leftMenuColumn.lto_priv.0_t1":
+    address: 0x2000f962
+    size: 1
+  "osdElementEditing.lto_priv.0_t1":
+    address: 0x2000f963
+    size: 1
+  "kv_t1":
+    address: 0x2000f964
+    size: 2
+  "rpm_limit_value_t1":
+    address: 0x2000f966
+    size: 2
+  "rpm_limit_t1":
+    address: 0x2000f968
+    size: 1
+  "batteryProfile.lto_priv.0_t1":
+    address: 0x2000f96c
+    size: 28
+  "cmsx_motorOutputLimit.lto_priv.1_t1":
+    address: 0x2000f988
+    size: 1
+  "rateProfile.lto_priv.1_t1":
+    address: 0x2000f98c
+    size: 30
+  "gpsRescueConfig_imuYawGain.lto_priv.0_t1":
+    address: 0x2000f9aa
+    size: 1
+  "gpsRescueConfig_pitchCutoffHz.lto_priv.0_t1":
+    address: 0x2000f9ab
+    size: 1
+  "gpsRescueConfig_velD.lto_priv.0_t1":
+    address: 0x2000f9ac
+    size: 1
+  "gpsRescueConfig_velI.lto_priv.0_t1":
+    address: 0x2000f9ad
+    size: 1
+  "gpsRescueConfig_velP.lto_priv.0_t1":
+    address: 0x2000f9ae
+    size: 1
+  "gpsRescueConfig_yawP.lto_priv.0_t1":
+    address: 0x2000f9af
+    size: 1
+  "gpsRescueConfig_throttleD.lto_priv.0_t1":
+    address: 0x2000f9b0
+    size: 1
+  "gpsRescueConfig_throttleI.lto_priv.0_t1":
+    address: 0x2000f9b1
+    size: 1
+  "gpsRescueConfig_throttleP.lto_priv.0_t1":
+    address: 0x2000f9b2
+    size: 1
+  "gpsRescueConfig_minSats.lto_priv.0_t1":
+    address: 0x2000f9b3
+    size: 1
+  "gpsRescueConfig_throttleHover.lto_priv.0_t1":
+    address: 0x2000f9b4
+    size: 2
+  "gpsRescueConfig_throttleMax.lto_priv.0_t1":
+    address: 0x2000f9b6
+    size: 2
+  "gpsRescueConfig_throttleMin.lto_priv.0_t1":
+    address: 0x2000f9b8
+    size: 2
+  "gpsRescueConfig_targetLandingAltitudeM.lto_priv.0_t1":
+    address: 0x2000f9ba
+    size: 1
+  "gpsRescueConfig_descendRate.lto_priv.0_t1":
+    address: 0x2000f9bc
+    size: 2
+  "gpsRescueConfig_descentDistanceM.lto_priv.0_t1":
+    address: 0x2000f9be
+    size: 2
+  "gpsRescueConfig_angle.lto_priv.0_t1":
+    address: 0x2000f9c0
+    size: 1
+  "gpsRescueConfig_groundSpeedCmS.lto_priv.0_t1":
+    address: 0x2000f9c2
+    size: 2
+  "gpsRescueConfig_returnAltitudeM.lto_priv.0_t1":
+    address: 0x2000f9c4
+    size: 2
+  "gpsRescueConfig_ascendRate.lto_priv.0_t1":
+    address: 0x2000f9c6
+    size: 2
+  "gpsRescueConfig_initialClimbM.lto_priv.0_t1":
+    address: 0x2000f9c8
+    size: 2
+  "gpsRescueConfig_altitudeMode.lto_priv.0_t1":
+    address: 0x2000f9ca
+    size: 1
+  "gpsRescueConfig_minStartDistM.lto_priv.0_t1":
+    address: 0x2000f9cc
+    size: 2
+  "cmsx_launchControlGain.lto_priv.0_t1":
+    address: 0x2000f9ce
+    size: 1
+  "cmsx_launchControlAngleLimit.lto_priv.0_t1":
+    address: 0x2000f9cf
+    size: 1
+  "cmsx_launchControlThrottlePercent.lto_priv.0_t1":
+    address: 0x2000f9d0
+    size: 1
+  "cmsx_launchControlMode.lto_priv.0_t1":
+    address: 0x2000f9d1
+    size: 1
+  "gpsRescueConfig_allowArmingWithoutFix.lto_priv.0_t1":
+    address: 0x2000f9d2
+    size: 1
+  "cmsx_launchControlAllowTriggerReset.lto_priv.0_t1":
+    address: 0x2000f9d3
+    size: 1
+  "rcDataInt.lto_priv.0_t1":
+    address: 0x2000f9d4
+    size: 16
+  "batteryConfig_vbatDurationForCritical.lto_priv.0_t1":
+    address: 0x2000f9e4
+    size: 1
+  "batteryConfig_vbatDurationForWarning.lto_priv.0_t1":
+    address: 0x2000f9e5
+    size: 1
+  "osdConfig_distance_alarm.lto_priv.0_t1":
+    address: 0x2000f9e6
+    size: 2
+  "osdConfig_alt_alarm.lto_priv.0_t1":
+    address: 0x2000f9e8
+    size: 2
+  "osdConfig_cap_alarm.lto_priv.0_t1":
+    address: 0x2000f9ea
+    size: 2
+  "osdConfig_rsnr_alarm.lto_priv.0_t1":
+    address: 0x2000f9ec
+    size: 2
+  "osdConfig_rssi_dbm_alarm.lto_priv.0_t1":
+    address: 0x2000f9ee
+    size: 2
+  "osdConfig_link_quality_alarm.lto_priv.0_t1":
+    address: 0x2000f9f0
+    size: 2
+  "osdConfig_rssi_alarm.lto_priv.0_t1":
+    address: 0x2000f9f2
+    size: 1
+  "timerAlarm_t1":
+    address: 0x2000f9f4
+    size: 2
+  "timerPrecision_t1":
+    address: 0x2000f9f8
+    size: 2
+  "timerSource_t1":
+    address: 0x2000f9fc
+    size: 2
+  "stats_min_armed_time_s_t1":
+    address: 0x2000f9fe
+    size: 1
+  "stats_total_dist_m_t1":
+    address: 0x2000fa00
+    size: 4
+  "stats_total_time_s_t1":
+    address: 0x2000fa04
+    size: 4
+  "stats_total_flights_t1":
+    address: 0x2000fa08
+    size: 4
+  "failsafeConfig_failsafe_throttle_t1":
+    address: 0x2000fa0c
+    size: 2
+  "failsafeConfig_failsafe_off_delay_t1":
+    address: 0x2000fa0e
+    size: 1
+  "failsafeConfig_failsafe_delay_t1":
+    address: 0x2000fa0f
+    size: 1
+  "failsafeConfig_failsafe_procedure_t1":
+    address: 0x2000fa10
+    size: 1
+  "currentSensorVirtualConfig_offset_t1":
+    address: 0x2000fa12
+    size: 2
+  "currentSensorVirtualConfig_scale_t1":
+    address: 0x2000fa14
+    size: 2
+  "currentSensorADCConfig_offset_t1":
+    address: 0x2000fa16
+    size: 2
+  "currentSensorADCConfig_scale_t1":
+    address: 0x2000fa18
+    size: 2
+  "voltageSensorADCConfig_vbatscale_t1":
+    address: 0x2000fa1a
+    size: 1
+  "batteryConfig_vbatwarningcellvoltage_t1":
+    address: 0x2000fa1c
+    size: 2
+  "batteryConfig_vbatmaxcellvoltage_t1":
+    address: 0x2000fa1e
+    size: 2
+  "batteryConfig_vbatmincellvoltage_t1":
+    address: 0x2000fa20
+    size: 2
+  "batteryConfig_currentMeterSource_t1":
+    address: 0x2000fa22
+    size: 1
+  "batteryConfig_voltageMeterSource_t1":
+    address: 0x2000fa23
+    size: 1
+  "cmsx_ledVisualBeeperColor.lto_priv.0_t1":
+    address: 0x2000fa24
+    size: 1
+  "cmsx_ledBeaconOnPercent.lto_priv.0_t1":
+    address: 0x2000fa25
+    size: 1
+  "cmsx_ledBeaconPeriod.lto_priv.0_t1":
+    address: 0x2000fa26
+    size: 2
+  "cmsx_ledBeaconColor.lto_priv.0_t1":
+    address: 0x2000fa28
+    size: 1
+  "cmsx_ledRaceColor.lto_priv.0_t1":
+    address: 0x2000fa29
+    size: 1
+  "cmsx_ledProfile.lto_priv.0_t1":
+    address: 0x2000fa2a
+    size: 1
+  "systemConfig_debug_mode.lto_priv.0_t1":
+    address: 0x2000fa2b
+    size: 1
+  "cmsx_BlackboxDevice.lto_priv.0_t1":
+    address: 0x2000fa2c
+    size: 1
+  "cmsx_BlackboxRate.lto_priv.0_t1":
+    address: 0x2000fa2d
+    size: 1
+  "cmsx_dstControlRateProfile.lto_priv.0_t1":
+    address: 0x2000fa2e
+    size: 1
+  "cmsx_dstPidProfile.lto_priv.0_t1":
+    address: 0x2000fa2f
+    size: 1
+  "dtermLpfDynExpo.lto_priv.0_t1":
+    address: 0x2000fa30
+    size: 1
+  "dtermLpfDynMax.lto_priv.0_t1":
+    address: 0x2000fa32
+    size: 2
+  "dtermLpfDynMin.lto_priv.0_t1":
+    address: 0x2000fa34
+    size: 2
+  "gyroLpfDynExpo.lto_priv.0_t1":
+    address: 0x2000fa36
+    size: 1
+  "gyroLpfDynMax.lto_priv.0_t1":
+    address: 0x2000fa38
+    size: 2
+  "gyroLpfDynMin.lto_priv.0_t1":
+    address: 0x2000fa3a
+    size: 2
+  "dynFiltNotchMaxHz.lto_priv.0_t1":
+    address: 0x2000fa3c
+    size: 2
+  "dynFiltNotchMinHz.lto_priv.0_t1":
+    address: 0x2000fa3e
+    size: 2
+  "dynFiltNotchQ.lto_priv.0_t1":
+    address: 0x2000fa40
+    size: 2
+  "dynFiltNotchCount.lto_priv.0_t1":
+    address: 0x2000fa42
+    size: 1
+  "gyroConfig_gyro_to_use.lto_priv.0_t1":
+    address: 0x2000fa43
+    size: 1
+  "gyroConfig_gyro_soft_notch_cutoff_2.lto_priv.0_t1":
+    address: 0x2000fa44
+    size: 2
+  "gyroConfig_gyro_soft_notch_hz_2.lto_priv.0_t1":
+    address: 0x2000fa46
+    size: 2
+  "gyroConfig_gyro_soft_notch_cutoff_1.lto_priv.0_t1":
+    address: 0x2000fa48
+    size: 2
+  "gyroConfig_gyro_soft_notch_hz_1.lto_priv.0_t1":
+    address: 0x2000fa4a
+    size: 2
+  "gyroConfig_gyro_lpf2_static_hz.lto_priv.0_t1":
+    address: 0x2000fa4c
+    size: 2
+  "gyroConfig_gyro_lpf1_static_hz.lto_priv.0_t1":
+    address: 0x2000fa4e
+    size: 2
+  "rateProfile.lto_priv.0_t1":
+    address: 0x2000fa50
+    size: 30
+  "cmsx_yaw_lowpass_hz.lto_priv.0_t1":
+    address: 0x2000fa6e
+    size: 2
+  "cmsx_dterm_notch_cutoff.lto_priv.0_t1":
+    address: 0x2000fa70
+    size: 2
+  "cmsx_dterm_notch_hz.lto_priv.0_t1":
+    address: 0x2000fa72
+    size: 2
+  "cmsx_dterm_lpf2_static_hz.lto_priv.0_t1":
+    address: 0x2000fa74
+    size: 2
+  "cmsx_dterm_lpf1_static_hz.lto_priv.0_t1":
+    address: 0x2000fa76
+    size: 2
+  "cmsx_tpa_low_breakpoint.lto_priv.0_t1":
+    address: 0x2000fa78
+    size: 2
+  "cmsx_tpa_low_rate.lto_priv.0_t1":
+    address: 0x2000fa7a
+    size: 1
+  "cmsx_tpa_breakpoint.lto_priv.0_t1":
+    address: 0x2000fa7c
+    size: 2
+  "cmsx_tpa_rate.lto_priv.0_t1":
+    address: 0x2000fa7e
+    size: 1
+  "cmsx_vbat_sag_compensation.lto_priv.0_t1":
+    address: 0x2000fa7f
+    size: 1
+  "cmsx_d_min_advance.lto_priv.0_t1":
+    address: 0x2000fa80
+    size: 1
+  "cmsx_d_min_gain.lto_priv.0_t1":
+    address: 0x2000fa81
+    size: 1
+  "cmsx_d_min.lto_priv.0_t1":
+    address: 0x2000fa84
+    size: 3
+  "cmsx_autoProfileCellCount.lto_priv.0_t1":
+    address: 0x2000fa87
+    size: 1
+  "cmsx_motorOutputLimit.lto_priv.0_t1":
+    address: 0x2000fa88
+    size: 1
+  "cmsx_iterm_relax_cutoff.lto_priv.0_t1":
+    address: 0x2000fa89
+    size: 1
+  "cmsx_iterm_relax_type.lto_priv.0_t1":
+    address: 0x2000fa8a
+    size: 1
+  "cmsx_iterm_relax.lto_priv.0_t1":
+    address: 0x2000fa8b
+    size: 1
+  "cmsx_thrustLinearization.lto_priv.0_t1":
+    address: 0x2000fa8c
+    size: 1
+  "cmsx_throttleBoost.lto_priv.0_t1":
+    address: 0x2000fa8d
+    size: 1
+  "cmsx_antiGravityGain.lto_priv.0_t1":
+    address: 0x2000fa8e
+    size: 1
+  "cmsx_horizonLimitDegrees.lto_priv.0_t1":
+    address: 0x2000fa8f
+    size: 1
+  "cmsx_horizonLimitSticks.lto_priv.0_t1":
+    address: 0x2000fa90
+    size: 1
+  "cmsx_horizonStrength.lto_priv.0_t1":
+    address: 0x2000fa91
+    size: 1
+  "cmsx_angleEarthRef.lto_priv.0_t1":
+    address: 0x2000fa92
+    size: 1
+  "cmsx_angleLimit.lto_priv.0_t1":
+    address: 0x2000fa93
+    size: 1
+  "cmsx_angleFF.lto_priv.0_t1":
+    address: 0x2000fa94
+    size: 1
+  "cmsx_angleP.lto_priv.0_t1":
+    address: 0x2000fa95
+    size: 1
+  "cmsx_feedforward_boost.lto_priv.0_t1":
+    address: 0x2000fa96
+    size: 1
+  "cmsx_feedforward_jitter_factor.lto_priv.0_t1":
+    address: 0x2000fa97
+    size: 1
+  "cmsx_feedforward_smooth_factor.lto_priv.0_t1":
+    address: 0x2000fa98
+    size: 1
+  "cmsx_feedforward_averaging.lto_priv.0_t1":
+    address: 0x2000fa99
+    size: 1
+  "cmsx_feedforward_transition.lto_priv.0_t1":
+    address: 0x2000fa9a
+    size: 1
+  "cmsx_simplified_dterm_filter_multiplier.lto_priv.0_t1":
+    address: 0x2000fa9b
+    size: 1
+  "cmsx_simplified_dterm_filter.lto_priv.0_t1":
+    address: 0x2000fa9c
+    size: 1
+  "cmsx_simplified_gyro_filter_multiplier.lto_priv.0_t1":
+    address: 0x2000fa9d
+    size: 1
+  "cmsx_simplified_gyro_filter.lto_priv.0_t1":
+    address: 0x2000fa9e
+    size: 1
+  "cmsx_simplified_master_multiplier.lto_priv.0_t1":
+    address: 0x2000fa9f
+    size: 1
+  "cmsx_simplified_pitch_pi_gain.lto_priv.0_t1":
+    address: 0x2000faa0
+    size: 1
+  "cmsx_simplified_roll_pitch_ratio.lto_priv.0_t1":
+    address: 0x2000faa1
+    size: 1
+  "cmsx_simplified_i_gain.lto_priv.0_t1":
+    address: 0x2000faa2
+    size: 1
+  "cmsx_simplified_dmin_ratio.lto_priv.0_t1":
+    address: 0x2000faa3
+    size: 1
+  "cmsx_simplified_feedforward_gain.lto_priv.0_t1":
+    address: 0x2000faa4
+    size: 1
+  "cmsx_simplified_pi_gain.lto_priv.0_t1":
+    address: 0x2000faa5
+    size: 1
+  "cmsx_simplified_d_gain.lto_priv.0_t1":
+    address: 0x2000faa6
+    size: 1
+  "cmsx_simplified_pids_mode.lto_priv.0_t1":
+    address: 0x2000faa7
+    size: 1
+  "tempPidF.lto_priv.0_t1":
+    address: 0x2000faa8
+    size: 6
+  "tempPid.lto_priv.0_t1":
+    address: 0x2000fab0
+    size: 9
+  "accCalibrationStatus.lto_priv.0_t1":
+    address: 0x2000fabc
+    size: 6
+  "gyroCalibrationStatus.lto_priv.0_t1":
+    address: 0x2000fac4
+    size: 6
+  "osdConfig_item_pos.lto_priv.0_t1":
+    address: 0x2000facc
+    size: 160
+  "cmsx_ledVisualBeeper.lto_priv.0_t1":
+    address: 0x2000fb6c
+    size: 1
+  "cmsx_ledBeaconArmedOnly.lto_priv.0_t1":
+    address: 0x2000fb6d
+    size: 1
+  "cmsx_FeatureLedstrip.lto_priv.0_t1":
+    address: 0x2000fb6e
+    size: 1
+  "cmsx_BlackboxDeviceStorageFree.lto_priv.0_t1":
+    address: 0x2000fb70
+    size: 8
+  "cmsx_BlackboxDeviceStorageUsed.lto_priv.0_t1":
+    address: 0x2000fb78
+    size: 8
+  "cmsx_BlackboxStatus.lto_priv.0_t1":
+    address: 0x2000fb80
+    size: 8
+  "cmsx_pidFreq.lto_priv.0_t1":
+    address: 0x2000fb88
+    size: 8
+  "rateProfileIndexString.lto_priv.0_t1":
+    address: 0x2000fb90
+    size: 13
+  "cmsx_tpa_low_always.lto_priv.0_t1":
+    address: 0x2000fb9d
+    size: 1
+  "pidProfileIndexString.lto_priv.0_t1":
+    address: 0x2000fba0
+    size: 13
+  "rxConfig_fpvCamAngleDegrees.lto_priv.0_t1":
+    address: 0x2000fbad
+    size: 1
+  "motorConfig_digitalIdleOffsetValue.lto_priv.0_t1":
+    address: 0x2000fbae
+    size: 1
+  "motorConfig_minthrottle.lto_priv.0_t1":
+    address: 0x2000fbb0
+    size: 2
+  "osdMenuBackgroundType.lto_priv.0_t1":
+    address: 0x2000fbb2
+    size: 1
+  "displayPortProfileMax7456_whiteBrightness.lto_priv.0_t1":
+    address: 0x2000fbb3
+    size: 1
+  "displayPortProfileMax7456_blackBrightness.lto_priv.0_t1":
+    address: 0x2000fbb4
+    size: 1
+  "osdConfig_osdProfileIndex.lto_priv.0_t1":
+    address: 0x2000fbb5
+    size: 1
+  "rateProfileNamePtrs.lto_priv.0_t1":
+    address: 0x2000fbb8
+    size: 16
+  "tmpRateProfileIndex.lto_priv.0_t1":
+    address: 0x2000fbc8
+    size: 1
+  "pidProfileNamePtrs.lto_priv.0_t1":
+    address: 0x2000fbcc
+    size: 16
+  "tmpPidProfileIndex.lto_priv.0_t1":
+    address: 0x2000fbdc
+    size: 1
+  "boardName.lto_priv.0_t1":
+    address: 0x2000fbe0
+    size: 21
+  "manufacturerId.lto_priv.0_t1":
+    address: 0x2000fbf8
+    size: 5
+  "displayPortProfileMax7456_invert.lto_priv.0_t1":
+    address: 0x2000fbfd
+    size: 1
+  "sonarConfig_fnv_hash_t1":
+    address: 0x2000fc00
+    size: 4
+  "sonarConfig_Copy_t1":
+    address: 0x2000fc04
+    size: 2
+  "ghstFrameBuffer_t1":
+    address: 0x2000fc08
+    size: 28
+  "isCrsfV3Running.lto_priv.0_t1":
+    address: 0x2000fc24
+    size: 1
+  "pidProfileIndex.lto_priv.0_t1":
+    address: 0x2000fc28
+    size: 1
+  "rateProfileIndex.lto_priv.0_t1":
+    address: 0x2000fc29
+    size: 1
+  "cmsx_vtxBand_t1":
+    address: 0x2000fc2a
+    size: 1
+  "cmsx_vtxChannel_t1":
+    address: 0x2000fc2b
+    size: 1
+  "cmsx_vtxPower_t1":
+    address: 0x2000fc2c
+    size: 1
+  "cmsx_vtxPit_t1":
+    address: 0x2000fc2d
+    size: 1
+  "saCmsPit_t1":
+    address: 0x2000fc2e
+    size: 1
+  "saCmsPower_t1":
+    address: 0x2000fc2f
+    size: 1
+  "saCmsORFreqNew_t1":
+    address: 0x2000fc30
+    size: 2
+  "saCmsORFreq_t1":
+    address: 0x2000fc32
+    size: 2
+  "saCmsUserFreqNew_t1":
+    address: 0x2000fc34
+    size: 2
+  "saCmsUserFreq_t1":
+    address: 0x2000fc36
+    size: 2
+  "saCmsDeviceStatus_t1":
+    address: 0x2000fc38
+    size: 1
+  "saCmsFselModeNew_t1":
+    address: 0x2000fc39
+    size: 1
+  "saCmsEntBand_t1":
+    address: 0x2000fc3c
+    size: 12
+  "saCmsBand_t1":
+    address: 0x2000fc48
+    size: 1
+  "vtxTableBandNames_t1":
+    address: 0x2000fc4c
+    size: 36
+  "saCmsEntChan_t1":
+    address: 0x2000fc70
+    size: 12
+  "saCmsChan_t1":
+    address: 0x2000fc7c
+    size: 1
+  "vtxTableChannelNames_t1":
+    address: 0x2000fc80
+    size: 36
+  "saCmsEntPower_t1":
+    address: 0x2000fca4
+    size: 12
+  "vtxTablePowerLevels_t1":
+    address: 0x2000fcb0
+    size: 4
+  "vtxTablePowerLabels_t1":
+    address: 0x2000fcb4
+    size: 36
+  "saCmsOpmodel_t1":
+    address: 0x2000fcd8
+    size: 1
+  "pidProfileIndex.lto_priv.1_t1":
+    address: 0x2000fcd9
+    size: 1
+  "pidProfile_t1":
+    address: 0x2000fcdc
+    size: 4
+  "rateProfileIndex.lto_priv.1_t1":
+    address: 0x2000fce0
+    size: 1
+  "tfFrameState_t1":
+    address: 0x2000fce1
+    size: 1
+  "tfReceivePosition_t1":
+    address: 0x2000fce2
+    size: 1
+  "lidarTFValue_t1":
+    address: 0x2000fce4
+    size: 4
+  "displayLayers.lto_priv.0_t1":
+    address: 0x2000fce8
+    size: 960
+  "activeLayer.lto_priv.0_t1":
+    address: 0x200100a8
+    size: 1
+  "max7456ActiveDma.lto_priv.0_t1":
+    address: 0x200100a9
+    size: 1
+  "srxlTextBuff.lto_priv.0_t1":
+    address: 0x200100ac
+    size: 117
+  "lineSent.lto_priv.0_t1":
+    address: 0x20010124
+    size: 9
+  "hottTextModeMessage.lto_priv.0_t1":
+    address: 0x20010130
+    size: 172
+  "lineBuffer_t1":
+    address: 0x200101dc
+    size: 22
+  "rcdeviceInMenu_t1":
+    address: 0x200101f2
+    size: 1
+  "lastCalledMs.5_t1":
+    address: 0x200101f4
+    size: 4
+  "externKey.lto_priv.0_t1":
+    address: 0x200101f8
+    size: 1
+  "repeatBase.1_t1":
+    address: 0x200101fc
+    size: 4
+  "lastPolledUs.0_t1":
+    address: 0x20010200
+    size: 4
+  "runtimeTableTicker_t1":
+    address: 0x20010204
+    size: 62
+  "lastCmsHeartBeatMs.4_t1":
+    address: 0x20010244
+    size: 4
+  "pbuf.1_t1":
+    address: 0x20010248
+    size: 5
+  "pbuf.0_t1":
+    address: 0x2001024d
+    size: 5
+  "isButtonPressed_t1":
+    address: 0x20010252
+    size: 1
+  "waitingDeviceResponse_t1":
+    address: 0x20010253
+    size: 1
+  "textmodeIsAlive.lto_priv.0_t1":
+    address: 0x20010254
+    size: 1
+  "accCalibrationStatus.lto_priv.1_t1":
+    address: 0x20010255
+    size: 9
+  "batteryContinueAmount_t1":
+    address: 0x2001025e
+    size: 18
+  "setupPopupMenuEntries_t1":
+    address: 0x20010270
+    size: 70
+  "saCmsPitFMode_t1":
+    address: 0x200102b6
+    size: 1
+  "dashboardGpsNavSvInfoRcvCount_t1":
+    address: 0x200102b8
+    size: 4
+  "lastGPSSvInfoReceivedCount.6_t1":
+    address: 0x200102bc
+    size: 4
+  "gpsTicker.5_t1":
+    address: 0x200102c0
+    size: 1
+  "dashboardGpsPacketCount_t1":
+    address: 0x200102c4
+    size: 4
+  "dashboardGpsPacketLog_t1":
+    address: 0x200102c8
+    size: 21
+  "timing_start.0_t1":
+    address: 0x200102e0
+    size: 4
+  "lastMeasurementReceivedAt_t1":
+    address: 0x200102e4
+    size: 4
+  "hcsr04SonarPulseTravelTime_t1":
+    address: 0x200102e8
+    size: 4
+  "lastMeasurementStartedAt_t1":
+    address: 0x200102ec
+    size: 4
+  "tfSerialPort.lto_priv.0_t1":
+    address: 0x200102f0
+    size: 4
+  "tfFrame_t1":
+    address: 0x200102f4
+    size: 6
+  "tfDevtype.lto_priv.0_t1":
+    address: 0x200102fa
+    size: 1
+  "lastFrameReceivedMs.0_t1":
+    address: 0x200102fc
+    size: 4
+  "lidarTFerrors_t1":
+    address: 0x20010300
+    size: 2
+  "zerofirst.2_t1":
+    address: 0x20010302
+    size: 1
+  "bits.1_t1":
+    address: 0x20010303
+    size: 1
+  "bytes.0_t1":
+    address: 0x20010304
+    size: 2
+  "displayMemoryModeReg.lto_priv.0_t1":
+    address: 0x20010306
+    size: 1
+  "shadowBuffer.lto_priv.0_t1":
+    address: 0x20010308
+    size: 480
+  "max7456Device_t1":
+    address: 0x200104e8
+    size: 152
+  "deviceBackgroundType.lto_priv.0_t1":
+    address: 0x20010580
+    size: 1
+  "max7456DeviceDetected.lto_priv.0_t1":
+    address: 0x20010581
+    size: 1
+  "max7456VcdProfile.lto_priv.0_t1":
+    address: 0x20010584
+    size: 4
+  "recvBuf.lto_priv.0_t1":
+    address: 0x20010588
+    size: 64
+  "waitingResponseQueue_t1":
+    address: 0x200105c8
+    size: 108
+  "param.9_t1":
+    address: 0x20010634
+    size: 1
+  "offset.8_t1":
+    address: 0x20010635
+    size: 1
+  "parity.7_t1":
+    address: 0x20010636
+    size: 1
+  "string.6.lto_priv.0_t1":
+    address: 0x20010638
+    size: 15
+  "gps_frame.5_t1":
+    address: 0x20010647
+    size: 1
+  "gps_msg.4_t1":
+    address: 0x20010648
+    size: 36
+  "svMessageNum.2_t1":
+    address: 0x2001066c
+    size: 1
+  "checksum_param.3_t1":
+    address: 0x2001066d
+    size: 1
+  "ubxFrameParseState_t1":
+    address: 0x2001066e
+    size: 1
+  "ubxRcvMsgChecksumA_t1":
+    address: 0x2001066f
+    size: 1
+  "ubxRcvMsgChecksumB_t1":
+    address: 0x20010670
+    size: 1
+  "ubxRcvMsgClass_t1":
+    address: 0x20010671
+    size: 1
+  "ubxRcvMsgID_t1":
+    address: 0x20010672
+    size: 1
+  "ubxRcvMsgPayloadLength_t1":
+    address: 0x20010674
+    size: 2
+  "ubxFrameParsePayloadCounter_t1":
+    address: 0x20010676
+    size: 2
+  "ubxRcvMsgPayload_t1":
+    address: 0x20010678
+    size: 392
+  "ubxHaveNewValidFix_t1":
+    address: 0x20010800
+    size: 1
+  "ubxHaveNewPosition_t1":
+    address: 0x20010801
+    size: 1
+  "ubxHaveNewSpeed_t1":
+    address: 0x20010802
+    size: 1
+  "ws2811Initialised.lto_priv.0_t1":
+    address: 0x20010803
+    size: 1
+  "usedLedCount.lto_priv.0_t1":
+    address: 0x20010804
+    size: 4
+  "ledColorBuffer.lto_priv.0_t1":
+    address: 0x20010808
+    size: 128
+  "r.0_t1":
+    address: 0x20010888
+    size: 3
+  "ledIndex.0_t1":
+    address: 0x2001088b
+    size: 1
+  "ledStripIoTag.lto_priv.0_t1":
+    address: 0x2001088c
+    size: 1
+  "escOutputs_t1":
+    address: 0x20010890
+    size: 64
+  "transmitStart.4_t1":
+    address: 0x200108d0
+    size: 1
+  "bitq.3_t1":
+    address: 0x200108d1
+    size: 1
+  "statusLine1_t1":
+    address: 0x200108d2
+    size: 21
+  "statusLine2_t1":
+    address: 0x200108e7
+    size: 21
+  "trampCmsPitMode_t1":
+    address: 0x200108fc
+    size: 1
+  "vtxTableBandLetters_t1":
+    address: 0x20010900
+    size: 9
+  "selectedBand.lto_priv.0_t1":
+    address: 0x20010909
+    size: 1
+  "selectedChannel.lto_priv.0_t1":
+    address: 0x2001090a
+    size: 1
+  "vtxTableIsFactoryBand_t1":
+    address: 0x2001090c
+    size: 8
+  "entryVtxBand_t1":
+    address: 0x20010914
+    size: 12
+  "entryVtxChannel_t1":
+    address: 0x20010920
+    size: 12
+  "entryVtxPower_t1":
+    address: 0x2001092c
+    size: 12
+  "saCmsFselMode_t1":
+    address: 0x20010938
+    size: 1
+  "trampCmsFreqRef_t1":
+    address: 0x2001093a
+    size: 2
+  "trampCmsEntBand_t1":
+    address: 0x2001093c
+    size: 12
+  "trampCmsEntChan_t1":
+    address: 0x20010948
+    size: 12
+  "trampCmsEntPower_t1":
+    address: 0x20010954
+    size: 12
+  "saCmsFreqRef_t1":
+    address: 0x20010960
+    size: 2
+  "vtxTablePowerValues_t1":
+    address: 0x20010964
+    size: 16
+  "nextDisplayUpdateAt_t1":
+    address: 0x20010974
+    size: 4
+  "previousArmedState.3_t1":
+    address: 0x20010978
+    size: 1
+  "tickerIndex.2_t1":
+    address: 0x20010979
+    size: 1
+  "mspDisplayPort_t1":
+    address: 0x2001097c
+    size: 20
+  "currentDevice_t1":
+    address: 0x20010990
+    size: 4
+  "switchStates_t1":
+    address: 0x20010994
+    size: 3
+  "requestParserContext_t1":
+    address: 0x20010998
+    size: 76
+  "initBaudRateCycleCount_t1":
+    address: 0x200109e4
+    size: 4
+  "gpsPort.lto_priv.0_t1":
+    address: 0x200109e8
+    size: 4
+  "wait.14_t1":
+    address: 0x200109ec
+    size: 1
+  "isFast.13_t1":
+    address: 0x200109ed
+    size: 1
+  "commandOffset.18_t1":
+    address: 0x200109f0
+    size: 4
+  "messageCounter.17_t1":
+    address: 0x200109f4
+    size: 1
+  "messageSent.16_t1":
+    address: 0x200109f5
+    size: 1
+  "last_state_position_time.15_t1":
+    address: 0x200109f8
+    size: 4
+  "GPSLEDTime.10_t1":
+    address: 0x200109fc
+    size: 4
+  "hasBeeped.12_t1":
+    address: 0x20010a00
+    size: 1
+  "gpsStateDurationFractionUs.11_t1":
+    address: 0x20010a04
+    size: 32
+  "pidProfileNames_t1":
+    address: 0x20010a24
+    size: 52
+  "rateProfileNames_t1":
+    address: 0x20010a58
+    size: 52
+  "saStat_t1":
+    address: 0x20010a8c
+    size: 14
+  "mspCmsFreqRef_t1":
+    address: 0x20010a9a
+    size: 2
+  "mspCmsPitMode_t1":
+    address: 0x20010a9c
+    size: 1
+  "trampCmsTemp.lto_priv.0_t1":
+    address: 0x20010a9e
+    size: 2
+  "mspCmsEntPower.lto_priv.0_t1":
+    address: 0x20010aa0
+    size: 12
+  "mspCmsEntChan.lto_priv.0_t1":
+    address: 0x20010aac
+    size: 12
+  "mspCmsEntBand.lto_priv.0_t1":
+    address: 0x20010ab8
+    size: 12
+  "warningFlags.16_t1":
+    address: 0x20010ac4
+    size: 1
+  "warningFlashCounter.17_t1":
+    address: 0x20010ac5
+    size: 1
+  "ledCounts_t1":
+    address: 0x20010ac8
+    size: 4
+  "flash.14_t1":
+    address: 0x20010acc
+    size: 1
+  "gpsPauseCounter.13_t1":
+    address: 0x20010acd
+    size: 1
+  "gpsFlashCounter.12_t1":
+    address: 0x20010ace
+    size: 1
+  "flash.5_t1":
+    address: 0x20010acf
+    size: 1
+  "highestYValueForNorth_t1":
+    address: 0x20010ad0
+    size: 1
+  "lowestYValueForSouth_t1":
+    address: 0x20010ad1
+    size: 1
+  "lowestXValueForEast_t1":
+    address: 0x20010ad2
+    size: 1
+  "highestXValueForWest_t1":
+    address: 0x20010ad3
+    size: 1
+  "rotationPhase.4_t1":
+    address: 0x20010ad4
+    size: 1
+  "offset.1_t1":
+    address: 0x20010ad8
+    size: 4
+  "blinkMask.2_t1":
+    address: 0x20010adc
+    size: 2
+  "osdState_t1":
+    address: 0x20010ade
+    size: 1
+  "osdUpdateDueUs.8_t1":
+    address: 0x20010ae0
+    size: 4
+  "activeOsdElementCount_t1":
+    address: 0x20010ae4
+    size: 4
+  "activeOsdElementArray_t1":
+    address: 0x20010ae8
+    size: 80
+  "showSettings.8_t1":
+    address: 0x20010b38
+    size: 1
+  "frequency.9_t1":
+    address: 0x20010b3a
+    size: 2
+  "lastCheck.7_t1":
+    address: 0x20010b3c
+    size: 2
+  "blink.6_t1":
+    address: 0x20010b3e
+    size: 1
+  "flash.15_t1":
+    address: 0x20010b3f
+    size: 1
+  "osdFlyTime_t1":
+    address: 0x20010b40
+    size: 4
+  "stats_t1":
+    address: 0x20010b44
+    size: 44
+  "osdGForce_t1":
+    address: 0x20010b70
+    size: 4
+  "osdEscDataCombined_t1":
+    address: 0x20010b74
+    size: 4
+  "diversity.12_t1":
+    address: 0x20010b78
+    size: 1
+  "osdAuxValue_t1":
+    address: 0x20010b7a
+    size: 2
+  "motor.11_t1":
+    address: 0x20010b7c
+    size: 1
+  "channel.13_t1":
+    address: 0x20010b7d
+    size: 1
+  "osdStatsRenderingState_t1":
+    address: 0x20010b7e
+    size: 3
+  "renderPhase.9_t1":
+    address: 0x20010b81
+    size: 1
+  "renderLevel.5_t1":
+    address: 0x20010b82
+    size: 1
+  "renderPhase.7_t1":
+    address: 0x20010b83
+    size: 1
+  "y.6_t1":
+    address: 0x20010b84
+    size: 1
+  "blinkBits.lto_priv.0_t1":
+    address: 0x20010b88
+    size: 12
+  "batteryEfficiencyFilt_t1":
+    address: 0x20010b94
+    size: 8
+  "lastCoord.1_t1":
+    address: 0x20010b9c
+    size: 8
+  "lastAlt.0_t1":
+    address: 0x20010ba4
+    size: 4
+  "disabledTimerMask_t1":
+    address: 0x20010ba8
+    size: 2
+  "ledBarStates_t1":
+    address: 0x20010bac
+    size: 2
+  "updateStartTimeUs.24_t1":
+    address: 0x20010bb0
+    size: 4
+  "timActive.20_t1":
+    address: 0x20010bb4
+    size: 4
+  "fixedLayersApplied.19_t1":
+    address: 0x20010bb8
+    size: 1
+  "timerVal_t1":
+    address: 0x20010bbc
+    size: 40
+  "timId.18_t1":
+    address: 0x20010be4
+    size: 1
+  "multipassProfile.23_t1":
+    address: 0x20010be5
+    size: 1
+  "colorUpdateTimeUs.0_t1":
+    address: 0x20010be8
+    size: 4
+  "multipassUpdate.22_t1":
+    address: 0x20010bec
+    size: 1
+  "ledStateDurationFractionUs.21_t1":
+    address: 0x20010bf0
+    size: 4
+  "backgroundLayerSupported.lto_priv.1_t1":
+    address: 0x20010bf4
+    size: 1
+  "armState_t1":
+    address: 0x20010bf5
+    size: 1
+  "backgroundLayerSupported.lto_priv.0_t1":
+    address: 0x20010bf6
+    size: 1
+  "osdStatsEnabled_t1":
+    address: 0x20010bf7
+    size: 1
+  "osdStatsVisible_t1":
+    address: 0x20010bf8
+    size: 1
+  "lastTimeUs.3_t1":
+    address: 0x20010bfc
+    size: 4
+  "osdStatsRefreshTimeUs.2_t1":
+    address: 0x20010c00
+    size: 4
+  "osdAuxRefreshTimeUs.1_t1":
+    address: 0x20010c04
+    size: 4
+  "phase.0_t1":
+    address: 0x20010c08
+    size: 1
+  "lastGpsSensorState.7_t1":
+    address: 0x20010c09
+    size: 1
+  "blinkCount.0_t1":
+    address: 0x20010c0c
+    size: 4
+  "activeElement_t1":
+    address: 0x20010c10
+    size: 1
+  "osdElementDurationFractionUs.6_t1":
+    address: 0x20010c14
+    size: 320
+  "backgroundRendered.3_t1":
+    address: 0x20010d54
+    size: 1
+  "specState.2_t1":
+    address: 0x20010d55
+    size: 1
+  "currentRow.1_t1":
+    address: 0x20010d58
+    size: 4
+  "osdStateDurationFractionUs.4_t1":
+    address: 0x20010d5c
+    size: 28
+  "armingDisabledUpdateTimeUs.1_t1":
+    address: 0x20010d78
+    size: 4
+  "armingDisabledDisplayIndex.0_t1":
+    address: 0x20010d7c
+    size: 4
+  "telemetryState.lto_priv.0_t1":
+    address: 0x20010d80
+    size: 1
+  "portConfig.lto_priv.0_t1":
+    address: 0x20010d84
+    size: 4
+  "frSkyHubPort.lto_priv.0_t1":
+    address: 0x20010d88
+    size: 4
+  "frSkyHubPortSharing_t1":
+    address: 0x20010d8c
+    size: 1
+  "telemetryConfig_System_t1":
+    address: 0x20010d90
+    size: 36
+  "hottPortSharing_t1":
+    address: 0x20010db4
+    size: 1
+  "hottTelemetryEnabled.lto_priv.0_t1":
+    address: 0x20010db5
+    size: 1
+  "portConfig.lto_priv.1_t1":
+    address: 0x20010db8
+    size: 4
+  "hottPort.lto_priv.0_t1":
+    address: 0x20010dbc
+    size: 4
+  "smartPortPortSharing_t1":
+    address: 0x20010dc0
+    size: 1
+  "smartPortSerialPort.lto_priv.0_t1":
+    address: 0x20010dc4
+    size: 4
+  "portConfig.lto_priv.2_t1":
+    address: 0x20010dc8
+    size: 4
+  "portConfig.lto_priv.3_t1":
+    address: 0x20010dcc
+    size: 4
+  "ltmEnabled.lto_priv.0_t1":
+    address: 0x20010dd0
+    size: 1
+  "ltmPort.lto_priv.0_t1":
+    address: 0x20010dd4
+    size: 4
+  "ltmPortSharing_t1":
+    address: 0x20010dd8
+    size: 1
+  "portConfig.lto_priv.4_t1":
+    address: 0x20010ddc
+    size: 4
+  "mavlinkTelemetryEnabled.lto_priv.0_t1":
+    address: 0x20010de0
+    size: 1
+  "mavlinkPort.lto_priv.0_t1":
+    address: 0x20010de4
+    size: 4
+  "mavlinkPortSharing_t1":
+    address: 0x20010de8
+    size: 1
+  "ibusPortSharing_t1":
+    address: 0x20010de9
+    size: 1
+  "ibusTelemetryEnabled.lto_priv.0_t1":
+    address: 0x20010dea
+    size: 1
+  "ibusSerialPortConfig_t1":
+    address: 0x20010dec
+    size: 4
+  "ibusSerialPort.lto_priv.0_t1":
+    address: 0x20010df0
+    size: 4
+  "outboundBytesToIgnoreOnRxCount.lto_priv.0_t1":
+    address: 0x20010df4
+    size: 1
+  "frSkyHubWriteByte.lto_priv.0_t1":
+    address: 0x20010df8
+    size: 4
+  "hottDisplayPort_t1":
+    address: 0x20010dfc
+    size: 20
+  "hottEAMMessage.lto_priv.0_t1":
+    address: 0x20010e10
+    size: 44
+  "hottGPSMessage.lto_priv.0_t1":
+    address: 0x20010e3c
+    size: 44
+  "jetiExBusTelemetryFrame.lto_priv.0_t1":
+    address: 0x20010e68
+    size: 40
+  "exSensorEnabled.lto_priv.0_t1":
+    address: 0x20010e90
+    size: 4
+  "firstActiveSensor.lto_priv.0_t1":
+    address: 0x20010e94
+    size: 1
+  "ghstSchedule.lto_priv.0_t1":
+    address: 0x20010e98
+    size: 4
+  "ghstScheduleCount.lto_priv.0_t1":
+    address: 0x20010e9c
+    size: 1
+  "crsfTelemetryEnabled.lto_priv.0_t1":
+    address: 0x20010e9d
+    size: 1
+  "crsfSchedule.lto_priv.0_t1":
+    address: 0x20010ea0
+    size: 6
+  "crsfScheduleCount.lto_priv.0_t1":
+    address: 0x20010ea6
+    size: 1
+  "srxlTelemetryEnabled_t1":
+    address: 0x20010ea7
+    size: 1
+  "srxl2.lto_priv.0_t1":
+    address: 0x20010ea8
+    size: 1
+  "responsePacket.lto_priv.0_t1":
+    address: 0x20010eac
+    size: 16
+  "responseBuffer.lto_priv.0_t1":
+    address: 0x20010ebc
+    size: 320
+  "srxlDisplayPort_t1":
+    address: 0x20010ffc
+    size: 20
+  "telemetryConfig_fnv_hash_t1":
+    address: 0x20011010
+    size: 4
+  "telemetryConfig_Copy_t1":
+    address: 0x20011014
+    size: 36
+  "crsfFrame_t1":
+    address: 0x20011038
+    size: 4
+  "ghstFrame_t1":
+    address: 0x20011078
+    size: 14
+  "mspFrameCounter.1_t1":
+    address: 0x20011086
+    size: 1
+  "ghstScheduleIndex.0_t1":
+    address: 0x20011087
+    size: 1
+  "lineNo.4_t1":
+    address: 0x20011088
+    size: 1
+  "ltm_crc_t1":
+    address: 0x20011089
+    size: 1
+  "rtc6705PowerIndex_t1":
+    address: 0x2001108a
+    size: 1
+  "rtc6705Frequency_t1":
+    address: 0x2001108c
+    size: 2
+  "rtc6705PitModeActive_t1":
+    address: 0x2001108e
+    size: 1
+  "sa_qhead_t1":
+    address: 0x2001108f
+    size: 1
+  "sa_qtail_t1":
+    address: 0x20011090
+    size: 1
+  "sa_queue_t1":
+    address: 0x20011094
+    size: 48
+  "lastPing.7_t1":
+    address: 0x200110c4
+    size: 4
+  "escSensorPort.lto_priv.0_t1":
+    address: 0x200110c8
+    size: 4
+  "escSensorTriggerState_t1":
+    address: 0x200110cc
+    size: 1
+  "escTriggerTimestamp_t1":
+    address: 0x200110d0
+    size: 4
+  "telemetryBuffer_t1":
+    address: 0x200110d4
+    size: 10
+  "escSensorMotor_t1":
+    address: 0x200110de
+    size: 1
+  "totalCrcErrorCount_t1":
+    address: 0x200110e0
+    size: 2
+  "totalTimeoutCount_t1":
+    address: 0x200110e2
+    size: 2
+  "crsfScheduleIndex.0_t1":
+    address: 0x200110e4
+    size: 1
+  "lastTimeSentFPmAh.7_t1":
+    address: 0x200110e8
+    size: 4
+  "sentAmps.6_t1":
+    address: 0x200110ec
+    size: 2
+  "sentMah.5_t1":
+    address: 0x200110ee
+    size: 2
+  "trampReqBuffer_t1":
+    address: 0x200110f0
+    size: 16
+  "vtxDeviceType_t1":
+    address: 0x20011100
+    size: 1
+  "vtxSent.3_t1":
+    address: 0x20011104
+    size: 8
+  "lastTimeSentVtx.2_t1":
+    address: 0x2001110c
+    size: 4
+  "srxlScheduleIndex.1_t1":
+    address: 0x20011110
+    size: 1
+  "srxlScheduleUserIndex.0_t1":
+    address: 0x20011111
+    size: 1
+  "srxlFrame_t1":
+    address: 0x20011114
+    size: 21
+  "seq.0_t1":
+    address: 0x20011129
+    size: 1
+  "lastRequestVersion_t1":
+    address: 0x2001112a
+    size: 1
+  "prevVtxControl.0_t1":
+    address: 0x2001112c
+    size: 4
+  "currentSchedule.1_t1":
+    address: 0x20011130
+    size: 1
+  "prevPmSwitchState.0_t1":
+    address: 0x20011131
+    size: 1
+  "sa_osbuf.lto_priv.0_t1":
+    address: 0x20011132
+    size: 32
+  "sa_oslen_t1":
+    address: 0x20011154
+    size: 4
+  "sa_outstanding.lto_priv.0_t1":
+    address: 0x20011158
+    size: 1
+  "hottMsg_t1":
+    address: 0x2001115c
+    size: 4
+  "hottIsSending_t1":
+    address: 0x20011160
+    size: 1
+  "cycleNum.2_t1":
+    address: 0x20011161
+    size: 1
+  "frSkyHubLastCycleTime.3_t1":
+    address: 0x20011164
+    size: 4
+  "currentCell.1_t1":
+    address: 0x20011168
+    size: 2
+  "gpsFixOccured.0_t1":
+    address: 0x2001116a
+    size: 1
+  "requestBuffer_t1":
+    address: 0x2001116c
+    size: 192
+  "requestPacket_t1":
+    address: 0x2001122c
+    size: 16
+  "mspStarted.2_t1":
+    address: 0x2001123c
+    size: 1
+  "lastSeq.1_t1":
+    address: 0x2001123d
+    size: 1
+  "skipRequests.4_t1":
+    address: 0x2001123e
+    size: 1
+  "smartPortMspReplyPending_t1":
+    address: 0x2001123f
+    size: 1
+  "smartPortIdCycleCnt.3_t1":
+    address: 0x20011240
+    size: 1
+  "smartPortIdOffset.2_t1":
+    address: 0x20011241
+    size: 1
+  "t1Cnt.1_t1":
+    address: 0x20011242
+    size: 1
+  "t2Cnt.0_t1":
+    address: 0x20011243
+    size: 1
+  "sendBuffer_t1":
+    address: 0x20011244
+    size: 33
+  "rxBuffer.5_t1":
+    address: 0x20011268
+    size: 7
+  "mavMsg_t1":
+    address: 0x20011270
+    size: 272
+  "displayPortSbuf.5_t1":
+    address: 0x20011380
+    size: 8
+  "lastMessagesPreparedAt_t1":
+    address: 0x20011388
+    size: 4
+  "lastHottAlarmSoundTime_t1":
+    address: 0x2001138c
+    size: 4
+  "lastHoTTRequestCheckAt_t1":
+    address: 0x20011390
+    size: 4
+  "telemetryTaskPeriod_t1":
+    address: 0x20011394
+    size: 4
+  "setEscBack.0_t1":
+    address: 0x20011398
+    size: 1
+  "serialTimer.2_t1":
+    address: 0x2001139c
+    size: 4
+  "hottMsgCrc_t1":
+    address: 0x200113a0
+    size: 1
+  "hottMsgRemainingBytesToSendCount_t1":
+    address: 0x200113a1
+    size: 1
+  "smartPortRxBytes.10_t1":
+    address: 0x200113a2
+    size: 1
+  "awaitingSensorId.9_t1":
+    address: 0x200113a3
+    size: 1
+  "checksum.7_t1":
+    address: 0x200113a4
+    size: 2
+  "byteStuffing.6_t1":
+    address: 0x200113a6
+    size: 1
+  "ltm_lastCycleTime.1_t1":
+    address: 0x200113a8
+    size: 4
+  "ltm_scheduler.0_t1":
+    address: 0x200113ac
+    size: 1
+  "framesLost.4_t1":
+    address: 0x200113ae
+    size: 2
+  "item.3_t1":
+    address: 0x200113b0
+    size: 1
+  "exGps_t1":
+    address: 0x200113b4
+    size: 4
+  "lastMavlinkMessage_t1":
+    address: 0x200113b8
+    size: 4
+  "mavTicks_t1":
+    address: 0x200113bc
+    size: 12
+  "m_mavlink_status.0_t1":
+    address: 0x200113c8
+    size: 48
+  "mavBuffer_t1":
+    address: 0x200113f8
+    size: 263
+  "replyPending.8_t1":
+    address: 0x200114ff
+    size: 1
+  "crsfLastCycleTime.6_t1":
+    address: 0x20011500
+    size: 4
+  "src.4_t1":
+    address: 0x20011504
+    size: 4
+  "displayPortBatchId.3_t1":
+    address: 0x20011508
+    size: 1
+  "batchIndex.2_t1":
+    address: 0x20011509
+    size: 1
+  "batchLastTimeUs.1_t1":
+    address: 0x2001150c
+    size: 4
+  "ghstLastCycleTime.2_t1":
+    address: 0x20011510
+    size: 4
+  "ibusReceiveBuffer_t1":
+    address: 0x20011514
+    size: 4
+  "switchBuf.10_t1":
+    address: 0x20011518
+    size: 7
+  "state.2_t1":
+    address: 0x2001151f
+    size: 1
+  "sa_rbuf_t1":
+    address: 0x20011520
+    size: 25
+  "len.1_t1":
+    address: 0x2001153c
+    size: 4
+  "dlen.0_t1":
+    address: 0x20011540
+    size: 4
+  "saDevicePrev_t1":
+    address: 0x20011544
+    size: 10
+  "initPhase.4_t1":
+    address: 0x2001154e
+    size: 1
+  "sa_lastTransmissionMs.lto_priv.0_t1":
+    address: 0x20011550
+    size: 4
+  "lastCommandSentMs.3_t1":
+    address: 0x20011554
+    size: 4
+  "trampReceiveState.lto_priv.0_t1":
+    address: 0x20011558
+    size: 1
+  "trampReceivePos.lto_priv.0_t1":
+    address: 0x2001155c
+    size: 4
+  "frSkyEscDataIdTable_t1":
+    address: 0x20011560
+    size: 8
+  "frSkyDataIdTable_t1":
+    address: 0x20011568
+    size: 40
+  "trampStatus_t1":
+    address: 0x20011590
+    size: 1
+  "trampConfPitMode_t1":
+    address: 0x20011591
+    size: 1
+  "trampLastConfPitMode_t1":
+    address: 0x20011592
+    size: 1
+  "trampRFFreqMin_t1":
+    address: 0x20011594
+    size: 4
+  "trampRFFreqMax_t1":
+    address: 0x20011598
+    size: 4
+  "trampConfFreq_t1":
+    address: 0x2001159c
+    size: 4
+  "trampLastConfFreq_t1":
+    address: 0x200115a0
+    size: 4
+  "trampConfPower_t1":
+    address: 0x200115a4
+    size: 2
+  "trampCurFreq_t1":
+    address: 0x200115a8
+    size: 4
+  "trampCurControlMode_t1":
+    address: 0x200115ac
+    size: 1
+  "mspVtxStatus_t1":
+    address: 0x200115ad
+    size: 1
+  "mspConfBand_t1":
+    address: 0x200115ae
+    size: 1
+  "mspConfChannel_t1":
+    address: 0x200115af
+    size: 1
+  "mspVtxConfigChanged_t1":
+    address: 0x200115b0
+    size: 1
+  "mspConfPitMode_t1":
+    address: 0x200115b1
+    size: 1
+  "mspConfFreq_t1":
+    address: 0x200115b2
+    size: 2
+  "mspConfPower_t1":
+    address: 0x200115b4
+    size: 2
+  "cdcLen_t1":
+    address: 0x200115b8
+    size: 4
+  "CmdBuff_t1":
+    address: 0x200115bc
+    size: 8
+  "MSC_BOT_State_t1":
+    address: 0x200115c4
+    size: 1
+  "ctrlLineStateCb_t1":
+    address: 0x200115c8
+    size: 4
+  "baudRateCb_t1":
+    address: 0x200115cc
+    size: 4
+  "baudRateCbContext_t1":
+    address: 0x200115d0
+    size: 4
+  "g_lc_t1":
+    address: 0x200115d4
+    size: 7
+  "ctrlLineStateCbContext_t1":
+    address: 0x200115dc
+    size: 4
+  "APP_Tx_ptr_in_t1":
+    address: 0x200115e0
+    size: 4
+  "APP_Tx_ptr_out_t1":
+    address: 0x200115e4
+    size: 4
+  "APP_Tx_Buffer_t1":
+    address: 0x200115e8
+    size: 2048
+  "trampLastConfPower_t1":
+    address: 0x20011de8
+    size: 2
+  "trampRespBuffer_t1":
+    address: 0x20011dea
+    size: 16
+  "trampCurConfPower_t1":
+    address: 0x20011dfa
+    size: 2
+  "trampCurPitMode_t1":
+    address: 0x20011dfc
+    size: 1
+  "trampCurActPower_t1":
+    address: 0x20011dfe
+    size: 2
+  "trampCurTemp_t1":
+    address: 0x20011e00
+    size: 2
+  "trampLastTimeUs_t1":
+    address: 0x20011e04
+    size: 4
+  "prevLowPowerDisarmedState_t1":
+    address: 0x20011e08
+    size: 1
+  "mspVtxLastTimeUs_t1":
+    address: 0x20011e0c
+    size: 4
+  "packetCounter_t1":
+    address: 0x20011e10
+    size: 2
+  "USB_Tx_State_t1":
+    address: 0x20011e12
+    size: 1
+  "APP_Rx_ptr_in_t1":
+    address: 0x20011e14
+    size: 4
+  "APP_Rx_ptr_out_t1":
+    address: 0x20011e18
+    size: 4
+  "APP_Rx_Buffer_t1":
+    address: 0x20011e1c
+    size: 2048
+  "videoSignalCfg.lto_priv.0_t1":
+    address: 0x2001261c
+    size: 1
+  "buf.6_t1":
+    address: 0x20012620
+    size: 32
+  "hosRegValue.lto_priv.0_t1":
+    address: 0x20012640
+    size: 1
+  "vosRegValue.lto_priv.0_t1":
+    address: 0x20012641
+    size: 1
+  "USB_Rx_Buffer_t1":
+    address: 0x20012644
+    size: 64
+  "APP_Rx_length_t1":
+    address: 0x20012684
+    size: 4
+  "FrameCount.0_t1":
+    address: 0x20012688
+    size: 4
+  "MSC_BOT_Status_t1":
+    address: 0x2001268c
+    size: 1
+  "MSC_BOT_cbw_t1":
+    address: 0x20012690
+    size: 32
+  "MSC_BOT_csw_t1":
+    address: 0x200126b0
+    size: 16
+  "cdev_t1":
+    address: 0x200126c0
+    size: 4
+  "SCSI_Sense_Tail_t1":
+    address: 0x200126c4
+    size: 1
+  "SCSI_Sense_t1":
+    address: 0x200126c8
+    size: 32
+  "MSC_BOT_DataLen_t1":
+    address: 0x200126e8
+    size: 2
+  "SCSI_Sense_Head_t1":
+    address: 0x200126ea
+    size: 1
+  "SCSI_blk_size_t1":
+    address: 0x200126ec
+    size: 4
+  "SCSI_blk_nbr_t1":
+    address: 0x200126f0
+    size: 4
+  "SCSI_blk_addr_t1":
+    address: 0x200126f4
+    size: 4
+  "SCSI_blk_len_t1":
+    address: 0x200126f8
+    size: 4
+  "cfgidx.0_t1":
+    address: 0x200126fc
+    size: 1
+  "USBD_default_cfg_t1":
+    address: 0x20012700
+    size: 4
+  "USBD_cfg_status_t1":
+    address: 0x20012704
+    size: 4
+  "SET_TEST_MODE_t1":
+    address: 0x20012708
+    size: 4
+  "USBD_ep_status_t1":
+    address: 0x2001270c
+    size: 4
+  "usbd_cdc_AltSet_t1":
+    address: 0x20012710
+    size: 4
+  "USBD_HID_Protocol_t1":
+    address: 0x20012714
+    size: 4
+  "USBD_HID_IdleState_t1":
+    address: 0x20012718
+    size: 4
+  "USBD_HID_AltSet_t1":
+    address: 0x2001271c
+    size: 4
+  "USBD_MSC_MaxLun_t1":
+    address: 0x20012720
+    size: 1
+  "USBD_MSC_AltSet_t1":
+    address: 0x20012721
+    size: 1
+  "escSerialPorts_t1":
+    address: 0x20012724
+    size: 2156
+  "lastSigCheckMs.4_t1":
+    address: 0x20012f90
+    size: 4
+  "videoDetectTimeMs.3_t1":
+    address: 0x20012f94
+    size: 4
+  "reInitCount.2_t1":
+    address: 0x20012f98
+    size: 2
+  "fontIsLoading_t1":
+    address: 0x20012f9a
+    size: 1
+  "pos.1_t1":
+    address: 0x20012f9c
+    size: 2
+  "spiBuf_t1":
+    address: 0x20012fa0
+    size: 250
+  "USBD_StrDesc_t1":
+    address: 0x2001309c
+    size: 255
+  "vcpPort_t1":
+    address: 0x2001319c
+    size: 84
+  "escSerialConfig_System_t1":
+    address: 0x200131f0
+    size: 1
+  "escPort_t1":
+    address: 0x200131f4
+    size: 4
+  "currentPort_t1":
+    address: 0x200131f8
+    size: 16
+  "bbPuPdMode_t1":
+    address: 0x20013208
+    size: 1
+  "dshotDmaBuffer_t1":
+    address: 0x2001320c
+    size: 704
+  "dshotBurstDmaBuffer_t1":
+    address: 0x200134cc
+    size: 2304
+  "motorNullDevice_t1":
+    address: 0x20013dcc
+    size: 60
+  "pwmInputPorts.lto_priv.0_t1":
+    address: 0x20013e08
+    size: 224
+  "escSerialConfig_fnv_hash_t1":
+    address: 0x20013ee8
+    size: 4
+  "escSerialConfig_Copy_t1":
+    address: 0x20013eec
+    size: 1
+  "MSC_BOT_Data_t1":
+    address: 0x20013ef0
+    size: 4096
+  "max7456DeviceType_t1":
+    address: 0x20014ef0
+    size: 1
+  "max7456SpiClockDiv_t1":
+    address: 0x20014ef2
+    size: 2
+  "max7456DisplayPort_t1":
+    address: 0x20014ef4
+    size: 20
+  "dev.lto_priv.2_t1":
+    address: 0x20014f08
+    size: 4
+  "devInstance_t1":
+    address: 0x20014f0c
+    size: 152
+  "slowHistory_t1":
+    address: 0x20014fa4
+    size: 8
+  "dummyRxByte.0_t1":
+    address: 0x20014fac
+    size: 1
+  "tricopterMixerConfig_fnv_hash_t1":
+    address: 0x20014fb0
+    size: 4
+  "tricopterMixerConfig_Copy_t1":
+    address: 0x20014fb4
+    size: 1
+  "tricopterMixerConfig_System_t1":
+    address: 0x20014fb8
+    size: 1
+  "REF_0x20001a54_t3":
+    address: 0x20001a54
+    size: 1
+  "REF_0x20001a56_t3":
+    address: 0x20001a56
+    size: 2
+  "REF_0x20001a51_t3":
+    address: 0x20001a51
+    size: 1
+  "REF_0x20001a5c_t3":
+    address: 0x20001a5c
+    size: 84
+  "REF_0x20001a52_t3":
+    address: 0x20001a52
+    size: 1
+  "REF_0x20001a55_t3":
+    address: 0x20001a55
+    size: 1
+  "REF_0x20001a53_t3":
+    address: 0x20001a53
+    size: 1
+  "REF_0x20001a58_t3":
+    address: 0x20001a58
+    size: 4
+  "REF_0x1ffff7e8_t3":
+    address: 0x1ffff7e8
+    size: 2
+  "REF_0x1ffff7ec_t3":
+    address: 0x1ffff7ec
+    size: 2068
+  "REF_0x1ffff7ea_t3":
+    address: 0x1ffff7ea
+    size: 2
+  "REF_0x20001a40_t3":
+    address: 0x20001a40
+    size: 4
+  "REF_0x20001a44_t3":
+    address: 0x20001a44
+    size: 4
+  "REF_0x20001a50_t3":
+    address: 0x20001a50
+    size: 1
+  "REF_0x20001a4a_t3":
+    address: 0x20001a4a
+    size: 2
+  "REF_0x20001a48_t3":
+    address: 0x20001a48
+    size: 1
+  "REF_0x20001a49_t3":
+    address: 0x20001a49
+    size: 1
+  "REF_0x20001a4c_t3":
+    address: 0x20001a4c
+    size: 4
+  "REF_0x20001a3c_t3":
+    address: 0x20001a3c
+    size: 4
+  "REF_0x1fff0000_t3":
+    address: 0x1fff0000
+    size: 4
+  "REF_0x1fff0004_t3":
+    address: 0x1fff0004
+    size: 31244
+  "REF_0x1fff7a10_t3":
+    address: 0x1fff7a10
+    size: 4
+  "REF_0x1fff7a14_t3":
+    address: 0x1fff7a14
+    size: 4
+  "REF_0x1fff7a18_t3":
+    address: 0x1fff7a18
+    size: 18
+  "REF_0x2000dc1d_t3":
+    address: 0x2000dc1d
+    size: 3
+  "REF_0x10001a68_t3":
+    address: 0x10001a68
+    size: 4
+  "REF_0x10001a6c_t3":
+    address: 0x10001a6c
+    size: 4
+  "REF_0x10001a70_t3":
+    address: 0x10001a70
+    size: 4
+  "REF_0x10001a74_t3":
+    address: 0x10001a74
+    size: 4
+  "REF_0x10001a78_t3":
+    address: 0x10001a78
+    size: 4
+  "REF_0x10001a7c_t3":
+    address: 0x10001a7c
+    size: 4
+  "REF_0x10001a80_t3":
+    address: 0x10001a80
+    size: 4
+  "REF_0x2000ec27_t3":
+    address: 0x2000ec27
+    size: 1
+  "REF_0x200009f8_t3":
+    address: 0x200009f8
+    size: 4
+  "REF_0x200009fc_t3":
+    address: 0x200009fc
+    size: 4
+  "REF_0x20000a00_t3":
+    address: 0x20000a00
+    size: 4
+  "REF_0x20000a04_t3":
+    address: 0x20000a04
+    size: 4
+  "REF_0x20000a08_t3":
+    address: 0x20000a08
+    size: 4
+  "REF_0x20000a0c_t3":
+    address: 0x20000a0c
+    size: 4
+  "REF_0x20000a10_t3":
+    address: 0x20000a10
+    size: 4
+  "REF_0x20000a14_t3":
+    address: 0x20000a14
+    size: 4
+  "REF_0x20000a18_t3":
+    address: 0x20000a18
+    size: 4
+  "REF_0x2000f6fe_t3":
+    address: 0x2000f6fe
+    size: 2
+  "REF_0x200014be_t3":
+    address: 0x200014be
+    size: 1
+  "REF_0x200014bf_t3":
+    address: 0x200014bf
+    size: 1
+  "REF_0x2001090b_t3":
+    address: 0x2001090b
+    size: 1
+  "REF_0x200014c2_t3":
+    address: 0x200014c2
+    size: 2
+  "REF_0x200014c0_t3":
+    address: 0x200014c0
+    size: 2
+  "REF_0x20010962_t3":
+    address: 0x20010962
+    size: 2
+  "REF_0x20001751_t3":
+    address: 0x20001751
+    size: 1
+  "REF_0x20001752_t3":
+    address: 0x20001752
+    size: 1
+  "REF_0x2001103c_t3":
+    address: 0x2001103c
+    size: 1
+  "REF_0x2001103d_t3":
+    address: 0x2001103d
+    size: 1
+  "REF_0x20001770_t3":
+    address: 0x20001770
+    size: 1
+  "REF_0x20001771_t3":
+    address: 0x20001771
+    size: 1
+  "REF_0x200014bd_t3":
+    address: 0x200014bd
+    size: 1
+  "REF_0x200014c4_t3":
+    address: 0x200014c4
+    size: 4
+  "REF_0x20011040_t3":
+    address: 0x20011040
+    size: 1
+  "REF_0x2001103f_t3":
+    address: 0x2001103f
+    size: 1
+  "REF_0x2001103e_t3":
+    address: 0x2001103e
+    size: 1
+  "REF_0x20011041_t3":
+    address: 0x20011041
+    size: 1
+  "REF_0x20011042_t3":
+    address: 0x20011042
+    size: 1
+  "REF_0x20011043_t3":
+    address: 0x20011043
+    size: 4
+  "REF_0x20011049_t3":
+    address: 0x20011049
+    size: 1
+  "REF_0x2001104a_t3":
+    address: 0x2001104a
+    size: 46
+  "REF_0x20011047_t3":
+    address: 0x20011047
+    size: 1
+  "REF_0x20011048_t3":
+    address: 0x20011048
+    size: 1
+  "REF_0x20013eef_t3":
+    address: 0x20013eef
+    size: 1
+  "REF_0x20013eee_t3":
+    address: 0x20013eee
+    size: 1
+  "REF_0x2000003d_t3":
+    address: 0x2000003d
+    size: 3
+  "REF_0x1fff7a2e_t3":
+    address: 0x1fff7a2e
+    size: 32186
+  "REF_0x1fff7a2c_t3":
+    address: 0x1fff7a2c
+    size: 2
+  "REF_0x1fff7a2a_t3":
+    address: 0x1fff7a2a
+    size: 2
+  "REF_0x807a21b_t3":
+    address: 0x807a21b
+    size: 6320
+  "REF_0x1000f7f0_t3":
+    address: 0x1000f7f0
+    size: 2048

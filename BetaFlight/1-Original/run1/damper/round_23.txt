@@ -1,0 +1,105 @@
+  registers:
+    1073887240:
+      address: 0x40023808
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887280:
+      address: 0x40023830
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752160:
+      address: 0x40002860
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887232:
+      address: 0x40023800
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887364:
+      address: 0x40023884
+      dma_type: 4
+      valid_list_offsets: 0x0
+
+    1073752100:
+      address: 0x40002824
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752164:
+      address: 0x40002864
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1111949416:
+      address: 0x42470068
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752152:
+      address: 0x40002858
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887296:
+      address: 0x40023840
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073770496:
+      address: 0x40007000
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073887284:
+      address: 0x40023834
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073888256:
+      address: 0x40023c00
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1108213792:
+      address: 0x420e0020
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752144:
+      address: 0x40002850
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073752168:
+      address: 0x40002868
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887348:
+      address: 0x40023874
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887236:
+      address: 0x40023804
+      dma_type: 4
+      valid_list_offsets: 0xffff
+
+    1073752148:
+      address: 0x40002854
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073752156:
+      address: 0x4000285c
+      dma_type: 7
+      valid_list_offsets: 0xffff
+
+    1073887244:
+      address: 0x4002380c
+      dma_type: 7
+      valid_list_offsets: 0xffff
